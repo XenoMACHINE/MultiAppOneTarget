@@ -8,7 +8,7 @@
 
 import Foundation
 
-class ABLController : Controller {
+class ABLController : HomeController {
     override func getERP() -> String {
         return "ABL"
     }

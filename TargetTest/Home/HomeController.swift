@@ -1,15 +1,29 @@
 //
-//  Controller_A.swift
+//  Controller.swift
 //  TargetTest
 //
 //  Created by Alexandre Ménielle on 09/04/2019.
 //  Copyright © 2019 Alexandre Ménielle. All rights reserved.
 //
 
-import Foundation
 import UIKit
 
-class CommonController : NSObject {
+
+//TODO Voir si on peut créer automatiquement les fichiers manquant avec un script shell dans Build phases
+class HomeController : NSObject {
+    
+    required override init() { }
+    
+    static func instantiate() -> HomeController{
+        
+        let appName = ConfigurationManager.getAppConf().rawValue
+        let controllerStr = "\(String(describing: self))_\(appName)"
+        if let controller = controllerStr.getClass() as? HomeController.Type {
+            return controller.init()
+        }
+        
+        return HomeController()
+    }
     
     func welcome() -> String {
         let appVersion = Bundle.main.infoDictionary!["CFBundleShortVersionString"] as? String ?? ""

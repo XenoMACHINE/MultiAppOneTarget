@@ -8,7 +8,7 @@
 
 import UIKit
 
-class BedagueController : ABLController {
+class HomeController_Bedague : ABLController {
     override func getMainColor() -> UIColor {
         return .blue
     }

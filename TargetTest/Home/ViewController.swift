@@ -12,10 +12,10 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var welcomeLabel: UILabel!
     
+    let controller = HomeController.instantiate()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let controller = Controller.instantiate()
         
         self.welcomeLabel.text = controller.welcome()
         self.view.backgroundColor = controller.getMainColor()

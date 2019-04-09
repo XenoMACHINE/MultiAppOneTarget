@@ -12,14 +12,21 @@
 		ADC50BCC225C8A5C002FE148 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADC50BCA225C8A5C002FE148 /* Main.storyboard */; };
 		ADC50BCE225C8A5D002FE148 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADC50BCD225C8A5D002FE148 /* Assets.xcassets */; };
 		ADC50BD1225C8A5D002FE148 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADC50BCF225C8A5D002FE148 /* LaunchScreen.storyboard */; };
-		ADC50BDA225C8B0E002FE148 /* CommonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC50BD9225C8B0E002FE148 /* CommonController.swift */; };
-		ADC50BE7225C9FBD002FE148 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC50BE6225C9FBD002FE148 /* Controller.swift */; };
+		ADC50BE7225C9FBD002FE148 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC50BE6225C9FBD002FE148 /* HomeController.swift */; };
 		ADC50BEC225CAC64002FE148 /* ConfigurationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC50BEB225CAC64002FE148 /* ConfigurationManager.swift */; };
-		ADC50BF6225CC784002FE148 /* MillietController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC50BF5225CC784002FE148 /* MillietController.swift */; };
-		ADC50BFA225CC7C5002FE148 /* BedagueController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC50BF9225CC7C5002FE148 /* BedagueController.swift */; };
-		ADC50BFC225CC7CD002FE148 /* BistrocashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC50BFB225CC7CD002FE148 /* BistrocashController.swift */; };
+		ADC50BF6225CC784002FE148 /* HomeController-Milliet.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC50BF5225CC784002FE148 /* HomeController-Milliet.swift */; };
+		ADC50BFA225CC7C5002FE148 /* HomeController-Bedague.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC50BF9225CC7C5002FE148 /* HomeController-Bedague.swift */; };
+		ADC50BFC225CC7CD002FE148 /* HomeController-Bistrocash.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC50BFB225CC7CD002FE148 /* HomeController-Bistrocash.swift */; };
 		ADC50C12225CCAEE002FE148 /* ABLController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC50C10225CCAED002FE148 /* ABLController.swift */; };
 		ADC50C13225CCAEE002FE148 /* CambosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC50C11225CCAED002FE148 /* CambosController.swift */; };
+		ADC6322B225D07E80035F725 /* DetailController_ABL.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC63224225D07E80035F725 /* DetailController_ABL.swift */; };
+		ADC6322C225D07E80035F725 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC63225225D07E80035F725 /* DetailController.swift */; };
+		ADC6322D225D07E80035F725 /* DetailController-Bistrocash.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC63226225D07E80035F725 /* DetailController-Bistrocash.swift */; };
+		ADC6322E225D07E80035F725 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC63227225D07E80035F725 /* DetailViewController.swift */; };
+		ADC6322F225D07E80035F725 /* DetailController-Milliet.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC63228225D07E80035F725 /* DetailController-Milliet.swift */; };
+		ADC63230225D07E80035F725 /* DetailController_Cambos.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC63229225D07E80035F725 /* DetailController_Cambos.swift */; };
+		ADC63231225D07E80035F725 /* DetailController-Bedague.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC6322A225D07E80035F725 /* DetailController-Bedague.swift */; };
+		ADC6323B225D281E0035F725 /* DetailController-Rouquette.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC6323A225D281E0035F725 /* DetailController-Rouquette.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -44,14 +51,21 @@
 		ADC50BCD225C8A5D002FE148 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADC50BD0225C8A5D002FE148 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADC50BD2225C8A5D002FE148 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ADC50BD9225C8B0E002FE148 /* CommonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonController.swift; sourceTree = "<group>"; };
-		ADC50BE6225C9FBD002FE148 /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
+		ADC50BE6225C9FBD002FE148 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		ADC50BEB225CAC64002FE148 /* ConfigurationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationManager.swift; sourceTree = "<group>"; };
-		ADC50BF5225CC784002FE148 /* MillietController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MillietController.swift; sourceTree = "<group>"; };
-		ADC50BF9225CC7C5002FE148 /* BedagueController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedagueController.swift; sourceTree = "<group>"; };
-		ADC50BFB225CC7CD002FE148 /* BistrocashController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BistrocashController.swift; sourceTree = "<group>"; };
+		ADC50BF5225CC784002FE148 /* HomeController-Milliet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeController-Milliet.swift"; sourceTree = "<group>"; };
+		ADC50BF9225CC7C5002FE148 /* HomeController-Bedague.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeController-Bedague.swift"; sourceTree = "<group>"; };
+		ADC50BFB225CC7CD002FE148 /* HomeController-Bistrocash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeController-Bistrocash.swift"; sourceTree = "<group>"; };
 		ADC50C10225CCAED002FE148 /* ABLController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ABLController.swift; path = TargetTest/Home/Overrides/ERP/ABLController.swift; sourceTree = SOURCE_ROOT; };
 		ADC50C11225CCAED002FE148 /* CambosController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CambosController.swift; path = TargetTest/Home/Overrides/ERP/CambosController.swift; sourceTree = SOURCE_ROOT; };
+		ADC63224225D07E80035F725 /* DetailController_ABL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController_ABL.swift; sourceTree = "<group>"; };
+		ADC63225225D07E80035F725 /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		ADC63226225D07E80035F725 /* DetailController-Bistrocash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailController-Bistrocash.swift"; sourceTree = "<group>"; };
+		ADC63227225D07E80035F725 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		ADC63228225D07E80035F725 /* DetailController-Milliet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailController-Milliet.swift"; sourceTree = "<group>"; };
+		ADC63229225D07E80035F725 /* DetailController_Cambos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController_Cambos.swift; sourceTree = "<group>"; };
+		ADC6322A225D07E80035F725 /* DetailController-Bedague.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailController-Bedague.swift"; sourceTree = "<group>"; };
+		ADC6323A225D281E0035F725 /* DetailController-Rouquette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailController-Rouquette.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,9 +98,10 @@
 		ADC50BC5225C8A5C002FE148 /* TargetTest */ = {
 			isa = PBXGroup;
 			children = (
+				ADC50BC6225C8A5C002FE148 /* AppDelegate.swift */,
 				ADC50BEA225CAC35002FE148 /* Configuration Manager */,
 				ADC50BD8225C8AF9002FE148 /* Home */,
-				ADC50BC6225C8A5C002FE148 /* AppDelegate.swift */,
+				ADC63183225CE5B10035F725 /* Detail */,
 				ADC50BCA225C8A5C002FE148 /* Main.storyboard */,
 				ADC50BCD225C8A5D002FE148 /* Assets.xcassets */,
 				ADC50BCF225C8A5D002FE148 /* LaunchScreen.storyboard */,
@@ -98,9 +113,8 @@
 		ADC50BD8225C8AF9002FE148 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				ADC50BE6225C9FBD002FE148 /* HomeController.swift */,
 				ADC50BC8225C8A5C002FE148 /* ViewController.swift */,
-				ADC50BE6225C9FBD002FE148 /* Controller.swift */,
-				ADC50BD9225C8B0E002FE148 /* CommonController.swift */,
 				ADC50BE1225C9F29002FE148 /* Overrides */,
 			);
 			path = Home;
@@ -135,11 +149,42 @@
 		ADC50BF8225CC7A2002FE148 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				ADC50BF5225CC784002FE148 /* MillietController.swift */,
-				ADC50BF9225CC7C5002FE148 /* BedagueController.swift */,
-				ADC50BFB225CC7CD002FE148 /* BistrocashController.swift */,
+				ADC50BF5225CC784002FE148 /* HomeController-Milliet.swift */,
+				ADC50BF9225CC7C5002FE148 /* HomeController-Bedague.swift */,
+				ADC50BFB225CC7CD002FE148 /* HomeController-Bistrocash.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		ADC63183225CE5B10035F725 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				ADC63225225D07E80035F725 /* DetailController.swift */,
+				ADC63227225D07E80035F725 /* DetailViewController.swift */,
+				ADC631CF225CF4A30035F725 /* ERP */,
+				ADC631CE225CF49D0035F725 /* App */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		ADC631CE225CF49D0035F725 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				ADC63226225D07E80035F725 /* DetailController-Bistrocash.swift */,
+				ADC63228225D07E80035F725 /* DetailController-Milliet.swift */,
+				ADC6322A225D07E80035F725 /* DetailController-Bedague.swift */,
+				ADC6323A225D281E0035F725 /* DetailController-Rouquette.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		ADC631CF225CF4A30035F725 /* ERP */ = {
+			isa = PBXGroup;
+			children = (
+				ADC63224225D07E80035F725 /* DetailController_ABL.swift */,
+				ADC63229225D07E80035F725 /* DetailController_Cambos.swift */,
+			);
+			path = ERP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +197,7 @@
 				ADC50BBF225C8A5C002FE148 /* Sources */,
 				ADC50BC0225C8A5C002FE148 /* Frameworks */,
 				ADC50BC1225C8A5C002FE148 /* Resources */,
+				ADC6323C225D2A300035F725 /* ShellScript */,
 			);
 			buildRules = (
 				ADC50BDD225C8B88002FE148 /* PBXBuildRule */,
@@ -209,21 +255,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		ADC6323C225D2A300035F725 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"— — — — — — — — — — test run script started — — — — — — — — — —\"\necho \"— — — — — — — — — — test run script stopped — — — — — — — — — —\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ADC50BBF225C8A5C002FE148 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADC6322E225D07E80035F725 /* DetailViewController.swift in Sources */,
 				ADC50BC9225C8A5C002FE148 /* ViewController.swift in Sources */,
-				ADC50BFC225CC7CD002FE148 /* BistrocashController.swift in Sources */,
-				ADC50BDA225C8B0E002FE148 /* CommonController.swift in Sources */,
+				ADC50BFC225CC7CD002FE148 /* HomeController-Bistrocash.swift in Sources */,
+				ADC6322C225D07E80035F725 /* DetailController.swift in Sources */,
 				ADC50BEC225CAC64002FE148 /* ConfigurationManager.swift in Sources */,
-				ADC50BE7225C9FBD002FE148 /* Controller.swift in Sources */,
+				ADC50BE7225C9FBD002FE148 /* HomeController.swift in Sources */,
 				ADC50BC7225C8A5C002FE148 /* AppDelegate.swift in Sources */,
 				ADC50C13225CCAEE002FE148 /* CambosController.swift in Sources */,
-				ADC50BFA225CC7C5002FE148 /* BedagueController.swift in Sources */,
-				ADC50BF6225CC784002FE148 /* MillietController.swift in Sources */,
+				ADC50BFA225CC7C5002FE148 /* HomeController-Bedague.swift in Sources */,
+				ADC50BF6225CC784002FE148 /* HomeController-Milliet.swift in Sources */,
+				ADC63231225D07E80035F725 /* DetailController-Bedague.swift in Sources */,
+				ADC6322B225D07E80035F725 /* DetailController_ABL.swift in Sources */,
+				ADC6322D225D07E80035F725 /* DetailController-Bistrocash.swift in Sources */,
+				ADC6323B225D281E0035F725 /* DetailController-Rouquette.swift in Sources */,
+				ADC63230225D07E80035F725 /* DetailController_Cambos.swift in Sources */,
 				ADC50C12225CCAEE002FE148 /* ABLController.swift in Sources */,
+				ADC6322F225D07E80035F725 /* DetailController-Milliet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

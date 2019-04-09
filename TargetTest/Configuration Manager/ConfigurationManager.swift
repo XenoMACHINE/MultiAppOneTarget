@@ -19,6 +19,22 @@ class ConfigurationManager {
 
 enum ApplicationName : String {
     case bedague    = "Bedague"
-    case milliet    = "Milliet"
+//    case berthelot  = "Berthelot"
     case bistrocash = "Bistrocash"
+//    case forez      = "Forez"
+//    case ledg       = "LEDG"
+    case milliet    = "Milliet"
+//    case ouest      = "Ouest-Boissons"
+//    case pietrini   = "Pietrini"
+//    case pnb        = "Paris Nord Boisson"
+//    case rouquette  = "Rouquette"
+}
+
+extension String {
+    
+    func getClass() -> AnyClass? {
+        let namespace = (Bundle.main.infoDictionary!["CFBundleExecutable"] as! String).replacingOccurrences(of: " ", with: "_")
+        return Bundle.main.classNamed("\(namespace).\(self)")
+    }
+    
 }

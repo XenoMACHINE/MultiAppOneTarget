@@ -1,5 +1,5 @@
 //
-//  MillietController.swift
+//  BistrocashController.swift
 //  TargetTest
 //
 //  Created by Alexandre Ménielle on 09/04/2019.
@@ -8,13 +8,8 @@
 
 import UIKit
 
-#if Milliet //optionnel -> Éviter de compiler code inutile, on laisse ?
-
-class MillietController : CambosController {
+class HomeController_Bistrocash : CambosController {
     override func getMainColor() -> UIColor {
-        return .yellow
+        return .green
     }
 }
-
-#endif
-

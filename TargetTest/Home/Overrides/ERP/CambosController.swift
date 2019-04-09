@@ -8,7 +8,7 @@
 
 import Foundation
 
-class CambosController : Controller {
+class CambosController : HomeController {
     override func getERP() -> String {
         return "Cambos"
     }
