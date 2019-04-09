@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADC50BC7225C8A5C002FE148 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC50BC6225C8A5C002FE148 /* AppDelegate.swift */; };
+		ADC50BC9225C8A5C002FE148 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC50BC8225C8A5C002FE148 /* ViewController.swift */; };
+		ADC50BCC225C8A5C002FE148 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADC50BCA225C8A5C002FE148 /* Main.storyboard */; };
+		ADC50BCE225C8A5D002FE148 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADC50BCD225C8A5D002FE148 /* Assets.xcassets */; };
+		ADC50BD1225C8A5D002FE148 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADC50BCF225C8A5D002FE148 /* LaunchScreen.storyboard */; };
+		ADC50BDA225C8B0E002FE148 /* CommonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC50BD9225C8B0E002FE148 /* CommonController.swift */; };
+		ADC50BE7225C9FBD002FE148 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC50BE6225C9FBD002FE148 /* Controller.swift */; };
+		ADC50BEC225CAC64002FE148 /* ConfigurationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC50BEB225CAC64002FE148 /* ConfigurationManager.swift */; };
+		ADC50BF6225CC784002FE148 /* MillietController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC50BF5225CC784002FE148 /* MillietController.swift */; };
+		ADC50BFA225CC7C5002FE148 /* BedagueController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC50BF9225CC7C5002FE148 /* BedagueController.swift */; };
+		ADC50BFC225CC7CD002FE148 /* BistrocashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC50BFB225CC7CD002FE148 /* BistrocashController.swift */; };
+		ADC50C12225CCAEE002FE148 /* ABLController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC50C10225CCAED002FE148 /* ABLController.swift */; };
+		ADC50C13225CCAEE002FE148 /* CambosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC50C11225CCAED002FE148 /* CambosController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		ADC50BDD225C8B88002FE148 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*_AB.swift";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(DERIVED_FILE_DIR)/$(INPUT_FILE_NAME)_skipped.swift",
+			);
+			script = "> \"$DERIVED_FILE_DIR/${INPUT_FILE_NAME}_skipped.swift\"\necho \"$CONFIGURATION\"\n";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		ADC50BC3225C8A5C002FE148 /* TargetTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TargetTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADC50BC6225C8A5C002FE148 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ADC50BC8225C8A5C002FE148 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ADC50BCB225C8A5C002FE148 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADC50BCD225C8A5D002FE148 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADC50BD0225C8A5D002FE148 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADC50BD2225C8A5D002FE148 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADC50BD9225C8B0E002FE148 /* CommonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonController.swift; sourceTree = "<group>"; };
+		ADC50BE6225C9FBD002FE148 /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
+		ADC50BEB225CAC64002FE148 /* ConfigurationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationManager.swift; sourceTree = "<group>"; };
+		ADC50BF5225CC784002FE148 /* MillietController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MillietController.swift; sourceTree = "<group>"; };
+		ADC50BF9225CC7C5002FE148 /* BedagueController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedagueController.swift; sourceTree = "<group>"; };
+		ADC50BFB225CC7CD002FE148 /* BistrocashController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BistrocashController.swift; sourceTree = "<group>"; };
+		ADC50C10225CCAED002FE148 /* ABLController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ABLController.swift; path = TargetTest/Home/Overrides/ERP/ABLController.swift; sourceTree = SOURCE_ROOT; };
+		ADC50C11225CCAED002FE148 /* CambosController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CambosController.swift; path = TargetTest/Home/Overrides/ERP/CambosController.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADC50BC0225C8A5C002FE148 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADC50BBA225C8A5C002FE148 = {
+			isa = PBXGroup;
+			children = (
+				ADC50BC5225C8A5C002FE148 /* TargetTest */,
+				ADC50BC4225C8A5C002FE148 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADC50BC4225C8A5C002FE148 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADC50BC3225C8A5C002FE148 /* TargetTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADC50BC5225C8A5C002FE148 /* TargetTest */ = {
+			isa = PBXGroup;
+			children = (
+				ADC50BEA225CAC35002FE148 /* Configuration Manager */,
+				ADC50BD8225C8AF9002FE148 /* Home */,
+				ADC50BC6225C8A5C002FE148 /* AppDelegate.swift */,
+				ADC50BCA225C8A5C002FE148 /* Main.storyboard */,
+				ADC50BCD225C8A5D002FE148 /* Assets.xcassets */,
+				ADC50BCF225C8A5D002FE148 /* LaunchScreen.storyboard */,
+				ADC50BD2225C8A5D002FE148 /* Info.plist */,
+			);
+			path = TargetTest;
+			sourceTree = "<group>";
+		};
+		ADC50BD8225C8AF9002FE148 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				ADC50BC8225C8A5C002FE148 /* ViewController.swift */,
+				ADC50BE6225C9FBD002FE148 /* Controller.swift */,
+				ADC50BD9225C8B0E002FE148 /* CommonController.swift */,
+				ADC50BE1225C9F29002FE148 /* Overrides */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		ADC50BE1225C9F29002FE148 /* Overrides */ = {
+			isa = PBXGroup;
+			children = (
+				ADC50BF8225CC7A2002FE148 /* App */,
+				ADC50BF7225CC79D002FE148 /* ERP */,
+			);
+			path = Overrides;
+			sourceTree = "<group>";
+		};
+		ADC50BEA225CAC35002FE148 /* Configuration Manager */ = {
+			isa = PBXGroup;
+			children = (
+				ADC50BEB225CAC64002FE148 /* ConfigurationManager.swift */,
+			);
+			path = "Configuration Manager";
+			sourceTree = "<group>";
+		};
+		ADC50BF7225CC79D002FE148 /* ERP */ = {
+			isa = PBXGroup;
+			children = (
+				ADC50C10225CCAED002FE148 /* ABLController.swift */,
+				ADC50C11225CCAED002FE148 /* CambosController.swift */,
+			);
+			path = ERP;
+			sourceTree = "<group>";
+		};
+		ADC50BF8225CC7A2002FE148 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				ADC50BF5225CC784002FE148 /* MillietController.swift */,
+				ADC50BF9225CC7C5002FE148 /* BedagueController.swift */,
+				ADC50BFB225CC7CD002FE148 /* BistrocashController.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADC50BC2225C8A5C002FE148 /* TargetTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADC50BD5225C8A5D002FE148 /* Build configuration list for PBXNativeTarget "TargetTest" */;
+			buildPhases = (
+				ADC50BBF225C8A5C002FE148 /* Sources */,
+				ADC50BC0225C8A5C002FE148 /* Frameworks */,
+				ADC50BC1225C8A5C002FE148 /* Resources */,
+			);
+			buildRules = (
+				ADC50BDD225C8B88002FE148 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = TargetTest;
+			productName = TargetTest;
+			productReference = ADC50BC3225C8A5C002FE148 /* TargetTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADC50BBB225C8A5C002FE148 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Alexandre Ménielle";
+				TargetAttributes = {
+					ADC50BC2225C8A5C002FE148 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = ADC50BBE225C8A5C002FE148 /* Build configuration list for PBXProject "TargetTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADC50BBA225C8A5C002FE148;
+			productRefGroup = ADC50BC4225C8A5C002FE148 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADC50BC2225C8A5C002FE148 /* TargetTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADC50BC1225C8A5C002FE148 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC50BD1225C8A5D002FE148 /* LaunchScreen.storyboard in Resources */,
+				ADC50BCE225C8A5D002FE148 /* Assets.xcassets in Resources */,
+				ADC50BCC225C8A5C002FE148 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADC50BBF225C8A5C002FE148 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC50BC9225C8A5C002FE148 /* ViewController.swift in Sources */,
+				ADC50BFC225CC7CD002FE148 /* BistrocashController.swift in Sources */,
+				ADC50BDA225C8B0E002FE148 /* CommonController.swift in Sources */,
+				ADC50BEC225CAC64002FE148 /* ConfigurationManager.swift in Sources */,
+				ADC50BE7225C9FBD002FE148 /* Controller.swift in Sources */,
+				ADC50BC7225C8A5C002FE148 /* AppDelegate.swift in Sources */,
+				ADC50C13225CCAEE002FE148 /* CambosController.swift in Sources */,
+				ADC50BFA225CC7C5002FE148 /* BedagueController.swift in Sources */,
+				ADC50BF6225CC784002FE148 /* MillietController.swift in Sources */,
+				ADC50C12225CCAEE002FE148 /* ABLController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ADC50BCA225C8A5C002FE148 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADC50BCB225C8A5C002FE148 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADC50BCF225C8A5D002FE148 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADC50BD0225C8A5D002FE148 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADC50BD3225C8A5D002FE148 /* Bedague */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Bedague;
+		};
+		ADC50BD6225C8A5D002FE148 /* Bedague */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 277BZ5KBNM;
+				INFOPLIST_FILE = TargetTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.goot.TargetTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				ST_AppVersion = 1.0.0;
+				ST_BuildVersion = 1;
+				ST_BundleId = com.test.bedague;
+				ST_BundleName = $CONFIGURATION;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = $CONFIGURATION;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Bedague;
+		};
+		ADC50BDE225C8CC1002FE148 /* Milliet */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Milliet;
+		};
+		ADC50BDF225C8CC1002FE148 /* Milliet */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 277BZ5KBNM;
+				INFOPLIST_FILE = TargetTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.goot.TargetTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				ST_AppVersion = 1.5.0;
+				ST_BuildVersion = 2;
+				ST_BundleId = com.test.milliet;
+				ST_BundleName = $CONFIGURATION;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = $CONFIGURATION;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Milliet;
+		};
+		ADC50BE8225CA481002FE148 /* Bistrocash */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Bistrocash;
+		};
+		ADC50BE9225CA481002FE148 /* Bistrocash */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 277BZ5KBNM;
+				INFOPLIST_FILE = TargetTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.goot.TargetTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				ST_AppVersion = 1.0.0;
+				ST_BuildVersion = 2;
+				ST_BundleId = com.test.bistrocash;
+				ST_BundleName = $CONFIGURATION;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = $CONFIGURATION;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Bistrocash;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADC50BBE225C8A5C002FE148 /* Build configuration list for PBXProject "TargetTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADC50BD3225C8A5D002FE148 /* Bedague */,
+				ADC50BDE225C8CC1002FE148 /* Milliet */,
+				ADC50BE8225CA481002FE148 /* Bistrocash */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Bedague;
+		};
+		ADC50BD5225C8A5D002FE148 /* Build configuration list for PBXNativeTarget "TargetTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADC50BD6225C8A5D002FE148 /* Bedague */,
+				ADC50BDF225C8CC1002FE148 /* Milliet */,
+				ADC50BE9225CA481002FE148 /* Bistrocash */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Bedague;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADC50BBB225C8A5C002FE148 /* Project object */;
+}
