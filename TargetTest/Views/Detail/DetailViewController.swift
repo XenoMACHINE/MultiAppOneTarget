@@ -6,5 +6,11 @@ import UIKit
 class DetailViewController : UIViewController {
 
     let controller = DetailController.instantiate()
+    
+    static func instantiate(controller : DetailController) -> DetailViewController {
+        
+        //Controller.getStoryboard()
+        return DetailViewController()
+    }
 
 }
