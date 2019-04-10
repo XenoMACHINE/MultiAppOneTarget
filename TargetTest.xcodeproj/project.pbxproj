@@ -26,7 +26,6 @@
 		ADC6322F225D07E80035F725 /* DetailController-Milliet.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC63228225D07E80035F725 /* DetailController-Milliet.swift */; };
 		ADC63230225D07E80035F725 /* DetailController_Cambos.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC63229225D07E80035F725 /* DetailController_Cambos.swift */; };
 		ADC63231225D07E80035F725 /* DetailController-Bedague.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC6322A225D07E80035F725 /* DetailController-Bedague.swift */; };
-		ADC6323B225D281E0035F725 /* DetailController-Rouquette.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC6323A225D281E0035F725 /* DetailController-Rouquette.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -56,8 +55,8 @@
 		ADC50BF5225CC784002FE148 /* HomeController-Milliet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeController-Milliet.swift"; sourceTree = "<group>"; };
 		ADC50BF9225CC7C5002FE148 /* HomeController-Bedague.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeController-Bedague.swift"; sourceTree = "<group>"; };
 		ADC50BFB225CC7CD002FE148 /* HomeController-Bistrocash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeController-Bistrocash.swift"; sourceTree = "<group>"; };
-		ADC50C10225CCAED002FE148 /* ABLController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ABLController.swift; path = TargetTest/Home/Overrides/ERP/ABLController.swift; sourceTree = SOURCE_ROOT; };
-		ADC50C11225CCAED002FE148 /* CambosController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CambosController.swift; path = TargetTest/Home/Overrides/ERP/CambosController.swift; sourceTree = SOURCE_ROOT; };
+		ADC50C10225CCAED002FE148 /* ABLController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ABLController.swift; path = TargetTest/Views/Home/Overrides/ERP/ABLController.swift; sourceTree = SOURCE_ROOT; };
+		ADC50C11225CCAED002FE148 /* CambosController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CambosController.swift; path = TargetTest/Views/Home/Overrides/ERP/CambosController.swift; sourceTree = SOURCE_ROOT; };
 		ADC63224225D07E80035F725 /* DetailController_ABL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController_ABL.swift; sourceTree = "<group>"; };
 		ADC63225225D07E80035F725 /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
 		ADC63226225D07E80035F725 /* DetailController-Bistrocash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailController-Bistrocash.swift"; sourceTree = "<group>"; };
@@ -65,7 +64,7 @@
 		ADC63228225D07E80035F725 /* DetailController-Milliet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailController-Milliet.swift"; sourceTree = "<group>"; };
 		ADC63229225D07E80035F725 /* DetailController_Cambos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController_Cambos.swift; sourceTree = "<group>"; };
 		ADC6322A225D07E80035F725 /* DetailController-Bedague.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailController-Bedague.swift"; sourceTree = "<group>"; };
-		ADC6323A225D281E0035F725 /* DetailController-Rouquette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailController-Rouquette.swift"; sourceTree = "<group>"; };
+		ADC6323D225D2BF90035F725 /* script1.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = script1.sh; path = "build-phase/script1.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +99,12 @@
 			children = (
 				ADC50BC6225C8A5C002FE148 /* AppDelegate.swift */,
 				ADC50BEA225CAC35002FE148 /* Configuration Manager */,
-				ADC50BD8225C8AF9002FE148 /* Home */,
-				ADC63183225CE5B10035F725 /* Detail */,
+				ADC6323E225D2DE60035F725 /* Views */,
 				ADC50BCA225C8A5C002FE148 /* Main.storyboard */,
 				ADC50BCD225C8A5D002FE148 /* Assets.xcassets */,
 				ADC50BCF225C8A5D002FE148 /* LaunchScreen.storyboard */,
 				ADC50BD2225C8A5D002FE148 /* Info.plist */,
+				ADC6323D225D2BF90035F725 /* script1.sh */,
 			);
 			path = TargetTest;
 			sourceTree = "<group>";
@@ -161,8 +160,7 @@
 			children = (
 				ADC63225225D07E80035F725 /* DetailController.swift */,
 				ADC63227225D07E80035F725 /* DetailViewController.swift */,
-				ADC631CF225CF4A30035F725 /* ERP */,
-				ADC631CE225CF49D0035F725 /* App */,
+				ADC6323F225D351D0035F725 /* Overrides */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -173,7 +171,6 @@
 				ADC63226225D07E80035F725 /* DetailController-Bistrocash.swift */,
 				ADC63228225D07E80035F725 /* DetailController-Milliet.swift */,
 				ADC6322A225D07E80035F725 /* DetailController-Bedague.swift */,
-				ADC6323A225D281E0035F725 /* DetailController-Rouquette.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -185,6 +182,24 @@
 				ADC63229225D07E80035F725 /* DetailController_Cambos.swift */,
 			);
 			path = ERP;
+			sourceTree = "<group>";
+		};
+		ADC6323E225D2DE60035F725 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ADC50BD8225C8AF9002FE148 /* Home */,
+				ADC63183225CE5B10035F725 /* Detail */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ADC6323F225D351D0035F725 /* Overrides */ = {
+			isa = PBXGroup;
+			children = (
+				ADC631CE225CF49D0035F725 /* App */,
+				ADC631CF225CF4A30035F725 /* ERP */,
+			);
+			path = Overrides;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,7 +286,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "echo \"— — — — — — — — — — test run script started — — — — — — — — — —\"\necho \"— — — — — — — — — — test run script stopped — — — — — — — — — —\"\n";
+			shellScript = "$SRCROOT/TargetTest/build-phase/script1.sh\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -293,7 +308,6 @@
 				ADC63231225D07E80035F725 /* DetailController-Bedague.swift in Sources */,
 				ADC6322B225D07E80035F725 /* DetailController_ABL.swift in Sources */,
 				ADC6322D225D07E80035F725 /* DetailController-Bistrocash.swift in Sources */,
-				ADC6323B225D281E0035F725 /* DetailController-Rouquette.swift in Sources */,
 				ADC63230225D07E80035F725 /* DetailController_Cambos.swift in Sources */,
 				ADC50C12225CCAEE002FE148 /* ABLController.swift in Sources */,
 				ADC6322F225D07E80035F725 /* DetailController-Milliet.swift in Sources */,
