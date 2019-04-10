@@ -8,24 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		ADC50BC7225C8A5C002FE148 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC50BC6225C8A5C002FE148 /* AppDelegate.swift */; };
-		ADC50BC9225C8A5C002FE148 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC50BC8225C8A5C002FE148 /* ViewController.swift */; };
 		ADC50BCC225C8A5C002FE148 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADC50BCA225C8A5C002FE148 /* Main.storyboard */; };
 		ADC50BCE225C8A5D002FE148 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADC50BCD225C8A5D002FE148 /* Assets.xcassets */; };
 		ADC50BD1225C8A5D002FE148 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADC50BCF225C8A5D002FE148 /* LaunchScreen.storyboard */; };
-		ADC50BE7225C9FBD002FE148 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC50BE6225C9FBD002FE148 /* HomeController.swift */; };
 		ADC50BEC225CAC64002FE148 /* ConfigurationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC50BEB225CAC64002FE148 /* ConfigurationManager.swift */; };
-		ADC50BF6225CC784002FE148 /* HomeController-Milliet.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC50BF5225CC784002FE148 /* HomeController-Milliet.swift */; };
-		ADC50BFA225CC7C5002FE148 /* HomeController-Bedague.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC50BF9225CC7C5002FE148 /* HomeController-Bedague.swift */; };
-		ADC50BFC225CC7CD002FE148 /* HomeController-Bistrocash.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC50BFB225CC7CD002FE148 /* HomeController-Bistrocash.swift */; };
-		ADC50C12225CCAEE002FE148 /* ABLController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC50C10225CCAED002FE148 /* ABLController.swift */; };
-		ADC50C13225CCAEE002FE148 /* CambosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC50C11225CCAED002FE148 /* CambosController.swift */; };
-		ADC6322B225D07E80035F725 /* DetailController_ABL.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC63224225D07E80035F725 /* DetailController_ABL.swift */; };
-		ADC6322C225D07E80035F725 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC63225225D07E80035F725 /* DetailController.swift */; };
-		ADC6322D225D07E80035F725 /* DetailController-Bistrocash.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC63226225D07E80035F725 /* DetailController-Bistrocash.swift */; };
-		ADC6322E225D07E80035F725 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC63227225D07E80035F725 /* DetailViewController.swift */; };
-		ADC6322F225D07E80035F725 /* DetailController-Milliet.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC63228225D07E80035F725 /* DetailController-Milliet.swift */; };
-		ADC63230225D07E80035F725 /* DetailController_Cambos.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC63229225D07E80035F725 /* DetailController_Cambos.swift */; };
-		ADC63231225D07E80035F725 /* DetailController-Bedague.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC6322A225D07E80035F725 /* DetailController-Bedague.swift */; };
+		ADC63286225DF59A0035F725 /* HomeController-Bedague.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC63271225DF59A0035F725 /* HomeController-Bedague.swift */; };
+		ADC63287225DF59A0035F725 /* HomeController-Milliet.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC63272225DF59A0035F725 /* HomeController-Milliet.swift */; };
+		ADC63288225DF59A0035F725 /* HomeController-Bistrocash.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC63273225DF59A0035F725 /* HomeController-Bistrocash.swift */; };
+		ADC6328A225DF59A0035F725 /* HomeController_ABL.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC63276225DF59A0035F725 /* HomeController_ABL.swift */; };
+		ADC6328B225DF59A0035F725 /* HomeController_Cambos.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC63277225DF59A0035F725 /* HomeController_Cambos.swift */; };
+		ADC6328C225DF59A0035F725 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC63278225DF59A0035F725 /* ViewController.swift */; };
+		ADC6328D225DF59A0035F725 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC63279225DF59A0035F725 /* HomeController.swift */; };
+		ADC6328F225DF59A0035F725 /* DetailController-Milliet.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC6327E225DF59A0035F725 /* DetailController-Milliet.swift */; };
+		ADC63290225DF59A0035F725 /* DetailController-Bistrocash.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC6327F225DF59A0035F725 /* DetailController-Bistrocash.swift */; };
+		ADC63291225DF59A0035F725 /* DetailController-Bedague.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC63280225DF59A0035F725 /* DetailController-Bedague.swift */; };
+		ADC63292225DF59A0035F725 /* DetailController_Cambos.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC63282225DF59A0035F725 /* DetailController_Cambos.swift */; };
+		ADC63293225DF59A0035F725 /* DetailController_ABL.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC63283225DF59A0035F725 /* DetailController_ABL.swift */; };
+		ADC63294225DF59A0035F725 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC63284225DF59A0035F725 /* DetailViewController.swift */; };
+		ADC63295225DF59A0035F725 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC63285225DF59A0035F725 /* DetailController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -45,26 +45,26 @@
 /* Begin PBXFileReference section */
 		ADC50BC3225C8A5C002FE148 /* TargetTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TargetTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADC50BC6225C8A5C002FE148 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ADC50BC8225C8A5C002FE148 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ADC50BCB225C8A5C002FE148 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ADC50BCD225C8A5D002FE148 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADC50BD0225C8A5D002FE148 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADC50BD2225C8A5D002FE148 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ADC50BE6225C9FBD002FE148 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		ADC50BEB225CAC64002FE148 /* ConfigurationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationManager.swift; sourceTree = "<group>"; };
-		ADC50BF5225CC784002FE148 /* HomeController-Milliet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeController-Milliet.swift"; sourceTree = "<group>"; };
-		ADC50BF9225CC7C5002FE148 /* HomeController-Bedague.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeController-Bedague.swift"; sourceTree = "<group>"; };
-		ADC50BFB225CC7CD002FE148 /* HomeController-Bistrocash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeController-Bistrocash.swift"; sourceTree = "<group>"; };
-		ADC50C10225CCAED002FE148 /* ABLController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ABLController.swift; path = TargetTest/Views/Home/Overrides/ERP/ABLController.swift; sourceTree = SOURCE_ROOT; };
-		ADC50C11225CCAED002FE148 /* CambosController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CambosController.swift; path = TargetTest/Views/Home/Overrides/ERP/CambosController.swift; sourceTree = SOURCE_ROOT; };
-		ADC63224225D07E80035F725 /* DetailController_ABL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController_ABL.swift; sourceTree = "<group>"; };
-		ADC63225225D07E80035F725 /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
-		ADC63226225D07E80035F725 /* DetailController-Bistrocash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailController-Bistrocash.swift"; sourceTree = "<group>"; };
-		ADC63227225D07E80035F725 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		ADC63228225D07E80035F725 /* DetailController-Milliet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailController-Milliet.swift"; sourceTree = "<group>"; };
-		ADC63229225D07E80035F725 /* DetailController_Cambos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController_Cambos.swift; sourceTree = "<group>"; };
-		ADC6322A225D07E80035F725 /* DetailController-Bedague.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailController-Bedague.swift"; sourceTree = "<group>"; };
 		ADC6323D225D2BF90035F725 /* script1.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = script1.sh; path = "build-phase/script1.sh"; sourceTree = "<group>"; };
+		ADC63271225DF59A0035F725 /* HomeController-Bedague.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HomeController-Bedague.swift"; sourceTree = "<group>"; };
+		ADC63272225DF59A0035F725 /* HomeController-Milliet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HomeController-Milliet.swift"; sourceTree = "<group>"; };
+		ADC63273225DF59A0035F725 /* HomeController-Bistrocash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HomeController-Bistrocash.swift"; sourceTree = "<group>"; };
+		ADC63276225DF59A0035F725 /* HomeController_ABL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController_ABL.swift; sourceTree = "<group>"; };
+		ADC63277225DF59A0035F725 /* HomeController_Cambos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController_Cambos.swift; sourceTree = "<group>"; };
+		ADC63278225DF59A0035F725 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ADC63279225DF59A0035F725 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		ADC6327E225DF59A0035F725 /* DetailController-Milliet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DetailController-Milliet.swift"; sourceTree = "<group>"; };
+		ADC6327F225DF59A0035F725 /* DetailController-Bistrocash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DetailController-Bistrocash.swift"; sourceTree = "<group>"; };
+		ADC63280225DF59A0035F725 /* DetailController-Bedague.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DetailController-Bedague.swift"; sourceTree = "<group>"; };
+		ADC63282225DF59A0035F725 /* DetailController_Cambos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailController_Cambos.swift; sourceTree = "<group>"; };
+		ADC63283225DF59A0035F725 /* DetailController_ABL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailController_ABL.swift; sourceTree = "<group>"; };
+		ADC63284225DF59A0035F725 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		ADC63285225DF59A0035F725 /* DetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +99,7 @@
 			children = (
 				ADC50BC6225C8A5C002FE148 /* AppDelegate.swift */,
 				ADC50BEA225CAC35002FE148 /* Configuration Manager */,
-				ADC6323E225D2DE60035F725 /* Views */,
+				ADC6326D225DF59A0035F725 /* Views */,
 				ADC50BCA225C8A5C002FE148 /* Main.storyboard */,
 				ADC50BCD225C8A5D002FE148 /* Assets.xcassets */,
 				ADC50BCF225C8A5D002FE148 /* LaunchScreen.storyboard */,
@@ -107,25 +107,6 @@
 				ADC6323D225D2BF90035F725 /* script1.sh */,
 			);
 			path = TargetTest;
-			sourceTree = "<group>";
-		};
-		ADC50BD8225C8AF9002FE148 /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				ADC50BE6225C9FBD002FE148 /* HomeController.swift */,
-				ADC50BC8225C8A5C002FE148 /* ViewController.swift */,
-				ADC50BE1225C9F29002FE148 /* Overrides */,
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		ADC50BE1225C9F29002FE148 /* Overrides */ = {
-			isa = PBXGroup;
-			children = (
-				ADC50BF8225CC7A2002FE148 /* App */,
-				ADC50BF7225CC79D002FE148 /* ERP */,
-			);
-			path = Overrides;
 			sourceTree = "<group>";
 		};
 		ADC50BEA225CAC35002FE148 /* Configuration Manager */ = {
@@ -136,70 +117,89 @@
 			path = "Configuration Manager";
 			sourceTree = "<group>";
 		};
-		ADC50BF7225CC79D002FE148 /* ERP */ = {
+		ADC6326D225DF59A0035F725 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				ADC50C10225CCAED002FE148 /* ABLController.swift */,
-				ADC50C11225CCAED002FE148 /* CambosController.swift */,
-			);
-			path = ERP;
-			sourceTree = "<group>";
-		};
-		ADC50BF8225CC7A2002FE148 /* App */ = {
-			isa = PBXGroup;
-			children = (
-				ADC50BF5225CC784002FE148 /* HomeController-Milliet.swift */,
-				ADC50BF9225CC7C5002FE148 /* HomeController-Bedague.swift */,
-				ADC50BFB225CC7CD002FE148 /* HomeController-Bistrocash.swift */,
-			);
-			path = App;
-			sourceTree = "<group>";
-		};
-		ADC63183225CE5B10035F725 /* Detail */ = {
-			isa = PBXGroup;
-			children = (
-				ADC63225225D07E80035F725 /* DetailController.swift */,
-				ADC63227225D07E80035F725 /* DetailViewController.swift */,
-				ADC6323F225D351D0035F725 /* Overrides */,
-			);
-			path = Detail;
-			sourceTree = "<group>";
-		};
-		ADC631CE225CF49D0035F725 /* App */ = {
-			isa = PBXGroup;
-			children = (
-				ADC63226225D07E80035F725 /* DetailController-Bistrocash.swift */,
-				ADC63228225D07E80035F725 /* DetailController-Milliet.swift */,
-				ADC6322A225D07E80035F725 /* DetailController-Bedague.swift */,
-			);
-			path = App;
-			sourceTree = "<group>";
-		};
-		ADC631CF225CF4A30035F725 /* ERP */ = {
-			isa = PBXGroup;
-			children = (
-				ADC63224225D07E80035F725 /* DetailController_ABL.swift */,
-				ADC63229225D07E80035F725 /* DetailController_Cambos.swift */,
-			);
-			path = ERP;
-			sourceTree = "<group>";
-		};
-		ADC6323E225D2DE60035F725 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				ADC50BD8225C8AF9002FE148 /* Home */,
-				ADC63183225CE5B10035F725 /* Detail */,
+				ADC6326E225DF59A0035F725 /* Home */,
+				ADC6327A225DF59A0035F725 /* Detail */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		ADC6323F225D351D0035F725 /* Overrides */ = {
+		ADC6326E225DF59A0035F725 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				ADC631CE225CF49D0035F725 /* App */,
-				ADC631CF225CF4A30035F725 /* ERP */,
+				ADC6326F225DF59A0035F725 /* Overrides */,
+				ADC63278225DF59A0035F725 /* ViewController.swift */,
+				ADC63279225DF59A0035F725 /* HomeController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		ADC6326F225DF59A0035F725 /* Overrides */ = {
+			isa = PBXGroup;
+			children = (
+				ADC63270225DF59A0035F725 /* App */,
+				ADC63275225DF59A0035F725 /* ERP */,
 			);
 			path = Overrides;
+			sourceTree = "<group>";
+		};
+		ADC63270225DF59A0035F725 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				ADC63271225DF59A0035F725 /* HomeController-Bedague.swift */,
+				ADC63272225DF59A0035F725 /* HomeController-Milliet.swift */,
+				ADC63273225DF59A0035F725 /* HomeController-Bistrocash.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		ADC63275225DF59A0035F725 /* ERP */ = {
+			isa = PBXGroup;
+			children = (
+				ADC63276225DF59A0035F725 /* HomeController_ABL.swift */,
+				ADC63277225DF59A0035F725 /* HomeController_Cambos.swift */,
+			);
+			path = ERP;
+			sourceTree = "<group>";
+		};
+		ADC6327A225DF59A0035F725 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				ADC6327B225DF59A0035F725 /* Overrides */,
+				ADC63284225DF59A0035F725 /* DetailViewController.swift */,
+				ADC63285225DF59A0035F725 /* DetailController.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		ADC6327B225DF59A0035F725 /* Overrides */ = {
+			isa = PBXGroup;
+			children = (
+				ADC6327C225DF59A0035F725 /* App */,
+				ADC63281225DF59A0035F725 /* ERP */,
+			);
+			path = Overrides;
+			sourceTree = "<group>";
+		};
+		ADC6327C225DF59A0035F725 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				ADC6327E225DF59A0035F725 /* DetailController-Milliet.swift */,
+				ADC6327F225DF59A0035F725 /* DetailController-Bistrocash.swift */,
+				ADC63280225DF59A0035F725 /* DetailController-Bedague.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		ADC63281225DF59A0035F725 /* ERP */ = {
+			isa = PBXGroup;
+			children = (
+				ADC63282225DF59A0035F725 /* DetailController_Cambos.swift */,
+				ADC63283225DF59A0035F725 /* DetailController_ABL.swift */,
+			);
+			path = ERP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,22 +295,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADC6322E225D07E80035F725 /* DetailViewController.swift in Sources */,
-				ADC50BC9225C8A5C002FE148 /* ViewController.swift in Sources */,
-				ADC50BFC225CC7CD002FE148 /* HomeController-Bistrocash.swift in Sources */,
-				ADC6322C225D07E80035F725 /* DetailController.swift in Sources */,
+				ADC63288225DF59A0035F725 /* HomeController-Bistrocash.swift in Sources */,
+				ADC63294225DF59A0035F725 /* DetailViewController.swift in Sources */,
 				ADC50BEC225CAC64002FE148 /* ConfigurationManager.swift in Sources */,
-				ADC50BE7225C9FBD002FE148 /* HomeController.swift in Sources */,
+				ADC63290225DF59A0035F725 /* DetailController-Bistrocash.swift in Sources */,
+				ADC6328B225DF59A0035F725 /* HomeController_Cambos.swift in Sources */,
+				ADC6328C225DF59A0035F725 /* ViewController.swift in Sources */,
+				ADC6328F225DF59A0035F725 /* DetailController-Milliet.swift in Sources */,
+				ADC6328D225DF59A0035F725 /* HomeController.swift in Sources */,
+				ADC63291225DF59A0035F725 /* DetailController-Bedague.swift in Sources */,
+				ADC63287225DF59A0035F725 /* HomeController-Milliet.swift in Sources */,
+				ADC63293225DF59A0035F725 /* DetailController_ABL.swift in Sources */,
 				ADC50BC7225C8A5C002FE148 /* AppDelegate.swift in Sources */,
-				ADC50C13225CCAEE002FE148 /* CambosController.swift in Sources */,
-				ADC50BFA225CC7C5002FE148 /* HomeController-Bedague.swift in Sources */,
-				ADC50BF6225CC784002FE148 /* HomeController-Milliet.swift in Sources */,
-				ADC63231225D07E80035F725 /* DetailController-Bedague.swift in Sources */,
-				ADC6322B225D07E80035F725 /* DetailController_ABL.swift in Sources */,
-				ADC6322D225D07E80035F725 /* DetailController-Bistrocash.swift in Sources */,
-				ADC63230225D07E80035F725 /* DetailController_Cambos.swift in Sources */,
-				ADC50C12225CCAEE002FE148 /* ABLController.swift in Sources */,
-				ADC6322F225D07E80035F725 /* DetailController-Milliet.swift in Sources */,
+				ADC63286225DF59A0035F725 /* HomeController-Bedague.swift in Sources */,
+				ADC63292225DF59A0035F725 /* DetailController_Cambos.swift in Sources */,
+				ADC63295225DF59A0035F725 /* DetailController.swift in Sources */,
+				ADC6328A225DF59A0035F725 /* HomeController_ABL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

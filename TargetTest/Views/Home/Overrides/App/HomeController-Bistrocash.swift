@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HomeController_Bistrocash : CambosController {
+class HomeController_Bistrocash : HomeController_Cambos {
     override func getMainColor() -> UIColor {
         return .green
     }

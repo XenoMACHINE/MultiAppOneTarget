@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HomeController_Milliet : CambosController {
+class HomeController_Milliet : HomeController_Cambos {
     override func getMainColor() -> UIColor {
         return .yellow
     }

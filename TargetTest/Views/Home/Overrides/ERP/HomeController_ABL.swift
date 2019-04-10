@@ -1,5 +1,5 @@
 //
-//  ABLController.swift
+//  HomeController_ABL.swift
 //  TargetTest
 //
 //  Created by Alexandre Ménielle on 09/04/2019.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-class ABLController : HomeController {
+class HomeController_ABL : HomeController {
     override func getERP() -> String {
         return "ABL"
     }

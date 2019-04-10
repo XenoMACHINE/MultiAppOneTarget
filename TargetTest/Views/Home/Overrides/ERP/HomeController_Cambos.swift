@@ -1,5 +1,5 @@
 //
-//  CambosController.swift
+//  HomeController_Cambos.swift
 //  TargetTest
 //
 //  Created by Alexandre Ménielle on 09/04/2019.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-class CambosController : HomeController {
+class HomeController_Cambos : HomeController {
     override func getERP() -> String {
         return "Cambos"
     }
