@@ -12,25 +12,25 @@
 		ADC50BCE225C8A5D002FE148 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADC50BCD225C8A5D002FE148 /* Assets.xcassets */; };
 		ADC50BD1225C8A5D002FE148 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADC50BCF225C8A5D002FE148 /* LaunchScreen.storyboard */; };
 		ADC50BEC225CAC64002FE148 /* ConfigurationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC50BEB225CAC64002FE148 /* ConfigurationManager.swift */; };
-		ADC632B1225E06630035F725 /* HomeController-Bedague.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC6329A225E06630035F725 /* HomeController-Bedague.swift */; };
-		ADC632B2225E06630035F725 /* HomeController-Milliet.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC6329B225E06630035F725 /* HomeController-Milliet.swift */; };
-		ADC632B3225E06630035F725 /* HomeController-Bistrocash.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC6329C225E06630035F725 /* HomeController-Bistrocash.swift */; };
-		ADC632B4225E06630035F725 /* HomeController-Forez.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC6329D225E06630035F725 /* HomeController-Forez.swift */; };
-		ADC632B5225E06630035F725 /* HomeController_Prios.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC6329F225E06630035F725 /* HomeController_Prios.swift */; };
-		ADC632B6225E06630035F725 /* HomeController_Cambos.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC632A0225E06630035F725 /* HomeController_Cambos.swift */; };
-		ADC632B7225E06630035F725 /* HomeController_ABL.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC632A1225E06630035F725 /* HomeController_ABL.swift */; };
-		ADC632B8225E06630035F725 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC632A2225E06630035F725 /* ViewController.swift */; };
-		ADC632B9225E06630035F725 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC632A3225E06630035F725 /* HomeController.swift */; };
-		ADC632BA225E06630035F725 /* DetailController-Forez.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC632A7225E06630035F725 /* DetailController-Forez.swift */; };
-		ADC632BB225E06630035F725 /* DetailController-Milliet.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC632A8225E06630035F725 /* DetailController-Milliet.swift */; };
-		ADC632BC225E06630035F725 /* DetailController-Bistrocash.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC632A9225E06630035F725 /* DetailController-Bistrocash.swift */; };
-		ADC632BD225E06630035F725 /* DetailController-Bedague.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC632AA225E06630035F725 /* DetailController-Bedague.swift */; };
-		ADC632BE225E06630035F725 /* DetailController_Cambos.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC632AC225E06630035F725 /* DetailController_Cambos.swift */; };
-		ADC632BF225E06630035F725 /* DetailController_Prios.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC632AD225E06630035F725 /* DetailController_Prios.swift */; };
-		ADC632C0225E06630035F725 /* DetailController_ABL.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC632AE225E06630035F725 /* DetailController_ABL.swift */; };
-		ADC632C1225E06630035F725 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC632AF225E06630035F725 /* DetailViewController.swift */; };
-		ADC632C2225E06630035F725 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC632B0225E06630035F725 /* DetailController.swift */; };
-		ADC632C5225E1B690035F725 /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADC632C4225E1B690035F725 /* Detail.storyboard */; };
+		ADC633AD225E26470035F725 /* HomeController-Bedague.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC63395225E26470035F725 /* HomeController-Bedague.swift */; };
+		ADC633AE225E26470035F725 /* HomeController-Milliet.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC63396225E26470035F725 /* HomeController-Milliet.swift */; };
+		ADC633AF225E26470035F725 /* HomeController-Bistrocash.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC63397225E26470035F725 /* HomeController-Bistrocash.swift */; };
+		ADC633B0225E26470035F725 /* HomeController-Forez.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC63398225E26470035F725 /* HomeController-Forez.swift */; };
+		ADC633B1225E26470035F725 /* HomeController_Prios.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC6339A225E26470035F725 /* HomeController_Prios.swift */; };
+		ADC633B2225E26470035F725 /* HomeController_Cambos.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC6339B225E26470035F725 /* HomeController_Cambos.swift */; };
+		ADC633B3225E26470035F725 /* HomeController_ABL.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC6339C225E26470035F725 /* HomeController_ABL.swift */; };
+		ADC633B4225E26470035F725 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC6339D225E26470035F725 /* ViewController.swift */; };
+		ADC633B5225E26470035F725 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC6339E225E26470035F725 /* HomeController.swift */; };
+		ADC633B6225E26470035F725 /* DetailController-Forez.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC633A2225E26470035F725 /* DetailController-Forez.swift */; };
+		ADC633B7225E26470035F725 /* DetailController-Milliet.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC633A3225E26470035F725 /* DetailController-Milliet.swift */; };
+		ADC633B8225E26470035F725 /* DetailController-Bistrocash.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC633A4225E26470035F725 /* DetailController-Bistrocash.swift */; };
+		ADC633B9225E26470035F725 /* DetailController-Bedague.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC633A5225E26470035F725 /* DetailController-Bedague.swift */; };
+		ADC633BA225E26470035F725 /* DetailController_Cambos.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC633A7225E26470035F725 /* DetailController_Cambos.swift */; };
+		ADC633BB225E26470035F725 /* DetailController_Prios.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC633A8225E26470035F725 /* DetailController_Prios.swift */; };
+		ADC633BC225E26470035F725 /* DetailController_ABL.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC633A9225E26470035F725 /* DetailController_ABL.swift */; };
+		ADC633BD225E26470035F725 /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADC633AA225E26470035F725 /* Detail.storyboard */; };
+		ADC633BE225E26480035F725 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC633AB225E26470035F725 /* DetailViewController.swift */; };
+		ADC633BF225E26480035F725 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC633AC225E26470035F725 /* DetailController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -56,26 +56,26 @@
 		ADC50BD2225C8A5D002FE148 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADC50BEB225CAC64002FE148 /* ConfigurationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationManager.swift; sourceTree = "<group>"; };
 		ADC6323D225D2BF90035F725 /* checkProjectTemplate.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = checkProjectTemplate.sh; path = "build-phase/checkProjectTemplate.sh"; sourceTree = "<group>"; };
-		ADC6329A225E06630035F725 /* HomeController-Bedague.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HomeController-Bedague.swift"; sourceTree = "<group>"; };
-		ADC6329B225E06630035F725 /* HomeController-Milliet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HomeController-Milliet.swift"; sourceTree = "<group>"; };
-		ADC6329C225E06630035F725 /* HomeController-Bistrocash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HomeController-Bistrocash.swift"; sourceTree = "<group>"; };
-		ADC6329D225E06630035F725 /* HomeController-Forez.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HomeController-Forez.swift"; sourceTree = "<group>"; };
-		ADC6329F225E06630035F725 /* HomeController_Prios.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController_Prios.swift; sourceTree = "<group>"; };
-		ADC632A0225E06630035F725 /* HomeController_Cambos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController_Cambos.swift; sourceTree = "<group>"; };
-		ADC632A1225E06630035F725 /* HomeController_ABL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController_ABL.swift; sourceTree = "<group>"; };
-		ADC632A2225E06630035F725 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		ADC632A3225E06630035F725 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
-		ADC632A7225E06630035F725 /* DetailController-Forez.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DetailController-Forez.swift"; sourceTree = "<group>"; };
-		ADC632A8225E06630035F725 /* DetailController-Milliet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DetailController-Milliet.swift"; sourceTree = "<group>"; };
-		ADC632A9225E06630035F725 /* DetailController-Bistrocash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DetailController-Bistrocash.swift"; sourceTree = "<group>"; };
-		ADC632AA225E06630035F725 /* DetailController-Bedague.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DetailController-Bedague.swift"; sourceTree = "<group>"; };
-		ADC632AC225E06630035F725 /* DetailController_Cambos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailController_Cambos.swift; sourceTree = "<group>"; };
-		ADC632AD225E06630035F725 /* DetailController_Prios.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailController_Prios.swift; sourceTree = "<group>"; };
-		ADC632AE225E06630035F725 /* DetailController_ABL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailController_ABL.swift; sourceTree = "<group>"; };
-		ADC632AF225E06630035F725 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		ADC632B0225E06630035F725 /* DetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
 		ADC632C3225E18210035F725 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
-		ADC632C4225E1B690035F725 /* Detail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Detail.storyboard; sourceTree = "<group>"; };
+		ADC63395225E26470035F725 /* HomeController-Bedague.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HomeController-Bedague.swift"; sourceTree = "<group>"; };
+		ADC63396225E26470035F725 /* HomeController-Milliet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HomeController-Milliet.swift"; sourceTree = "<group>"; };
+		ADC63397225E26470035F725 /* HomeController-Bistrocash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HomeController-Bistrocash.swift"; sourceTree = "<group>"; };
+		ADC63398225E26470035F725 /* HomeController-Forez.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HomeController-Forez.swift"; sourceTree = "<group>"; };
+		ADC6339A225E26470035F725 /* HomeController_Prios.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController_Prios.swift; sourceTree = "<group>"; };
+		ADC6339B225E26470035F725 /* HomeController_Cambos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController_Cambos.swift; sourceTree = "<group>"; };
+		ADC6339C225E26470035F725 /* HomeController_ABL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController_ABL.swift; sourceTree = "<group>"; };
+		ADC6339D225E26470035F725 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ADC6339E225E26470035F725 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		ADC633A2225E26470035F725 /* DetailController-Forez.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DetailController-Forez.swift"; sourceTree = "<group>"; };
+		ADC633A3225E26470035F725 /* DetailController-Milliet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DetailController-Milliet.swift"; sourceTree = "<group>"; };
+		ADC633A4225E26470035F725 /* DetailController-Bistrocash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DetailController-Bistrocash.swift"; sourceTree = "<group>"; };
+		ADC633A5225E26470035F725 /* DetailController-Bedague.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DetailController-Bedague.swift"; sourceTree = "<group>"; };
+		ADC633A7225E26470035F725 /* DetailController_Cambos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailController_Cambos.swift; sourceTree = "<group>"; };
+		ADC633A8225E26470035F725 /* DetailController_Prios.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailController_Prios.swift; sourceTree = "<group>"; };
+		ADC633A9225E26470035F725 /* DetailController_ABL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailController_ABL.swift; sourceTree = "<group>"; };
+		ADC633AA225E26470035F725 /* Detail.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Detail.storyboard; sourceTree = "<group>"; };
+		ADC633AB225E26470035F725 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		ADC633AC225E26470035F725 /* DetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +111,7 @@
 			children = (
 				ADC50BC6225C8A5C002FE148 /* AppDelegate.swift */,
 				ADC50BEA225CAC35002FE148 /* Configuration Manager */,
-				ADC63296225E06630035F725 /* Views */,
+				ADC63391225E26470035F725 /* Views */,
 				ADC50BCA225C8A5C002FE148 /* Main.storyboard */,
 				ADC50BCD225C8A5D002FE148 /* Assets.xcassets */,
 				ADC50BCF225C8A5D002FE148 /* LaunchScreen.storyboard */,
@@ -129,92 +129,92 @@
 			path = "Configuration Manager";
 			sourceTree = "<group>";
 		};
-		ADC63296225E06630035F725 /* Views */ = {
+		ADC63391225E26470035F725 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				ADC63297225E06630035F725 /* Home */,
-				ADC632A4225E06630035F725 /* Detail */,
+				ADC63392225E26470035F725 /* Home */,
+				ADC6339F225E26470035F725 /* Detail */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		ADC63297225E06630035F725 /* Home */ = {
+		ADC63392225E26470035F725 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				ADC63298225E06630035F725 /* Overrides */,
-				ADC632A2225E06630035F725 /* ViewController.swift */,
-				ADC632A3225E06630035F725 /* HomeController.swift */,
+				ADC63393225E26470035F725 /* Overrides */,
+				ADC6339D225E26470035F725 /* ViewController.swift */,
+				ADC6339E225E26470035F725 /* HomeController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
 		};
-		ADC63298225E06630035F725 /* Overrides */ = {
+		ADC63393225E26470035F725 /* Overrides */ = {
 			isa = PBXGroup;
 			children = (
-				ADC63299225E06630035F725 /* App */,
-				ADC6329E225E06630035F725 /* ERP */,
+				ADC63394225E26470035F725 /* App */,
+				ADC63399225E26470035F725 /* ERP */,
 			);
 			path = Overrides;
 			sourceTree = "<group>";
 		};
-		ADC63299225E06630035F725 /* App */ = {
+		ADC63394225E26470035F725 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				ADC6329A225E06630035F725 /* HomeController-Bedague.swift */,
-				ADC6329B225E06630035F725 /* HomeController-Milliet.swift */,
-				ADC6329C225E06630035F725 /* HomeController-Bistrocash.swift */,
-				ADC6329D225E06630035F725 /* HomeController-Forez.swift */,
+				ADC63395225E26470035F725 /* HomeController-Bedague.swift */,
+				ADC63396225E26470035F725 /* HomeController-Milliet.swift */,
+				ADC63397225E26470035F725 /* HomeController-Bistrocash.swift */,
+				ADC63398225E26470035F725 /* HomeController-Forez.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
 		};
-		ADC6329E225E06630035F725 /* ERP */ = {
+		ADC63399225E26470035F725 /* ERP */ = {
 			isa = PBXGroup;
 			children = (
-				ADC6329F225E06630035F725 /* HomeController_Prios.swift */,
-				ADC632A0225E06630035F725 /* HomeController_Cambos.swift */,
-				ADC632A1225E06630035F725 /* HomeController_ABL.swift */,
+				ADC6339A225E26470035F725 /* HomeController_Prios.swift */,
+				ADC6339B225E26470035F725 /* HomeController_Cambos.swift */,
+				ADC6339C225E26470035F725 /* HomeController_ABL.swift */,
 			);
 			path = ERP;
 			sourceTree = "<group>";
 		};
-		ADC632A4225E06630035F725 /* Detail */ = {
+		ADC6339F225E26470035F725 /* Detail */ = {
 			isa = PBXGroup;
 			children = (
-				ADC632A5225E06630035F725 /* Overrides */,
-				ADC632AF225E06630035F725 /* DetailViewController.swift */,
-				ADC632B0225E06630035F725 /* DetailController.swift */,
-				ADC632C4225E1B690035F725 /* Detail.storyboard */,
+				ADC633A0225E26470035F725 /* Overrides */,
+				ADC633AA225E26470035F725 /* Detail.storyboard */,
+				ADC633AB225E26470035F725 /* DetailViewController.swift */,
+				ADC633AC225E26470035F725 /* DetailController.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
 		};
-		ADC632A5225E06630035F725 /* Overrides */ = {
+		ADC633A0225E26470035F725 /* Overrides */ = {
 			isa = PBXGroup;
 			children = (
-				ADC632A6225E06630035F725 /* App */,
-				ADC632AB225E06630035F725 /* ERP */,
+				ADC633A1225E26470035F725 /* App */,
+				ADC633A6225E26470035F725 /* ERP */,
 			);
 			path = Overrides;
 			sourceTree = "<group>";
 		};
-		ADC632A6225E06630035F725 /* App */ = {
+		ADC633A1225E26470035F725 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				ADC632A7225E06630035F725 /* DetailController-Forez.swift */,
-				ADC632A8225E06630035F725 /* DetailController-Milliet.swift */,
-				ADC632A9225E06630035F725 /* DetailController-Bistrocash.swift */,
-				ADC632AA225E06630035F725 /* DetailController-Bedague.swift */,
+				ADC633A2225E26470035F725 /* DetailController-Forez.swift */,
+				ADC633A3225E26470035F725 /* DetailController-Milliet.swift */,
+				ADC633A4225E26470035F725 /* DetailController-Bistrocash.swift */,
+				ADC633A5225E26470035F725 /* DetailController-Bedague.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
 		};
-		ADC632AB225E06630035F725 /* ERP */ = {
+		ADC633A6225E26470035F725 /* ERP */ = {
 			isa = PBXGroup;
 			children = (
-				ADC632AC225E06630035F725 /* DetailController_Cambos.swift */,
-				ADC632AD225E06630035F725 /* DetailController_Prios.swift */,
-				ADC632AE225E06630035F725 /* DetailController_ABL.swift */,
+				ADC633A7225E26470035F725 /* DetailController_Cambos.swift */,
+				ADC633A8225E26470035F725 /* DetailController_Prios.swift */,
+				ADC633A9225E26470035F725 /* DetailController_ABL.swift */,
 			);
 			path = ERP;
 			sourceTree = "<group>";
@@ -282,7 +282,7 @@
 				ADC50BD1225C8A5D002FE148 /* LaunchScreen.storyboard in Resources */,
 				ADC50BCE225C8A5D002FE148 /* Assets.xcassets in Resources */,
 				ADC50BCC225C8A5C002FE148 /* Main.storyboard in Resources */,
-				ADC632C5225E1B690035F725 /* Detail.storyboard in Resources */,
+				ADC633BD225E26470035F725 /* Detail.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,26 +313,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADC632B8225E06630035F725 /* ViewController.swift in Sources */,
-				ADC632B3225E06630035F725 /* HomeController-Bistrocash.swift in Sources */,
-				ADC632BF225E06630035F725 /* DetailController_Prios.swift in Sources */,
-				ADC632B9225E06630035F725 /* HomeController.swift in Sources */,
-				ADC632BE225E06630035F725 /* DetailController_Cambos.swift in Sources */,
+				ADC633B4225E26470035F725 /* ViewController.swift in Sources */,
+				ADC633AF225E26470035F725 /* HomeController-Bistrocash.swift in Sources */,
+				ADC633BB225E26470035F725 /* DetailController_Prios.swift in Sources */,
+				ADC633B5225E26470035F725 /* HomeController.swift in Sources */,
+				ADC633BA225E26470035F725 /* DetailController_Cambos.swift in Sources */,
 				ADC50BEC225CAC64002FE148 /* ConfigurationManager.swift in Sources */,
-				ADC632BC225E06630035F725 /* DetailController-Bistrocash.swift in Sources */,
-				ADC632B2225E06630035F725 /* HomeController-Milliet.swift in Sources */,
-				ADC632C2225E06630035F725 /* DetailController.swift in Sources */,
+				ADC633B8225E26470035F725 /* DetailController-Bistrocash.swift in Sources */,
+				ADC633AE225E26470035F725 /* HomeController-Milliet.swift in Sources */,
+				ADC633BF225E26480035F725 /* DetailController.swift in Sources */,
 				ADC50BC7225C8A5C002FE148 /* AppDelegate.swift in Sources */,
-				ADC632BD225E06630035F725 /* DetailController-Bedague.swift in Sources */,
-				ADC632C1225E06630035F725 /* DetailViewController.swift in Sources */,
-				ADC632C0225E06630035F725 /* DetailController_ABL.swift in Sources */,
-				ADC632B1225E06630035F725 /* HomeController-Bedague.swift in Sources */,
-				ADC632B5225E06630035F725 /* HomeController_Prios.swift in Sources */,
-				ADC632B4225E06630035F725 /* HomeController-Forez.swift in Sources */,
-				ADC632BA225E06630035F725 /* DetailController-Forez.swift in Sources */,
-				ADC632B6225E06630035F725 /* HomeController_Cambos.swift in Sources */,
-				ADC632BB225E06630035F725 /* DetailController-Milliet.swift in Sources */,
-				ADC632B7225E06630035F725 /* HomeController_ABL.swift in Sources */,
+				ADC633B9225E26470035F725 /* DetailController-Bedague.swift in Sources */,
+				ADC633BE225E26480035F725 /* DetailViewController.swift in Sources */,
+				ADC633BC225E26470035F725 /* DetailController_ABL.swift in Sources */,
+				ADC633AD225E26470035F725 /* HomeController-Bedague.swift in Sources */,
+				ADC633B1225E26470035F725 /* HomeController_Prios.swift in Sources */,
+				ADC633B0225E26470035F725 /* HomeController-Forez.swift in Sources */,
+				ADC633B6225E26470035F725 /* DetailController-Forez.swift in Sources */,
+				ADC633B2225E26470035F725 /* HomeController_Cambos.swift in Sources */,
+				ADC633B7225E26470035F725 /* DetailController-Milliet.swift in Sources */,
+				ADC633B3225E26470035F725 /* HomeController_ABL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

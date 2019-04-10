@@ -1,1 +1,1 @@
-import Foundationclass HomeController_Prios : HomeController {}
+import Foundationclass HomeController_Prios : HomeController {}

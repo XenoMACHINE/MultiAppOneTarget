@@ -1,1 +1,1 @@
-import Foundationclass DetailController_Prios : DetailController {}
+import Foundationclass DetailController_Prios : DetailController {}
