@@ -20,5 +20,10 @@ class ViewController: UIViewController {
         self.welcomeLabel.text = controller.welcome()
         self.view.backgroundColor = controller.getMainColor()
     }
+    
+    @IBAction func onClick(_ sender: Any) {
+        let productPageController = ProductPageController.instantiate()
+        let productPage = ProductPageViewController.instantiate(controller: productPageController)
+        self.present(productPage, animated: true)
+    }
 }
-

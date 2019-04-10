@@ -24,11 +24,20 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rZm-Ls-E4W">
+                                <rect key="frame" x="164.5" y="374" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="onClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UeR-yZ-wzv"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="BWp-PK-YZk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="62h-QN-m5c"/>
                             <constraint firstItem="BWp-PK-YZk" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="6yv-8N-38g"/>
+                            <constraint firstItem="rZm-Ls-E4W" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CUZ-WI-Q5n"/>
+                            <constraint firstItem="rZm-Ls-E4W" firstAttribute="top" secondItem="BWp-PK-YZk" secondAttribute="bottom" constant="30" id="o4o-sd-zRS"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

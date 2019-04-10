@@ -2,11 +2,11 @@
 #exit
 
 declare -A customerByERP
-customerByERP+=(["Bedague"]="ABL" ["Forez"]="Prios" ["Milliet"]="Cambos" ["Bistrocash"]="Cambos") #TODO Fill all
+customerByERP+=(["Bedague"]="ABL" ["Berthelot"]="ABL" ["Bistrocash"]="Cambos" ["Forez"]="Prios" ["LEDG"]="Odoo" ["Milliet"]="Cambos" ["Ouest"]="ABL" ["Pietrini"]="Serca" ["PNB"]="Prios" ["Rouquette"]="ABL" ["Proxy"]="ABL") #TODO Fill all
 
-erps=("ABL Prios Cambos") #"ABL Serca Serig Odoo Prios Cambos"
-customers=("Bedague" "Milliet" "Bistrocash" "Forez")
-#customers=("Bedague" "Berthelot" "Bistrocash" "Forez" "LEDG" "Milliet" "Ouest" "Pietrini" "PNB" "Rouquette" "Proxy")
+erps=("ABL" "Serca" "Odoo" "Prios" "Cambos")
+#customers=("Bedague" "Milliet" "Bistrocash" "Forez") #Test
+customers=("Bedague" "Berthelot" "Bistrocash" "Forez" "LEDG" "Milliet" "Ouest" "Pietrini" "PNB" "Rouquette" "Proxy")
 
 cd TargetTest/Views
 for entry in `ls $search_dir`; do
