@@ -73,6 +73,7 @@
 		ADC632AE225E06630035F725 /* DetailController_ABL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailController_ABL.swift; sourceTree = "<group>"; };
 		ADC632AF225E06630035F725 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		ADC632B0225E06630035F725 /* DetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		ADC632C3225E18210035F725 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +90,7 @@
 		ADC50BBA225C8A5C002FE148 = {
 			isa = PBXGroup;
 			children = (
+				ADC632C3225E18210035F725 /* README.md */,
 				ADC50BC5225C8A5C002FE148 /* TargetTest */,
 				ADC50BC4225C8A5C002FE148 /* Products */,
 			);
