@@ -1,7 +1,7 @@
 //  Created by ___FULLUSERNAME___ on ___DATE___.
 //___COPYRIGHT___
 
-import Foundation
+import UIKit
 
 class ___FILEBASENAMEASIDENTIFIER___ : NSObject {
     
@@ -16,6 +16,10 @@ class ___FILEBASENAMEASIDENTIFIER___ : NSObject {
         }
         
         return ___VARIABLE_Prefix___Controller()
+    }
+    
+    func getStoryboard() -> UIStoryboard {
+        return UIStoryboard(name: "___VARIABLE_Prefix___", bundle: nil)
     }
     
 }

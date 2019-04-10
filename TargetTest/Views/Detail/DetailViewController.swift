@@ -8,9 +8,9 @@ class DetailViewController : UIViewController {
     let controller = DetailController.instantiate()
     
     static func instantiate(controller : DetailController) -> DetailViewController {
-        
-        //Controller.getStoryboard()
-        return DetailViewController()
+        let storyboard = controller.getStoryboard()
+        let viewController = storyboard.instantiateViewController(withIdentifier: "\(DetailViewController.self)") as! DetailViewController
+        return viewController
     }
-
+    
 }

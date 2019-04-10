@@ -30,6 +30,15 @@
 		ADC632C0225E06630035F725 /* DetailController_ABL.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC632AE225E06630035F725 /* DetailController_ABL.swift */; };
 		ADC632C1225E06630035F725 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC632AF225E06630035F725 /* DetailViewController.swift */; };
 		ADC632C2225E06630035F725 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC632B0225E06630035F725 /* DetailController.swift */; };
+		ADC632C5225E1B690035F725 /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADC632C4225E1B690035F725 /* Detail.storyboard */; };
+		ADC63337225E20200035F725 /* ProductPageController_ABL.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC6332F225E20200035F725 /* ProductPageController_ABL.swift */; };
+		ADC63338225E20200035F725 /* ProductPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC63330225E20200035F725 /* ProductPageController.swift */; };
+		ADC63339225E20200035F725 /* ProductPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADC63331225E20200035F725 /* ProductPage.storyboard */; };
+		ADC6333A225E20200035F725 /* ProductPageController-Bistrocash.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC63332225E20200035F725 /* ProductPageController-Bistrocash.swift */; };
+		ADC6333B225E20200035F725 /* ProductPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC63333225E20200035F725 /* ProductPageViewController.swift */; };
+		ADC6333C225E20200035F725 /* ProductPageController-Milliet.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC63334225E20200035F725 /* ProductPageController-Milliet.swift */; };
+		ADC6333D225E20200035F725 /* ProductPageController_Cambos.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC63335225E20200035F725 /* ProductPageController_Cambos.swift */; };
+		ADC6333E225E20200035F725 /* ProductPageController-Bedague.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC63336225E20200035F725 /* ProductPageController-Bedague.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -74,6 +83,15 @@
 		ADC632AF225E06630035F725 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		ADC632B0225E06630035F725 /* DetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
 		ADC632C3225E18210035F725 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		ADC632C4225E1B690035F725 /* Detail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Detail.storyboard; sourceTree = "<group>"; };
+		ADC6332F225E20200035F725 /* ProductPageController_ABL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductPageController_ABL.swift; sourceTree = "<group>"; };
+		ADC63330225E20200035F725 /* ProductPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductPageController.swift; sourceTree = "<group>"; };
+		ADC63331225E20200035F725 /* ProductPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProductPage.storyboard; sourceTree = "<group>"; };
+		ADC63332225E20200035F725 /* ProductPageController-Bistrocash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProductPageController-Bistrocash.swift"; sourceTree = "<group>"; };
+		ADC63333225E20200035F725 /* ProductPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductPageViewController.swift; sourceTree = "<group>"; };
+		ADC63334225E20200035F725 /* ProductPageController-Milliet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProductPageController-Milliet.swift"; sourceTree = "<group>"; };
+		ADC63335225E20200035F725 /* ProductPageController_Cambos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductPageController_Cambos.swift; sourceTree = "<group>"; };
+		ADC63336225E20200035F725 /* ProductPageController-Bedague.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProductPageController-Bedague.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +148,7 @@
 		ADC63296225E06630035F725 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				ADC632C6225E1D220035F725 /* ProductPage */,
 				ADC63297225E06630035F725 /* Home */,
 				ADC632A4225E06630035F725 /* Detail */,
 			);
@@ -182,6 +201,7 @@
 				ADC632A5225E06630035F725 /* Overrides */,
 				ADC632AF225E06630035F725 /* DetailViewController.swift */,
 				ADC632B0225E06630035F725 /* DetailController.swift */,
+				ADC632C4225E1B690035F725 /* Detail.storyboard */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -214,6 +234,21 @@
 				ADC632AE225E06630035F725 /* DetailController_ABL.swift */,
 			);
 			path = ERP;
+			sourceTree = "<group>";
+		};
+		ADC632C6225E1D220035F725 /* ProductPage */ = {
+			isa = PBXGroup;
+			children = (
+				ADC6332F225E20200035F725 /* ProductPageController_ABL.swift */,
+				ADC63330225E20200035F725 /* ProductPageController.swift */,
+				ADC63331225E20200035F725 /* ProductPage.storyboard */,
+				ADC63332225E20200035F725 /* ProductPageController-Bistrocash.swift */,
+				ADC63333225E20200035F725 /* ProductPageViewController.swift */,
+				ADC63334225E20200035F725 /* ProductPageController-Milliet.swift */,
+				ADC63335225E20200035F725 /* ProductPageController_Cambos.swift */,
+				ADC63336225E20200035F725 /* ProductPageController-Bedague.swift */,
+			);
+			path = ProductPage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +314,8 @@
 				ADC50BD1225C8A5D002FE148 /* LaunchScreen.storyboard in Resources */,
 				ADC50BCE225C8A5D002FE148 /* Assets.xcassets in Resources */,
 				ADC50BCC225C8A5C002FE148 /* Main.storyboard in Resources */,
+				ADC632C5225E1B690035F725 /* Detail.storyboard in Resources */,
+				ADC63339225E20200035F725 /* ProductPage.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +346,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADC6333A225E20200035F725 /* ProductPageController-Bistrocash.swift in Sources */,
 				ADC632B8225E06630035F725 /* ViewController.swift in Sources */,
 				ADC632B3225E06630035F725 /* HomeController-Bistrocash.swift in Sources */,
 				ADC632BF225E06630035F725 /* DetailController_Prios.swift in Sources */,
@@ -317,18 +355,24 @@
 				ADC50BEC225CAC64002FE148 /* ConfigurationManager.swift in Sources */,
 				ADC632BC225E06630035F725 /* DetailController-Bistrocash.swift in Sources */,
 				ADC632B2225E06630035F725 /* HomeController-Milliet.swift in Sources */,
+				ADC63338225E20200035F725 /* ProductPageController.swift in Sources */,
 				ADC632C2225E06630035F725 /* DetailController.swift in Sources */,
 				ADC50BC7225C8A5C002FE148 /* AppDelegate.swift in Sources */,
 				ADC632BD225E06630035F725 /* DetailController-Bedague.swift in Sources */,
 				ADC632C1225E06630035F725 /* DetailViewController.swift in Sources */,
 				ADC632C0225E06630035F725 /* DetailController_ABL.swift in Sources */,
+				ADC6333B225E20200035F725 /* ProductPageViewController.swift in Sources */,
 				ADC632B1225E06630035F725 /* HomeController-Bedague.swift in Sources */,
+				ADC6333E225E20200035F725 /* ProductPageController-Bedague.swift in Sources */,
 				ADC632B5225E06630035F725 /* HomeController_Prios.swift in Sources */,
+				ADC63337225E20200035F725 /* ProductPageController_ABL.swift in Sources */,
 				ADC632B4225E06630035F725 /* HomeController-Forez.swift in Sources */,
+				ADC6333C225E20200035F725 /* ProductPageController-Milliet.swift in Sources */,
 				ADC632BA225E06630035F725 /* DetailController-Forez.swift in Sources */,
 				ADC632B6225E06630035F725 /* HomeController_Cambos.swift in Sources */,
 				ADC632BB225E06630035F725 /* DetailController-Milliet.swift in Sources */,
 				ADC632B7225E06630035F725 /* HomeController_ABL.swift in Sources */,
+				ADC6333D225E20200035F725 /* ProductPageController_Cambos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
