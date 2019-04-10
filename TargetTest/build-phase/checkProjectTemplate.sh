@@ -30,6 +30,7 @@ for entry in `ls $search_dir`; do
             customerErp=${customerByERP[$customer]}
 
             content=$(printf "\rimport Foundation\r\rclass "$entry"Controller_"$customer" : "$entry"Controller_"$customerErp" {\r\r}")
+            echo "Create "$customer" (customer)"
             echo $content > $entry/Overrides/App/$entry"Controller-"$customer".swift"
         fi
 
@@ -52,6 +53,7 @@ for entry in `ls $search_dir`; do
         #Create file in /ERP
         if [[ $containsERP == 0 ]]; then
             content=$(printf "\rimport Foundation\r\rclass "$entry"Controller_"$erp" : "$entry"Controller {\r\r}")
+            echo "Create "$erp" (ERP)"
             echo $content > $entry/Overrides/ERP/$entry"Controller_"$erp".swift"
         fi
 
