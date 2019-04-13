@@ -2,10 +2,10 @@
 #exit
 
 declare -A customerByERP
-customerByERP+=(["Bedague"]="ABL" ["Berthelot"]="ABL" ["Bistrocash"]="Cambos" ["Forez"]="Prios" ["LEDG"]="Odoo" ["Milliet"]="Cambos" ["Ouest"]="ABL" ["Pietrini"]="Serca" ["PNB"]="Prios" ["Rouquette"]="ABL" ["Proxi"]="ABL", ["Test"]="ERPTest")
+customerByERP+=(["Bedague"]="ABL" ["Berthelot"]="ABL" ["Bistrocash"]="Cambos" ["Forez"]="Prios" ["LEDG"]="Odoo" ["Milliet"]="Cambos" ["Ouest"]="ABL" ["Pietrini"]="Serca" ["PNB"]="Prios" ["Rouquette"]="ABL" ["Proxi"]="ABL")
 
-erps=("ABL" "Serca" "Odoo" "Prios" "Cambos" "ERPTest")
-customers=("Bedague" "Berthelot" "Bistrocash" "Forez" "LEDG" "Milliet" "Ouest" "Pietrini" "PNB" "Rouquette" "Proxi" "Test")
+erps=("ABL" "Serca" "Odoo" "Prios" "Cambos")
+customers=("Bedague" "Berthelot" "Bistrocash" "Forez" "LEDG" "Milliet" "Ouest" "Pietrini" "PNB" "Rouquette" "Proxi")
 
 if [[ ${#customers[@]} != ${#customerByERP[@]} ]]; then
     echo "customerByERP and customers array doesn't match !!"
