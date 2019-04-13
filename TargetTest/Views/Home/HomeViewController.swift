@@ -6,6 +6,7 @@ import UIKit
 class HomeViewController : UIViewController {
 
     @IBOutlet weak var appNameLabel: UILabel!
+    @IBOutlet weak var cartLabel: UILabel!
     
     let controller = HomeController.instantiate()
     
@@ -17,6 +18,11 @@ class HomeViewController : UIViewController {
     
     override func viewDidLoad() {
         self.appNameLabel.text = controller.getAppName()
+        self.cartLabel.text = CartModel.instantiate().getArticles()
     }
 
+    @IBAction func onButton(_ sender: Any) {
+        
+        
+    }
 }

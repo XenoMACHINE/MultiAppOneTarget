@@ -15,6 +15,7 @@ fi
 
 # Check ViewControllers
 cd TargetTest/Views
+echo "Begin Views"
 for entry in `ls $search_dir`; do
     echo "Entry : " $entry
 
@@ -82,6 +83,7 @@ done #entries
 
 # Check Controllers
 cd ../Controllers
+echo "Begin Controller"
 for entry in `ls $search_dir`; do
     echo "Entry : " $entry
 
@@ -107,14 +109,14 @@ for entry in `ls $search_dir`; do
             echo $content > $entry/Overrides/App/$entry"Controller-"$customer".swift"
         fi
 
-        done # customers
+    done # customers
 
-        echo "--------------------------------"
+    echo "--------------------------------"
 
-        for erp in ${erps[@]}; do
+    for erp in ${erps[@]}; do
 
-            containsERP=0
-            for file in `ls $entry/Overrides/ERP`; do
+        containsERP=0
+        for file in `ls $entry/Overrides/ERP`; do
             erpName=${file//*_/}
             erpName=${erpName//.swift/}
 
@@ -138,3 +140,71 @@ for entry in `ls $search_dir`; do
 
 done #entries
 # End Check Controllers
+
+
+
+
+
+
+
+
+
+# Check Models
+cd ../Models
+echo "Begin Models"
+for entry in `ls $search_dir`; do
+    echo "Entry : " $entry
+
+    for customer in ${customers[@]}; do
+        #echo "Customer : "$customer "| ERP = "${customerByERP[$customer]}
+
+        containsApp=0
+        for file in `ls $entry/Overrides/App`; do
+            customerName=${file//*-/}
+            customerName=${customerName//.swift/}
+
+            if [[ "$customer" == "$customerName" ]]; then
+            containsApp=1
+            fi
+        done # files
+
+        #Create file in /App
+        if [[ $containsApp == 0 ]]; then
+            customerErp=${customerByERP[$customer]}
+
+            content=$(printf "\rimport Foundation\r\rclass "$entry"Model_"$customer" : "$entry"Model_"$customerErp" {\r\r}")
+            echo "Create "$customer" (customer)"
+            echo $content > $entry/Overrides/App/$entry"Model-"$customer".swift"
+        fi
+
+    done # customers
+
+        echo "--------------------------------"
+
+    for erp in ${erps[@]}; do
+
+        containsERP=0
+        for file in `ls $entry/Overrides/ERP`; do
+            erpName=${file//*_/}
+            erpName=${erpName//.swift/}
+
+            if [[ "$erp" == "$erpName" ]]; then
+            containsERP=1
+            fi
+        done # files
+
+        #Create file in /ERP
+        if [[ $containsERP == 0 ]]; then
+            content=$(printf "\rimport Foundation\r\rclass "$entry"Model_"$erp" : "$entry"Model {\r\r}")
+            echo "Create "$erp" (ERP)"
+            echo $content > $entry/Overrides/ERP/$entry"Model_"$erp".swift"
+        fi
+
+    done
+
+    echo ""
+    echo "##########################"
+    echo ""
+
+done #entries
+# End Check Models

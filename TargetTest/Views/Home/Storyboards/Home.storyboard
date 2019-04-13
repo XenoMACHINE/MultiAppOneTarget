@@ -24,9 +24,26 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e4W-Ew-L3H">
+                                <rect key="frame" x="166.5" y="323" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7O0-tc-Qvb">
+                                <rect key="frame" x="164.5" y="617" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="onButton:" destination="zLW-Vs-GqR" eventType="touchUpInside" id="9f7-0O-cpb"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="QeL-Rk-e6A" firstAttribute="bottom" secondItem="7O0-tc-Qvb" secondAttribute="bottom" constant="20" id="5W6-Cr-TxJ"/>
+                            <constraint firstItem="e4W-Ew-L3H" firstAttribute="centerY" secondItem="Bcr-wI-gwU" secondAttribute="centerY" id="6ig-kp-Mmz"/>
+                            <constraint firstItem="7O0-tc-Qvb" firstAttribute="centerX" secondItem="Bcr-wI-gwU" secondAttribute="centerX" id="DPP-d4-w15"/>
+                            <constraint firstItem="e4W-Ew-L3H" firstAttribute="centerX" secondItem="Bcr-wI-gwU" secondAttribute="centerX" id="cMt-yq-q9g"/>
                             <constraint firstItem="dVi-MN-dau" firstAttribute="centerX" secondItem="Bcr-wI-gwU" secondAttribute="centerX" id="rC8-0p-oqW"/>
                             <constraint firstItem="dVi-MN-dau" firstAttribute="top" secondItem="QeL-Rk-e6A" secondAttribute="top" constant="30" id="wbw-3e-nSo"/>
                         </constraints>
@@ -34,11 +51,12 @@
                     </view>
                     <connections>
                         <outlet property="appNameLabel" destination="dVi-MN-dau" id="gzz-7g-ixc"/>
+                        <outlet property="cartLabel" destination="e4W-Ew-L3H" id="bET-Mo-FVh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h19-4D-nsg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-428" y="-290"/>
+            <point key="canvasLocation" x="-428" y="-290.10494752623691"/>
         </scene>
     </scenes>
 </document>
