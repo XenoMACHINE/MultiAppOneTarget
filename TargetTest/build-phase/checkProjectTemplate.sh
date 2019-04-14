@@ -15,9 +15,9 @@ fi
 
 # Check ViewControllers
 cd TargetTest/Views
-echo "Begin Views"
+#echo "Begin Views"
 for entry in `ls $search_dir`; do
-    echo "Entry : " $entry
+    #echo "Entry : " $entry
 
     for customer in ${customers[@]}; do
         #echo "Customer : "$customer "| ERP = "${customerByERP[$customer]}
@@ -37,13 +37,13 @@ for entry in `ls $search_dir`; do
             customerErp=${customerByERP[$customer]}
 
             content=$(printf "\rimport UIKit\r\rclass "$entry"ViewController_"$customer" : "$entry"ViewController_"$customerErp" {\r\r}")
-            echo "Create "$customer" (customer)"
+            echo "Create "$customer" (customer) in Views/App/"$entry
             echo $content > $entry/Overrides/App/$entry"ViewController-"$customer".swift"
         fi
 
     done # customers
 
-    echo "--------------------------------"
+
 
     for erp in ${erps[@]}; do
 
@@ -60,15 +60,11 @@ for entry in `ls $search_dir`; do
         #Create file in /ERP
         if [[ $containsERP == 0 ]]; then
             content=$(printf "\rimport UIKit\r\rclass "$entry"ViewController_"$erp" : "$entry"ViewController {\r\r}")
-            echo "Create "$erp" (ERP)"
+            echo "Create "$erp" (ERP) in Views/ERP/"$entry
             echo $content > $entry/Overrides/ERP/$entry"ViewController_"$erp".swift"
         fi
 
     done
-
-    echo ""
-    echo "##########################"
-    echo ""
 
 done #entries
 # End Check ViewControllers
@@ -83,9 +79,9 @@ done #entries
 
 # Check Controllers
 cd ../Controllers
-echo "Begin Controller"
+#echo "Begin Controller"
 for entry in `ls $search_dir`; do
-    echo "Entry : " $entry
+    #echo "Entry : " $entry
 
     for customer in ${customers[@]}; do
         #echo "Customer : "$customer "| ERP = "${customerByERP[$customer]}
@@ -105,13 +101,13 @@ for entry in `ls $search_dir`; do
             customerErp=${customerByERP[$customer]}
 
             content=$(printf "\rimport Foundation\r\rclass "$entry"Controller_"$customer" : "$entry"Controller_"$customerErp" {\r\r}")
-            echo "Create "$customer" (customer)"
+            echo "Create "$customer" (customer) in Controllers/App/"$entry
             echo $content > $entry/Overrides/App/$entry"Controller-"$customer".swift"
         fi
 
     done # customers
 
-    echo "--------------------------------"
+
 
     for erp in ${erps[@]}; do
 
@@ -128,15 +124,11 @@ for entry in `ls $search_dir`; do
         #Create file in /ERP
         if [[ $containsERP == 0 ]]; then
             content=$(printf "\rimport Foundation\r\rclass "$entry"Controller_"$erp" : "$entry"Controller {\r\r}")
-            echo "Create "$erp" (ERP)"
+            echo "Create "$erp" (ERP) in Controllers/App/"$entry
             echo $content > $entry/Overrides/ERP/$entry"Controller_"$erp".swift"
         fi
 
     done
-
-    echo ""
-    echo "##########################"
-    echo ""
 
 done #entries
 # End Check Controllers
@@ -151,9 +143,9 @@ done #entries
 
 # Check Models
 cd ../Models
-echo "Begin Models"
+#echo "Begin Models"
 for entry in `ls $search_dir`; do
-    echo "Entry : " $entry
+    #echo "Entry : " $entry
 
     for customer in ${customers[@]}; do
         #echo "Customer : "$customer "| ERP = "${customerByERP[$customer]}
@@ -173,13 +165,13 @@ for entry in `ls $search_dir`; do
             customerErp=${customerByERP[$customer]}
 
             content=$(printf "\rimport Foundation\r\rclass "$entry"Model_"$customer" : "$entry"Model_"$customerErp" {\r\r}")
-            echo "Create "$customer" (customer)"
+            echo "Create "$customer" (customer) in Models/App/"$entry
             echo $content > $entry/Overrides/App/$entry"Model-"$customer".swift"
         fi
 
     done # customers
 
-        echo "--------------------------------"
+
 
     for erp in ${erps[@]}; do
 
@@ -196,15 +188,12 @@ for entry in `ls $search_dir`; do
         #Create file in /ERP
         if [[ $containsERP == 0 ]]; then
             content=$(printf "\rimport Foundation\r\rclass "$entry"Model_"$erp" : "$entry"Model {\r\r}")
-            echo "Create "$erp" (ERP)"
+            echo "Create "$erp" (ERP) in Models/App/"$entry
             echo $content > $entry/Overrides/ERP/$entry"Model_"$erp".swift"
         fi
 
     done
 
-    echo ""
-    echo "##########################"
-    echo ""
 
 done #entries
 # End Check Models
