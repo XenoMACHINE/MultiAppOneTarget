@@ -3,6 +3,6 @@
 
 import Foundation
 
-class ___FILEBASENAMEASIDENTIFIER___ : ___VARIABLE_Prefix___Controller {
+class ___FILEBASENAMEASIDENTIFIER___ : ___VARIABLE_Prefix___Model {
     
 }

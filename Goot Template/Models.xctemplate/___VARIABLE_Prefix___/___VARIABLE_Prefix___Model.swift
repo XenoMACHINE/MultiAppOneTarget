@@ -7,19 +7,15 @@ class ___FILEBASENAMEASIDENTIFIER___ : NSObject {
     
     required override init() { }
 
-    static func instantiate() -> ___VARIABLE_Prefix___Controller{
+    static func instantiate() -> ___VARIABLE_Prefix___Model{
         
         let appName = ConfigurationManager.getAppConf().rawValue
         let controllerStr = "\(String(describing: self))_\(appName)"
-        if let controller = controllerStr.getClass() as? ___VARIABLE_Prefix___Controller.Type {
+        if let controller = controllerStr.getClass() as? ___VARIABLE_Prefix___Model.Type {
             return controller.init()
         }
         
-        return ___VARIABLE_Prefix___Controller()
-    }
-    
-    func getStoryboard() -> UIStoryboard {
-        return UIStoryboard(name: "___VARIABLE_Prefix___", bundle: nil)
+        return ___VARIABLE_Prefix___Model()
     }
     
 }
