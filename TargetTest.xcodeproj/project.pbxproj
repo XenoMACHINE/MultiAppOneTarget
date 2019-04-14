@@ -26,6 +26,23 @@
 		ADAC7E10226350F8004F84DA /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7DFD226350F8004F84DA /* SplashViewController.swift */; };
 		ADAC7E11226350F8004F84DA /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADAC7DFE226350F8004F84DA /* Splash.storyboard */; };
 		ADAC7E12226350F8004F84DA /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7DFF226350F8004F84DA /* SplashController.swift */; };
+		ADAC7E2B22635514004F84DA /* CartModel-Ouest.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7E1922635514004F84DA /* CartModel-Ouest.swift */; };
+		ADAC7E2C22635514004F84DA /* CartModel-PNB.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7E1A22635514004F84DA /* CartModel-PNB.swift */; };
+		ADAC7E2D22635514004F84DA /* CartModel-Milliet.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7E1B22635514004F84DA /* CartModel-Milliet.swift */; };
+		ADAC7E2E22635514004F84DA /* CartModel-LEDG.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7E1C22635514004F84DA /* CartModel-LEDG.swift */; };
+		ADAC7E2F22635514004F84DA /* CartModel-Proxi.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7E1D22635514004F84DA /* CartModel-Proxi.swift */; };
+		ADAC7E3022635514004F84DA /* CartModel-Bedague.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7E1E22635514004F84DA /* CartModel-Bedague.swift */; };
+		ADAC7E3122635514004F84DA /* CartModel-Pietrini.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7E1F22635514004F84DA /* CartModel-Pietrini.swift */; };
+		ADAC7E3222635514004F84DA /* CartModel-Bistrocash.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7E2022635514004F84DA /* CartModel-Bistrocash.swift */; };
+		ADAC7E3322635514004F84DA /* CartModel-Rouquette.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7E2122635514004F84DA /* CartModel-Rouquette.swift */; };
+		ADAC7E3422635514004F84DA /* CartModel-Forez.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7E2222635514004F84DA /* CartModel-Forez.swift */; };
+		ADAC7E3522635514004F84DA /* CartModel-Berthelot.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7E2322635514004F84DA /* CartModel-Berthelot.swift */; };
+		ADAC7E3622635514004F84DA /* CartModel_Prios.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7E2522635514004F84DA /* CartModel_Prios.swift */; };
+		ADAC7E3722635514004F84DA /* CartModel_Odoo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7E2622635514004F84DA /* CartModel_Odoo.swift */; };
+		ADAC7E3822635514004F84DA /* CartModel_ABL.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7E2722635514004F84DA /* CartModel_ABL.swift */; };
+		ADAC7E3922635514004F84DA /* CartModel_Cambos.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7E2822635514004F84DA /* CartModel_Cambos.swift */; };
+		ADAC7E3A22635514004F84DA /* CartModel_Serca.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7E2922635514004F84DA /* CartModel_Serca.swift */; };
+		ADAC7E3B22635514004F84DA /* CartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7E2A22635514004F84DA /* CartModel.swift */; };
 		ADC50BC7225C8A5C002FE148 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC50BC6225C8A5C002FE148 /* AppDelegate.swift */; };
 		ADC50BCE225C8A5D002FE148 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADC50BCD225C8A5D002FE148 /* Assets.xcassets */; };
 		ADC50BD1225C8A5D002FE148 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADC50BCF225C8A5D002FE148 /* LaunchScreen.storyboard */; };
@@ -66,6 +83,23 @@
 		ADAC7DFD226350F8004F84DA /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		ADAC7DFE226350F8004F84DA /* Splash.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Splash.storyboard; sourceTree = "<group>"; };
 		ADAC7DFF226350F8004F84DA /* SplashController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashController.swift; sourceTree = "<group>"; };
+		ADAC7E1922635514004F84DA /* CartModel-Ouest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CartModel-Ouest.swift"; sourceTree = "<group>"; };
+		ADAC7E1A22635514004F84DA /* CartModel-PNB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CartModel-PNB.swift"; sourceTree = "<group>"; };
+		ADAC7E1B22635514004F84DA /* CartModel-Milliet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CartModel-Milliet.swift"; sourceTree = "<group>"; };
+		ADAC7E1C22635514004F84DA /* CartModel-LEDG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CartModel-LEDG.swift"; sourceTree = "<group>"; };
+		ADAC7E1D22635514004F84DA /* CartModel-Proxi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CartModel-Proxi.swift"; sourceTree = "<group>"; };
+		ADAC7E1E22635514004F84DA /* CartModel-Bedague.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CartModel-Bedague.swift"; sourceTree = "<group>"; };
+		ADAC7E1F22635514004F84DA /* CartModel-Pietrini.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CartModel-Pietrini.swift"; sourceTree = "<group>"; };
+		ADAC7E2022635514004F84DA /* CartModel-Bistrocash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CartModel-Bistrocash.swift"; sourceTree = "<group>"; };
+		ADAC7E2122635514004F84DA /* CartModel-Rouquette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CartModel-Rouquette.swift"; sourceTree = "<group>"; };
+		ADAC7E2222635514004F84DA /* CartModel-Forez.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CartModel-Forez.swift"; sourceTree = "<group>"; };
+		ADAC7E2322635514004F84DA /* CartModel-Berthelot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CartModel-Berthelot.swift"; sourceTree = "<group>"; };
+		ADAC7E2522635514004F84DA /* CartModel_Prios.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartModel_Prios.swift; sourceTree = "<group>"; };
+		ADAC7E2622635514004F84DA /* CartModel_Odoo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartModel_Odoo.swift; sourceTree = "<group>"; };
+		ADAC7E2722635514004F84DA /* CartModel_ABL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartModel_ABL.swift; sourceTree = "<group>"; };
+		ADAC7E2822635514004F84DA /* CartModel_Cambos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartModel_Cambos.swift; sourceTree = "<group>"; };
+		ADAC7E2922635514004F84DA /* CartModel_Serca.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartModel_Serca.swift; sourceTree = "<group>"; };
+		ADAC7E2A22635514004F84DA /* CartModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartModel.swift; sourceTree = "<group>"; };
 		ADC50BC3225C8A5C002FE148 /* TargetTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TargetTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADC50BC6225C8A5C002FE148 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADC50BCD225C8A5D002FE148 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -137,6 +171,62 @@
 			path = ERP;
 			sourceTree = "<group>";
 		};
+		ADAC7E13226354CB004F84DA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ADAC7E1622635514004F84DA /* Cart */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ADAC7E1622635514004F84DA /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				ADAC7E1722635514004F84DA /* Overrides */,
+				ADAC7E2A22635514004F84DA /* CartModel.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		ADAC7E1722635514004F84DA /* Overrides */ = {
+			isa = PBXGroup;
+			children = (
+				ADAC7E1822635514004F84DA /* App */,
+				ADAC7E2422635514004F84DA /* ERP */,
+			);
+			path = Overrides;
+			sourceTree = "<group>";
+		};
+		ADAC7E1822635514004F84DA /* App */ = {
+			isa = PBXGroup;
+			children = (
+				ADAC7E1922635514004F84DA /* CartModel-Ouest.swift */,
+				ADAC7E1A22635514004F84DA /* CartModel-PNB.swift */,
+				ADAC7E1B22635514004F84DA /* CartModel-Milliet.swift */,
+				ADAC7E1C22635514004F84DA /* CartModel-LEDG.swift */,
+				ADAC7E1D22635514004F84DA /* CartModel-Proxi.swift */,
+				ADAC7E1E22635514004F84DA /* CartModel-Bedague.swift */,
+				ADAC7E1F22635514004F84DA /* CartModel-Pietrini.swift */,
+				ADAC7E2022635514004F84DA /* CartModel-Bistrocash.swift */,
+				ADAC7E2122635514004F84DA /* CartModel-Rouquette.swift */,
+				ADAC7E2222635514004F84DA /* CartModel-Forez.swift */,
+				ADAC7E2322635514004F84DA /* CartModel-Berthelot.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		ADAC7E2422635514004F84DA /* ERP */ = {
+			isa = PBXGroup;
+			children = (
+				ADAC7E2522635514004F84DA /* CartModel_Prios.swift */,
+				ADAC7E2622635514004F84DA /* CartModel_Odoo.swift */,
+				ADAC7E2722635514004F84DA /* CartModel_ABL.swift */,
+				ADAC7E2822635514004F84DA /* CartModel_Cambos.swift */,
+				ADAC7E2922635514004F84DA /* CartModel_Serca.swift */,
+			);
+			path = ERP;
+			sourceTree = "<group>";
+		};
 		ADC50BBA225C8A5C002FE148 = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +250,7 @@
 				ADC50BC6225C8A5C002FE148 /* AppDelegate.swift */,
 				ADC50BEA225CAC35002FE148 /* Configuration Manager */,
 				ADC63391225E26470035F725 /* Views */,
+				ADAC7E13226354CB004F84DA /* Models */,
 				ADC50BCD225C8A5D002FE148 /* Assets.xcassets */,
 				ADC50BCF225C8A5D002FE148 /* LaunchScreen.storyboard */,
 				ADC50BD2225C8A5D002FE148 /* Info.plist */,
@@ -281,20 +372,37 @@
 				ADAC7E07226350F8004F84DA /* SplashController-Forez.swift in Sources */,
 				ADAC7E0F226350F8004F84DA /* SplashController_ABL.swift in Sources */,
 				ADAC7E0D226350F8004F84DA /* SplashController_Prios.swift in Sources */,
+				ADAC7E3422635514004F84DA /* CartModel-Forez.swift in Sources */,
 				ADAC7E12226350F8004F84DA /* SplashController.swift in Sources */,
+				ADAC7E3022635514004F84DA /* CartModel-Bedague.swift in Sources */,
+				ADAC7E3522635514004F84DA /* CartModel-Berthelot.swift in Sources */,
 				ADAC7E0A226350F8004F84DA /* SplashController-PNB.swift in Sources */,
+				ADAC7E3222635514004F84DA /* CartModel-Bistrocash.swift in Sources */,
+				ADAC7E2C22635514004F84DA /* CartModel-PNB.swift in Sources */,
+				ADAC7E3322635514004F84DA /* CartModel-Rouquette.swift in Sources */,
 				ADAC7E01226350F8004F84DA /* SplashController-Proxi.swift in Sources */,
 				ADAC7E02226350F8004F84DA /* SplashController-Berthelot.swift in Sources */,
+				ADAC7E3122635514004F84DA /* CartModel-Pietrini.swift in Sources */,
+				ADAC7E3B22635514004F84DA /* CartModel.swift in Sources */,
+				ADAC7E2B22635514004F84DA /* CartModel-Ouest.swift in Sources */,
+				ADAC7E2D22635514004F84DA /* CartModel-Milliet.swift in Sources */,
+				ADAC7E2E22635514004F84DA /* CartModel-LEDG.swift in Sources */,
+				ADAC7E3722635514004F84DA /* CartModel_Odoo.swift in Sources */,
 				ADAC7E04226350F8004F84DA /* SplashController-Bedague.swift in Sources */,
 				ADAC7E00226350F8004F84DA /* SplashController-Milliet.swift in Sources */,
+				ADAC7E3822635514004F84DA /* CartModel_ABL.swift in Sources */,
 				ADAC7E0E226350F8004F84DA /* SplashController_Serca.swift in Sources */,
+				ADAC7E2F22635514004F84DA /* CartModel-Proxi.swift in Sources */,
 				ADAC7E03226350F8004F84DA /* SplashController-Rouquette.swift in Sources */,
+				ADAC7E3622635514004F84DA /* CartModel_Prios.swift in Sources */,
 				ADAC7E05226350F8004F84DA /* SplashController-Bistrocash.swift in Sources */,
 				ADAC7E06226350F8004F84DA /* SplashController-Pietrini.swift in Sources */,
+				ADAC7E3A22635514004F84DA /* CartModel_Serca.swift in Sources */,
 				ADAC7E08226350F8004F84DA /* SplashController-Ouest.swift in Sources */,
 				ADAC7E10226350F8004F84DA /* SplashViewController.swift in Sources */,
 				ADAC7E09226350F8004F84DA /* SplashController-LEDG.swift in Sources */,
 				ADC50BC7225C8A5C002FE148 /* AppDelegate.swift in Sources */,
+				ADAC7E3922635514004F84DA /* CartModel_Cambos.swift in Sources */,
 				ADAC7E0B226350F8004F84DA /* SplashController_Cambos.swift in Sources */,
 				ADAC7E0C226350F8004F84DA /* SplashController_Odoo.swift in Sources */,
 			);
