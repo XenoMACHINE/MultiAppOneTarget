@@ -23,7 +23,7 @@ class HomeController : NSObject {
     }
     
     func getAppName() -> String {
-        return ""
+        return "Goot"
     }
     
 }

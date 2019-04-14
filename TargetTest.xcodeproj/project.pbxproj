@@ -26,24 +26,6 @@
 		ADAC7D4A226265B4004F84DA /* HomeViewController_Serca.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7CDE226265B3004F84DA /* HomeViewController_Serca.swift */; };
 		ADAC7D4B226265B4004F84DA /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADAC7CE0226265B3004F84DA /* Home.storyboard */; };
 		ADAC7D4C226265B4004F84DA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7CE1226265B3004F84DA /* HomeViewController.swift */; };
-		ADAC7D4D226265B4004F84DA /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7CE3226265B3004F84DA /* CartViewController.swift */; };
-		ADAC7D4E226265B4004F84DA /* CartViewController-Pietrini.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7CE6226265B3004F84DA /* CartViewController-Pietrini.swift */; };
-		ADAC7D4F226265B4004F84DA /* CartViewController-Milliet.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7CE7226265B3004F84DA /* CartViewController-Milliet.swift */; };
-		ADAC7D50226265B4004F84DA /* CartViewController-LEDG.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7CE8226265B3004F84DA /* CartViewController-LEDG.swift */; };
-		ADAC7D51226265B4004F84DA /* CartViewController-Bedague.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7CE9226265B3004F84DA /* CartViewController-Bedague.swift */; };
-		ADAC7D52226265B4004F84DA /* CartViewController-Ouest.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7CEA226265B3004F84DA /* CartViewController-Ouest.swift */; };
-		ADAC7D53226265B4004F84DA /* CartViewController-Rouquette.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7CEB226265B3004F84DA /* CartViewController-Rouquette.swift */; };
-		ADAC7D54226265B4004F84DA /* CartViewController-Berthelot.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7CEC226265B3004F84DA /* CartViewController-Berthelot.swift */; };
-		ADAC7D55226265B4004F84DA /* CartViewController-Forez.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7CED226265B3004F84DA /* CartViewController-Forez.swift */; };
-		ADAC7D56226265B4004F84DA /* CartViewController-PNB.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7CEE226265B3004F84DA /* CartViewController-PNB.swift */; };
-		ADAC7D57226265B4004F84DA /* CartViewController-Bistrocash.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7CEF226265B3004F84DA /* CartViewController-Bistrocash.swift */; };
-		ADAC7D58226265B4004F84DA /* CartViewController-Proxi.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7CF0226265B3004F84DA /* CartViewController-Proxi.swift */; };
-		ADAC7D59226265B4004F84DA /* CartViewController_Serca.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7CF2226265B3004F84DA /* CartViewController_Serca.swift */; };
-		ADAC7D5A226265B4004F84DA /* CartViewController_Cambos.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7CF3226265B3004F84DA /* CartViewController_Cambos.swift */; };
-		ADAC7D5B226265B4004F84DA /* CartViewController_Prios.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7CF4226265B3004F84DA /* CartViewController_Prios.swift */; };
-		ADAC7D5C226265B4004F84DA /* CartViewController_Odoo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7CF5226265B3004F84DA /* CartViewController_Odoo.swift */; };
-		ADAC7D5D226265B4004F84DA /* CartViewController_ABL.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7CF6226265B3004F84DA /* CartViewController_ABL.swift */; };
-		ADAC7D5E226265B4004F84DA /* Cart.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADAC7CF8226265B3004F84DA /* Cart.storyboard */; };
 		ADAC7D5F226265B4004F84DA /* HomeController-Bedague.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7CFD226265B3004F84DA /* HomeController-Bedague.swift */; };
 		ADAC7D60226265B4004F84DA /* HomeController-Milliet.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7CFE226265B3004F84DA /* HomeController-Milliet.swift */; };
 		ADAC7D61226265B4004F84DA /* HomeController-Ouest.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7CFF226265B3004F84DA /* HomeController-Ouest.swift */; };
@@ -61,23 +43,6 @@
 		ADAC7D6D226265B4004F84DA /* HomeController_Cambos.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7D0C226265B3004F84DA /* HomeController_Cambos.swift */; };
 		ADAC7D6E226265B4004F84DA /* HomeController_ABL.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7D0D226265B3004F84DA /* HomeController_ABL.swift */; };
 		ADAC7D6F226265B4004F84DA /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7D0E226265B3004F84DA /* HomeController.swift */; };
-		ADAC7D70226265B4004F84DA /* CartController-Milliet.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7D12226265B3004F84DA /* CartController-Milliet.swift */; };
-		ADAC7D71226265B4004F84DA /* CartController-Proxi.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7D13226265B3004F84DA /* CartController-Proxi.swift */; };
-		ADAC7D72226265B4004F84DA /* CartController-Forez.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7D14226265B3004F84DA /* CartController-Forez.swift */; };
-		ADAC7D73226265B4004F84DA /* CartController-Bedague.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7D15226265B3004F84DA /* CartController-Bedague.swift */; };
-		ADAC7D74226265B4004F84DA /* CartController-Bistrocash.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7D16226265B3004F84DA /* CartController-Bistrocash.swift */; };
-		ADAC7D75226265B4004F84DA /* CartController-Ouest.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7D17226265B3004F84DA /* CartController-Ouest.swift */; };
-		ADAC7D76226265B4004F84DA /* CartController-Rouquette.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7D18226265B3004F84DA /* CartController-Rouquette.swift */; };
-		ADAC7D77226265B4004F84DA /* CartController-Berthelot.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7D19226265B3004F84DA /* CartController-Berthelot.swift */; };
-		ADAC7D78226265B4004F84DA /* CartController-PNB.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7D1A226265B3004F84DA /* CartController-PNB.swift */; };
-		ADAC7D79226265B4004F84DA /* CartController-LEDG.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7D1B226265B3004F84DA /* CartController-LEDG.swift */; };
-		ADAC7D7A226265B4004F84DA /* CartController-Pietrini.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7D1C226265B3004F84DA /* CartController-Pietrini.swift */; };
-		ADAC7D7B226265B4004F84DA /* CartController_Odoo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7D1E226265B3004F84DA /* CartController_Odoo.swift */; };
-		ADAC7D7C226265B4004F84DA /* CartController_Cambos.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7D1F226265B3004F84DA /* CartController_Cambos.swift */; };
-		ADAC7D7D226265B4004F84DA /* CartController_Prios.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7D20226265B3004F84DA /* CartController_Prios.swift */; };
-		ADAC7D7E226265B4004F84DA /* CartController_ABL.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7D21226265B3004F84DA /* CartController_ABL.swift */; };
-		ADAC7D7F226265B4004F84DA /* CartController_Serca.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7D22226265B3004F84DA /* CartController_Serca.swift */; };
-		ADAC7D80226265B4004F84DA /* CartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7D23226265B3004F84DA /* CartController.swift */; };
 		ADAC7D81226265B4004F84DA /* CartModel-Ouest.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7D28226265B3004F84DA /* CartModel-Ouest.swift */; };
 		ADAC7D82226265B4004F84DA /* CartModel-PNB.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7D29226265B3004F84DA /* CartModel-PNB.swift */; };
 		ADAC7D83226265B4004F84DA /* CartModel-Milliet.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7D2A226265B3004F84DA /* CartModel-Milliet.swift */; };
@@ -95,6 +60,41 @@
 		ADAC7D8F226265B4004F84DA /* CartModel_Cambos.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7D37226265B3004F84DA /* CartModel_Cambos.swift */; };
 		ADAC7D90226265B4004F84DA /* CartModel_Serca.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7D38226265B3004F84DA /* CartModel_Serca.swift */; };
 		ADAC7D91226265B4004F84DA /* CartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7D39226265B3004F84DA /* CartModel.swift */; };
+		ADAC7DAB22634255004F84DA /* SplashController-Milliet.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7D9922634254004F84DA /* SplashController-Milliet.swift */; };
+		ADAC7DAC22634255004F84DA /* SplashController-Proxi.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7D9A22634254004F84DA /* SplashController-Proxi.swift */; };
+		ADAC7DAD22634255004F84DA /* SplashController-Berthelot.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7D9B22634254004F84DA /* SplashController-Berthelot.swift */; };
+		ADAC7DAE22634255004F84DA /* SplashController-Rouquette.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7D9C22634254004F84DA /* SplashController-Rouquette.swift */; };
+		ADAC7DAF22634255004F84DA /* SplashController-Bedague.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7D9D22634254004F84DA /* SplashController-Bedague.swift */; };
+		ADAC7DB022634255004F84DA /* SplashController-Bistrocash.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7D9E22634254004F84DA /* SplashController-Bistrocash.swift */; };
+		ADAC7DB122634255004F84DA /* SplashController-Pietrini.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7D9F22634254004F84DA /* SplashController-Pietrini.swift */; };
+		ADAC7DB222634255004F84DA /* SplashController-Forez.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7DA022634254004F84DA /* SplashController-Forez.swift */; };
+		ADAC7DB322634255004F84DA /* SplashController-Ouest.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7DA122634254004F84DA /* SplashController-Ouest.swift */; };
+		ADAC7DB422634255004F84DA /* SplashController-LEDG.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7DA222634254004F84DA /* SplashController-LEDG.swift */; };
+		ADAC7DB522634255004F84DA /* SplashController-PNB.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7DA322634254004F84DA /* SplashController-PNB.swift */; };
+		ADAC7DB622634255004F84DA /* SplashController_Cambos.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7DA522634254004F84DA /* SplashController_Cambos.swift */; };
+		ADAC7DB722634255004F84DA /* SplashController_Odoo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7DA622634254004F84DA /* SplashController_Odoo.swift */; };
+		ADAC7DB822634255004F84DA /* SplashController_Prios.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7DA722634254004F84DA /* SplashController_Prios.swift */; };
+		ADAC7DB922634255004F84DA /* SplashController_Serca.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7DA822634254004F84DA /* SplashController_Serca.swift */; };
+		ADAC7DBA22634255004F84DA /* SplashController_ABL.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7DA922634254004F84DA /* SplashController_ABL.swift */; };
+		ADAC7DBB22634255004F84DA /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7DAA22634254004F84DA /* SplashController.swift */; };
+		ADAC7DD322634266004F84DA /* SplashViewController-Forez.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7DBF22634266004F84DA /* SplashViewController-Forez.swift */; };
+		ADAC7DD422634266004F84DA /* SplashViewController-Bistrocash.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7DC022634266004F84DA /* SplashViewController-Bistrocash.swift */; };
+		ADAC7DD522634266004F84DA /* SplashViewController-Pietrini.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7DC122634266004F84DA /* SplashViewController-Pietrini.swift */; };
+		ADAC7DD622634266004F84DA /* SplashViewController-Proxi.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7DC222634266004F84DA /* SplashViewController-Proxi.swift */; };
+		ADAC7DD722634266004F84DA /* SplashViewController-PNB.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7DC322634266004F84DA /* SplashViewController-PNB.swift */; };
+		ADAC7DD822634266004F84DA /* SplashViewController-LEDG.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7DC422634266004F84DA /* SplashViewController-LEDG.swift */; };
+		ADAC7DD922634266004F84DA /* SplashViewController-Berthelot.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7DC522634266004F84DA /* SplashViewController-Berthelot.swift */; };
+		ADAC7DDA22634266004F84DA /* SplashViewController-Milliet.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7DC622634266004F84DA /* SplashViewController-Milliet.swift */; };
+		ADAC7DDB22634266004F84DA /* SplashViewController-Rouquette.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7DC722634266004F84DA /* SplashViewController-Rouquette.swift */; };
+		ADAC7DDC22634266004F84DA /* SplashViewController-Ouest.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7DC822634266004F84DA /* SplashViewController-Ouest.swift */; };
+		ADAC7DDD22634266004F84DA /* SplashViewController-Bedague.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7DC922634266004F84DA /* SplashViewController-Bedague.swift */; };
+		ADAC7DDE22634266004F84DA /* SplashViewController_Odoo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7DCB22634266004F84DA /* SplashViewController_Odoo.swift */; };
+		ADAC7DDF22634266004F84DA /* SplashViewController_Cambos.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7DCC22634266004F84DA /* SplashViewController_Cambos.swift */; };
+		ADAC7DE022634266004F84DA /* SplashViewController_ABL.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7DCD22634266004F84DA /* SplashViewController_ABL.swift */; };
+		ADAC7DE122634266004F84DA /* SplashViewController_Serca.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7DCE22634266004F84DA /* SplashViewController_Serca.swift */; };
+		ADAC7DE222634266004F84DA /* SplashViewController_Prios.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7DCF22634266004F84DA /* SplashViewController_Prios.swift */; };
+		ADAC7DE322634266004F84DA /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADAC7DD122634266004F84DA /* Splash.storyboard */; };
+		ADAC7DE422634266004F84DA /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7DD222634266004F84DA /* SplashViewController.swift */; };
 		ADC50BC7225C8A5C002FE148 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC50BC6225C8A5C002FE148 /* AppDelegate.swift */; };
 		ADC50BCE225C8A5D002FE148 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADC50BCD225C8A5D002FE148 /* Assets.xcassets */; };
 		ADC50BD1225C8A5D002FE148 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADC50BCF225C8A5D002FE148 /* LaunchScreen.storyboard */; };
@@ -135,24 +135,6 @@
 		ADAC7CDE226265B3004F84DA /* HomeViewController_Serca.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController_Serca.swift; sourceTree = "<group>"; };
 		ADAC7CE0226265B3004F84DA /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		ADAC7CE1226265B3004F84DA /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		ADAC7CE3226265B3004F84DA /* CartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
-		ADAC7CE6226265B3004F84DA /* CartViewController-Pietrini.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CartViewController-Pietrini.swift"; sourceTree = "<group>"; };
-		ADAC7CE7226265B3004F84DA /* CartViewController-Milliet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CartViewController-Milliet.swift"; sourceTree = "<group>"; };
-		ADAC7CE8226265B3004F84DA /* CartViewController-LEDG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CartViewController-LEDG.swift"; sourceTree = "<group>"; };
-		ADAC7CE9226265B3004F84DA /* CartViewController-Bedague.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CartViewController-Bedague.swift"; sourceTree = "<group>"; };
-		ADAC7CEA226265B3004F84DA /* CartViewController-Ouest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CartViewController-Ouest.swift"; sourceTree = "<group>"; };
-		ADAC7CEB226265B3004F84DA /* CartViewController-Rouquette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CartViewController-Rouquette.swift"; sourceTree = "<group>"; };
-		ADAC7CEC226265B3004F84DA /* CartViewController-Berthelot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CartViewController-Berthelot.swift"; sourceTree = "<group>"; };
-		ADAC7CED226265B3004F84DA /* CartViewController-Forez.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CartViewController-Forez.swift"; sourceTree = "<group>"; };
-		ADAC7CEE226265B3004F84DA /* CartViewController-PNB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CartViewController-PNB.swift"; sourceTree = "<group>"; };
-		ADAC7CEF226265B3004F84DA /* CartViewController-Bistrocash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CartViewController-Bistrocash.swift"; sourceTree = "<group>"; };
-		ADAC7CF0226265B3004F84DA /* CartViewController-Proxi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CartViewController-Proxi.swift"; sourceTree = "<group>"; };
-		ADAC7CF2226265B3004F84DA /* CartViewController_Serca.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartViewController_Serca.swift; sourceTree = "<group>"; };
-		ADAC7CF3226265B3004F84DA /* CartViewController_Cambos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartViewController_Cambos.swift; sourceTree = "<group>"; };
-		ADAC7CF4226265B3004F84DA /* CartViewController_Prios.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartViewController_Prios.swift; sourceTree = "<group>"; };
-		ADAC7CF5226265B3004F84DA /* CartViewController_Odoo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartViewController_Odoo.swift; sourceTree = "<group>"; };
-		ADAC7CF6226265B3004F84DA /* CartViewController_ABL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartViewController_ABL.swift; sourceTree = "<group>"; };
-		ADAC7CF8226265B3004F84DA /* Cart.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Cart.storyboard; sourceTree = "<group>"; };
 		ADAC7CFD226265B3004F84DA /* HomeController-Bedague.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HomeController-Bedague.swift"; sourceTree = "<group>"; };
 		ADAC7CFE226265B3004F84DA /* HomeController-Milliet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HomeController-Milliet.swift"; sourceTree = "<group>"; };
 		ADAC7CFF226265B3004F84DA /* HomeController-Ouest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HomeController-Ouest.swift"; sourceTree = "<group>"; };
@@ -170,23 +152,6 @@
 		ADAC7D0C226265B3004F84DA /* HomeController_Cambos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController_Cambos.swift; sourceTree = "<group>"; };
 		ADAC7D0D226265B3004F84DA /* HomeController_ABL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController_ABL.swift; sourceTree = "<group>"; };
 		ADAC7D0E226265B3004F84DA /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
-		ADAC7D12226265B3004F84DA /* CartController-Milliet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CartController-Milliet.swift"; sourceTree = "<group>"; };
-		ADAC7D13226265B3004F84DA /* CartController-Proxi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CartController-Proxi.swift"; sourceTree = "<group>"; };
-		ADAC7D14226265B3004F84DA /* CartController-Forez.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CartController-Forez.swift"; sourceTree = "<group>"; };
-		ADAC7D15226265B3004F84DA /* CartController-Bedague.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CartController-Bedague.swift"; sourceTree = "<group>"; };
-		ADAC7D16226265B3004F84DA /* CartController-Bistrocash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CartController-Bistrocash.swift"; sourceTree = "<group>"; };
-		ADAC7D17226265B3004F84DA /* CartController-Ouest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CartController-Ouest.swift"; sourceTree = "<group>"; };
-		ADAC7D18226265B3004F84DA /* CartController-Rouquette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CartController-Rouquette.swift"; sourceTree = "<group>"; };
-		ADAC7D19226265B3004F84DA /* CartController-Berthelot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CartController-Berthelot.swift"; sourceTree = "<group>"; };
-		ADAC7D1A226265B3004F84DA /* CartController-PNB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CartController-PNB.swift"; sourceTree = "<group>"; };
-		ADAC7D1B226265B3004F84DA /* CartController-LEDG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CartController-LEDG.swift"; sourceTree = "<group>"; };
-		ADAC7D1C226265B3004F84DA /* CartController-Pietrini.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CartController-Pietrini.swift"; sourceTree = "<group>"; };
-		ADAC7D1E226265B3004F84DA /* CartController_Odoo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartController_Odoo.swift; sourceTree = "<group>"; };
-		ADAC7D1F226265B3004F84DA /* CartController_Cambos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartController_Cambos.swift; sourceTree = "<group>"; };
-		ADAC7D20226265B3004F84DA /* CartController_Prios.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartController_Prios.swift; sourceTree = "<group>"; };
-		ADAC7D21226265B3004F84DA /* CartController_ABL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartController_ABL.swift; sourceTree = "<group>"; };
-		ADAC7D22226265B3004F84DA /* CartController_Serca.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartController_Serca.swift; sourceTree = "<group>"; };
-		ADAC7D23226265B3004F84DA /* CartController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartController.swift; sourceTree = "<group>"; };
 		ADAC7D28226265B3004F84DA /* CartModel-Ouest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CartModel-Ouest.swift"; sourceTree = "<group>"; };
 		ADAC7D29226265B3004F84DA /* CartModel-PNB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CartModel-PNB.swift"; sourceTree = "<group>"; };
 		ADAC7D2A226265B3004F84DA /* CartModel-Milliet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CartModel-Milliet.swift"; sourceTree = "<group>"; };
@@ -204,6 +169,41 @@
 		ADAC7D37226265B3004F84DA /* CartModel_Cambos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartModel_Cambos.swift; sourceTree = "<group>"; };
 		ADAC7D38226265B3004F84DA /* CartModel_Serca.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartModel_Serca.swift; sourceTree = "<group>"; };
 		ADAC7D39226265B3004F84DA /* CartModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartModel.swift; sourceTree = "<group>"; };
+		ADAC7D9922634254004F84DA /* SplashController-Milliet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SplashController-Milliet.swift"; sourceTree = "<group>"; };
+		ADAC7D9A22634254004F84DA /* SplashController-Proxi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SplashController-Proxi.swift"; sourceTree = "<group>"; };
+		ADAC7D9B22634254004F84DA /* SplashController-Berthelot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SplashController-Berthelot.swift"; sourceTree = "<group>"; };
+		ADAC7D9C22634254004F84DA /* SplashController-Rouquette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SplashController-Rouquette.swift"; sourceTree = "<group>"; };
+		ADAC7D9D22634254004F84DA /* SplashController-Bedague.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SplashController-Bedague.swift"; sourceTree = "<group>"; };
+		ADAC7D9E22634254004F84DA /* SplashController-Bistrocash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SplashController-Bistrocash.swift"; sourceTree = "<group>"; };
+		ADAC7D9F22634254004F84DA /* SplashController-Pietrini.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SplashController-Pietrini.swift"; sourceTree = "<group>"; };
+		ADAC7DA022634254004F84DA /* SplashController-Forez.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SplashController-Forez.swift"; sourceTree = "<group>"; };
+		ADAC7DA122634254004F84DA /* SplashController-Ouest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SplashController-Ouest.swift"; sourceTree = "<group>"; };
+		ADAC7DA222634254004F84DA /* SplashController-LEDG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SplashController-LEDG.swift"; sourceTree = "<group>"; };
+		ADAC7DA322634254004F84DA /* SplashController-PNB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SplashController-PNB.swift"; sourceTree = "<group>"; };
+		ADAC7DA522634254004F84DA /* SplashController_Cambos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashController_Cambos.swift; sourceTree = "<group>"; };
+		ADAC7DA622634254004F84DA /* SplashController_Odoo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashController_Odoo.swift; sourceTree = "<group>"; };
+		ADAC7DA722634254004F84DA /* SplashController_Prios.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashController_Prios.swift; sourceTree = "<group>"; };
+		ADAC7DA822634254004F84DA /* SplashController_Serca.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashController_Serca.swift; sourceTree = "<group>"; };
+		ADAC7DA922634254004F84DA /* SplashController_ABL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashController_ABL.swift; sourceTree = "<group>"; };
+		ADAC7DAA22634254004F84DA /* SplashController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashController.swift; sourceTree = "<group>"; };
+		ADAC7DBF22634266004F84DA /* SplashViewController-Forez.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SplashViewController-Forez.swift"; sourceTree = "<group>"; };
+		ADAC7DC022634266004F84DA /* SplashViewController-Bistrocash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SplashViewController-Bistrocash.swift"; sourceTree = "<group>"; };
+		ADAC7DC122634266004F84DA /* SplashViewController-Pietrini.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SplashViewController-Pietrini.swift"; sourceTree = "<group>"; };
+		ADAC7DC222634266004F84DA /* SplashViewController-Proxi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SplashViewController-Proxi.swift"; sourceTree = "<group>"; };
+		ADAC7DC322634266004F84DA /* SplashViewController-PNB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SplashViewController-PNB.swift"; sourceTree = "<group>"; };
+		ADAC7DC422634266004F84DA /* SplashViewController-LEDG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SplashViewController-LEDG.swift"; sourceTree = "<group>"; };
+		ADAC7DC522634266004F84DA /* SplashViewController-Berthelot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SplashViewController-Berthelot.swift"; sourceTree = "<group>"; };
+		ADAC7DC622634266004F84DA /* SplashViewController-Milliet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SplashViewController-Milliet.swift"; sourceTree = "<group>"; };
+		ADAC7DC722634266004F84DA /* SplashViewController-Rouquette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SplashViewController-Rouquette.swift"; sourceTree = "<group>"; };
+		ADAC7DC822634266004F84DA /* SplashViewController-Ouest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SplashViewController-Ouest.swift"; sourceTree = "<group>"; };
+		ADAC7DC922634266004F84DA /* SplashViewController-Bedague.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SplashViewController-Bedague.swift"; sourceTree = "<group>"; };
+		ADAC7DCB22634266004F84DA /* SplashViewController_Odoo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController_Odoo.swift; sourceTree = "<group>"; };
+		ADAC7DCC22634266004F84DA /* SplashViewController_Cambos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController_Cambos.swift; sourceTree = "<group>"; };
+		ADAC7DCD22634266004F84DA /* SplashViewController_ABL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController_ABL.swift; sourceTree = "<group>"; };
+		ADAC7DCE22634266004F84DA /* SplashViewController_Serca.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController_Serca.swift; sourceTree = "<group>"; };
+		ADAC7DCF22634266004F84DA /* SplashViewController_Prios.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController_Prios.swift; sourceTree = "<group>"; };
+		ADAC7DD122634266004F84DA /* Splash.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Splash.storyboard; sourceTree = "<group>"; };
+		ADAC7DD222634266004F84DA /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		ADC50BC3225C8A5C002FE148 /* TargetTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TargetTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADC50BC6225C8A5C002FE148 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADC50BCD225C8A5D002FE148 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -228,8 +228,8 @@
 		ADAC7CC9226265B3004F84DA /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				ADAC7DBC22634266004F84DA /* Splash */,
 				ADAC7CCA226265B3004F84DA /* Home */,
-				ADAC7CE2226265B3004F84DA /* Cart */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -292,68 +292,11 @@
 			path = Storyboards;
 			sourceTree = "<group>";
 		};
-		ADAC7CE2226265B3004F84DA /* Cart */ = {
-			isa = PBXGroup;
-			children = (
-				ADAC7CE3226265B3004F84DA /* CartViewController.swift */,
-				ADAC7CE4226265B3004F84DA /* Overrides */,
-				ADAC7CF7226265B3004F84DA /* Storyboards */,
-			);
-			path = Cart;
-			sourceTree = "<group>";
-		};
-		ADAC7CE4226265B3004F84DA /* Overrides */ = {
-			isa = PBXGroup;
-			children = (
-				ADAC7CE5226265B3004F84DA /* App */,
-				ADAC7CF1226265B3004F84DA /* ERP */,
-			);
-			path = Overrides;
-			sourceTree = "<group>";
-		};
-		ADAC7CE5226265B3004F84DA /* App */ = {
-			isa = PBXGroup;
-			children = (
-				ADAC7CE6226265B3004F84DA /* CartViewController-Pietrini.swift */,
-				ADAC7CE7226265B3004F84DA /* CartViewController-Milliet.swift */,
-				ADAC7CE8226265B3004F84DA /* CartViewController-LEDG.swift */,
-				ADAC7CE9226265B3004F84DA /* CartViewController-Bedague.swift */,
-				ADAC7CEA226265B3004F84DA /* CartViewController-Ouest.swift */,
-				ADAC7CEB226265B3004F84DA /* CartViewController-Rouquette.swift */,
-				ADAC7CEC226265B3004F84DA /* CartViewController-Berthelot.swift */,
-				ADAC7CED226265B3004F84DA /* CartViewController-Forez.swift */,
-				ADAC7CEE226265B3004F84DA /* CartViewController-PNB.swift */,
-				ADAC7CEF226265B3004F84DA /* CartViewController-Bistrocash.swift */,
-				ADAC7CF0226265B3004F84DA /* CartViewController-Proxi.swift */,
-			);
-			path = App;
-			sourceTree = "<group>";
-		};
-		ADAC7CF1226265B3004F84DA /* ERP */ = {
-			isa = PBXGroup;
-			children = (
-				ADAC7CF2226265B3004F84DA /* CartViewController_Serca.swift */,
-				ADAC7CF3226265B3004F84DA /* CartViewController_Cambos.swift */,
-				ADAC7CF4226265B3004F84DA /* CartViewController_Prios.swift */,
-				ADAC7CF5226265B3004F84DA /* CartViewController_Odoo.swift */,
-				ADAC7CF6226265B3004F84DA /* CartViewController_ABL.swift */,
-			);
-			path = ERP;
-			sourceTree = "<group>";
-		};
-		ADAC7CF7226265B3004F84DA /* Storyboards */ = {
-			isa = PBXGroup;
-			children = (
-				ADAC7CF8226265B3004F84DA /* Cart.storyboard */,
-			);
-			path = Storyboards;
-			sourceTree = "<group>";
-		};
 		ADAC7CF9226265B3004F84DA /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				ADAC7D9622634254004F84DA /* Splash */,
 				ADAC7CFA226265B3004F84DA /* Home */,
-				ADAC7D0F226265B3004F84DA /* Cart */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -361,8 +304,8 @@
 		ADAC7CFA226265B3004F84DA /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				ADAC7CFB226265B3004F84DA /* Overrides */,
 				ADAC7D0E226265B3004F84DA /* HomeController.swift */,
+				ADAC7CFB226265B3004F84DA /* Overrides */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -406,54 +349,6 @@
 			path = ERP;
 			sourceTree = "<group>";
 		};
-		ADAC7D0F226265B3004F84DA /* Cart */ = {
-			isa = PBXGroup;
-			children = (
-				ADAC7D10226265B3004F84DA /* Overrides */,
-				ADAC7D23226265B3004F84DA /* CartController.swift */,
-			);
-			path = Cart;
-			sourceTree = "<group>";
-		};
-		ADAC7D10226265B3004F84DA /* Overrides */ = {
-			isa = PBXGroup;
-			children = (
-				ADAC7D11226265B3004F84DA /* App */,
-				ADAC7D1D226265B3004F84DA /* ERP */,
-			);
-			path = Overrides;
-			sourceTree = "<group>";
-		};
-		ADAC7D11226265B3004F84DA /* App */ = {
-			isa = PBXGroup;
-			children = (
-				ADAC7D12226265B3004F84DA /* CartController-Milliet.swift */,
-				ADAC7D13226265B3004F84DA /* CartController-Proxi.swift */,
-				ADAC7D14226265B3004F84DA /* CartController-Forez.swift */,
-				ADAC7D15226265B3004F84DA /* CartController-Bedague.swift */,
-				ADAC7D16226265B3004F84DA /* CartController-Bistrocash.swift */,
-				ADAC7D17226265B3004F84DA /* CartController-Ouest.swift */,
-				ADAC7D18226265B3004F84DA /* CartController-Rouquette.swift */,
-				ADAC7D19226265B3004F84DA /* CartController-Berthelot.swift */,
-				ADAC7D1A226265B3004F84DA /* CartController-PNB.swift */,
-				ADAC7D1B226265B3004F84DA /* CartController-LEDG.swift */,
-				ADAC7D1C226265B3004F84DA /* CartController-Pietrini.swift */,
-			);
-			path = App;
-			sourceTree = "<group>";
-		};
-		ADAC7D1D226265B3004F84DA /* ERP */ = {
-			isa = PBXGroup;
-			children = (
-				ADAC7D1E226265B3004F84DA /* CartController_Odoo.swift */,
-				ADAC7D1F226265B3004F84DA /* CartController_Cambos.swift */,
-				ADAC7D20226265B3004F84DA /* CartController_Prios.swift */,
-				ADAC7D21226265B3004F84DA /* CartController_ABL.swift */,
-				ADAC7D22226265B3004F84DA /* CartController_Serca.swift */,
-			);
-			path = ERP;
-			sourceTree = "<group>";
-		};
 		ADAC7D24226265B3004F84DA /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -465,8 +360,8 @@
 		ADAC7D25226265B3004F84DA /* Cart */ = {
 			isa = PBXGroup;
 			children = (
-				ADAC7D26226265B3004F84DA /* Overrides */,
 				ADAC7D39226265B3004F84DA /* CartModel.swift */,
+				ADAC7D26226265B3004F84DA /* Overrides */,
 			);
 			path = Cart;
 			sourceTree = "<group>";
@@ -510,6 +405,111 @@
 			path = ERP;
 			sourceTree = "<group>";
 		};
+		ADAC7D9622634254004F84DA /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				ADAC7D9722634254004F84DA /* Overrides */,
+				ADAC7DAA22634254004F84DA /* SplashController.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		ADAC7D9722634254004F84DA /* Overrides */ = {
+			isa = PBXGroup;
+			children = (
+				ADAC7D9822634254004F84DA /* App */,
+				ADAC7DA422634254004F84DA /* ERP */,
+			);
+			path = Overrides;
+			sourceTree = "<group>";
+		};
+		ADAC7D9822634254004F84DA /* App */ = {
+			isa = PBXGroup;
+			children = (
+				ADAC7D9922634254004F84DA /* SplashController-Milliet.swift */,
+				ADAC7D9A22634254004F84DA /* SplashController-Proxi.swift */,
+				ADAC7D9B22634254004F84DA /* SplashController-Berthelot.swift */,
+				ADAC7D9C22634254004F84DA /* SplashController-Rouquette.swift */,
+				ADAC7D9D22634254004F84DA /* SplashController-Bedague.swift */,
+				ADAC7D9E22634254004F84DA /* SplashController-Bistrocash.swift */,
+				ADAC7D9F22634254004F84DA /* SplashController-Pietrini.swift */,
+				ADAC7DA022634254004F84DA /* SplashController-Forez.swift */,
+				ADAC7DA122634254004F84DA /* SplashController-Ouest.swift */,
+				ADAC7DA222634254004F84DA /* SplashController-LEDG.swift */,
+				ADAC7DA322634254004F84DA /* SplashController-PNB.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		ADAC7DA422634254004F84DA /* ERP */ = {
+			isa = PBXGroup;
+			children = (
+				ADAC7DA522634254004F84DA /* SplashController_Cambos.swift */,
+				ADAC7DA622634254004F84DA /* SplashController_Odoo.swift */,
+				ADAC7DA722634254004F84DA /* SplashController_Prios.swift */,
+				ADAC7DA822634254004F84DA /* SplashController_Serca.swift */,
+				ADAC7DA922634254004F84DA /* SplashController_ABL.swift */,
+			);
+			path = ERP;
+			sourceTree = "<group>";
+		};
+		ADAC7DBC22634266004F84DA /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				ADAC7DBD22634266004F84DA /* Overrides */,
+				ADAC7DD022634266004F84DA /* Storyboards */,
+				ADAC7DD222634266004F84DA /* SplashViewController.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		ADAC7DBD22634266004F84DA /* Overrides */ = {
+			isa = PBXGroup;
+			children = (
+				ADAC7DBE22634266004F84DA /* App */,
+				ADAC7DCA22634266004F84DA /* ERP */,
+			);
+			path = Overrides;
+			sourceTree = "<group>";
+		};
+		ADAC7DBE22634266004F84DA /* App */ = {
+			isa = PBXGroup;
+			children = (
+				ADAC7DBF22634266004F84DA /* SplashViewController-Forez.swift */,
+				ADAC7DC022634266004F84DA /* SplashViewController-Bistrocash.swift */,
+				ADAC7DC122634266004F84DA /* SplashViewController-Pietrini.swift */,
+				ADAC7DC222634266004F84DA /* SplashViewController-Proxi.swift */,
+				ADAC7DC322634266004F84DA /* SplashViewController-PNB.swift */,
+				ADAC7DC422634266004F84DA /* SplashViewController-LEDG.swift */,
+				ADAC7DC522634266004F84DA /* SplashViewController-Berthelot.swift */,
+				ADAC7DC622634266004F84DA /* SplashViewController-Milliet.swift */,
+				ADAC7DC722634266004F84DA /* SplashViewController-Rouquette.swift */,
+				ADAC7DC822634266004F84DA /* SplashViewController-Ouest.swift */,
+				ADAC7DC922634266004F84DA /* SplashViewController-Bedague.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		ADAC7DCA22634266004F84DA /* ERP */ = {
+			isa = PBXGroup;
+			children = (
+				ADAC7DCB22634266004F84DA /* SplashViewController_Odoo.swift */,
+				ADAC7DCC22634266004F84DA /* SplashViewController_Cambos.swift */,
+				ADAC7DCD22634266004F84DA /* SplashViewController_ABL.swift */,
+				ADAC7DCE22634266004F84DA /* SplashViewController_Serca.swift */,
+				ADAC7DCF22634266004F84DA /* SplashViewController_Prios.swift */,
+			);
+			path = ERP;
+			sourceTree = "<group>";
+		};
+		ADAC7DD022634266004F84DA /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				ADAC7DD122634266004F84DA /* Splash.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		ADC50BBA225C8A5C002FE148 = {
 			isa = PBXGroup;
 			children = (
@@ -532,9 +532,9 @@
 			children = (
 				ADC50BC6225C8A5C002FE148 /* AppDelegate.swift */,
 				ADC50BEA225CAC35002FE148 /* Configuration Manager */,
+				ADAC7CC9226265B3004F84DA /* Views */,
 				ADAC7CF9226265B3004F84DA /* Controllers */,
 				ADAC7D24226265B3004F84DA /* Models */,
-				ADAC7CC9226265B3004F84DA /* Views */,
 				ADC50BCD225C8A5D002FE148 /* Assets.xcassets */,
 				ADC50BCF225C8A5D002FE148 /* LaunchScreen.storyboard */,
 				ADC50BD2225C8A5D002FE148 /* Info.plist */,
@@ -611,10 +611,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADAC7D5E226265B4004F84DA /* Cart.storyboard in Resources */,
 				ADAC7D4B226265B4004F84DA /* Home.storyboard in Resources */,
 				ADC50BD1225C8A5D002FE148 /* LaunchScreen.storyboard in Resources */,
 				ADC50BCE225C8A5D002FE148 /* Assets.xcassets in Resources */,
+				ADAC7DE322634266004F84DA /* Splash.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -646,93 +646,93 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADAC7D6A226265B4004F84DA /* HomeController_Odoo.swift in Sources */,
+				ADAC7DD822634266004F84DA /* SplashViewController-LEDG.swift in Sources */,
 				ADAC7D45226265B4004F84DA /* HomeViewController-Rouquette.swift in Sources */,
-				ADAC7D58226265B4004F84DA /* CartViewController-Proxi.swift in Sources */,
+				ADAC7DB522634255004F84DA /* SplashController-PNB.swift in Sources */,
 				ADAC7D46226265B4004F84DA /* HomeViewController_Cambos.swift in Sources */,
 				ADAC7D8E226265B4004F84DA /* CartModel_ABL.swift in Sources */,
-				ADAC7D7B226265B4004F84DA /* CartController_Odoo.swift in Sources */,
-				ADAC7D50226265B4004F84DA /* CartViewController-LEDG.swift in Sources */,
-				ADAC7D76226265B4004F84DA /* CartController-Rouquette.swift in Sources */,
+				ADAC7DDC22634266004F84DA /* SplashViewController-Ouest.swift in Sources */,
 				ADAC7D5F226265B4004F84DA /* HomeController-Bedague.swift in Sources */,
-				ADAC7D78226265B4004F84DA /* CartController-PNB.swift in Sources */,
 				ADAC7D43226265B4004F84DA /* HomeViewController-PNB.swift in Sources */,
-				ADAC7D7A226265B4004F84DA /* CartController-Pietrini.swift in Sources */,
-				ADAC7D5A226265B4004F84DA /* CartViewController_Cambos.swift in Sources */,
+				ADAC7DB322634255004F84DA /* SplashController-Ouest.swift in Sources */,
+				ADAC7DAE22634255004F84DA /* SplashController-Rouquette.swift in Sources */,
 				ADAC7D68226265B4004F84DA /* HomeController-Proxi.swift in Sources */,
 				ADAC7D41226265B4004F84DA /* HomeViewController-Ouest.swift in Sources */,
 				ADAC7D83226265B4004F84DA /* CartModel-Milliet.swift in Sources */,
+				ADAC7DE122634266004F84DA /* SplashViewController_Serca.swift in Sources */,
 				ADAC7D4A226265B4004F84DA /* HomeViewController_Serca.swift in Sources */,
-				ADAC7D7E226265B4004F84DA /* CartController_ABL.swift in Sources */,
-				ADAC7D57226265B4004F84DA /* CartViewController-Bistrocash.swift in Sources */,
 				ADAC7D40226265B4004F84DA /* HomeViewController-Bedague.swift in Sources */,
 				ADAC7D3C226265B4004F84DA /* HomeViewController-Bistrocash.swift in Sources */,
+				ADAC7DDD22634266004F84DA /* SplashViewController-Bedague.swift in Sources */,
+				ADAC7DB422634255004F84DA /* SplashController-LEDG.swift in Sources */,
 				ADAC7D42226265B4004F84DA /* HomeViewController-Milliet.swift in Sources */,
 				ADAC7D64226265B4004F84DA /* HomeController-Bistrocash.swift in Sources */,
 				ADAC7D44226265B4004F84DA /* HomeViewController-Berthelot.swift in Sources */,
+				ADAC7DDF22634266004F84DA /* SplashViewController_Cambos.swift in Sources */,
+				ADAC7DB722634255004F84DA /* SplashController_Odoo.swift in Sources */,
 				ADAC7D49226265B4004F84DA /* HomeViewController_Odoo.swift in Sources */,
-				ADAC7D71226265B4004F84DA /* CartController-Proxi.swift in Sources */,
-				ADAC7D73226265B4004F84DA /* CartController-Bedague.swift in Sources */,
 				ADAC7D3F226265B4004F84DA /* HomeViewController-LEDG.swift in Sources */,
 				ADAC7D6D226265B4004F84DA /* HomeController_Cambos.swift in Sources */,
 				ADAC7D88226265B4004F84DA /* CartModel-Bistrocash.swift in Sources */,
 				ADAC7D3E226265B4004F84DA /* HomeController-Proxy.swift in Sources */,
 				ADAC7D6C226265B4004F84DA /* HomeController_Prios.swift in Sources */,
+				ADAC7DBA22634255004F84DA /* SplashController_ABL.swift in Sources */,
 				ADC50BEC225CAC64002FE148 /* ConfigurationManager.swift in Sources */,
+				ADAC7DAD22634255004F84DA /* SplashController-Berthelot.swift in Sources */,
+				ADAC7DAB22634255004F84DA /* SplashController-Milliet.swift in Sources */,
 				ADAC7D67226265B4004F84DA /* HomeController-Forez.swift in Sources */,
 				ADAC7D62226265B4004F84DA /* HomeController-Rouquette.swift in Sources */,
+				ADAC7DD722634266004F84DA /* SplashViewController-PNB.swift in Sources */,
 				ADAC7D8A226265B4004F84DA /* CartModel-Forez.swift in Sources */,
 				ADAC7D3D226265B4004F84DA /* HomeViewController-Forez.swift in Sources */,
 				ADAC7D91226265B4004F84DA /* CartModel.swift in Sources */,
+				ADAC7DDA22634266004F84DA /* SplashViewController-Milliet.swift in Sources */,
 				ADAC7D63226265B4004F84DA /* HomeController-Berthelot.swift in Sources */,
+				ADAC7DAF22634255004F84DA /* SplashController-Bedague.swift in Sources */,
+				ADAC7DD622634266004F84DA /* SplashViewController-Proxi.swift in Sources */,
 				ADC50BC7225C8A5C002FE148 /* AppDelegate.swift in Sources */,
-				ADAC7D77226265B4004F84DA /* CartController-Berthelot.swift in Sources */,
+				ADAC7DE022634266004F84DA /* SplashViewController_ABL.swift in Sources */,
+				ADAC7DE222634266004F84DA /* SplashViewController_Prios.swift in Sources */,
 				ADAC7D66226265B4004F84DA /* HomeController-LEDG.swift in Sources */,
 				ADAC7D82226265B4004F84DA /* CartModel-PNB.swift in Sources */,
 				ADAC7D6B226265B4004F84DA /* HomeController_Serca.swift in Sources */,
-				ADAC7D54226265B4004F84DA /* CartViewController-Berthelot.swift in Sources */,
 				ADAC7D60226265B4004F84DA /* HomeController-Milliet.swift in Sources */,
-				ADAC7D80226265B4004F84DA /* CartController.swift in Sources */,
 				ADAC7D87226265B4004F84DA /* CartModel-Pietrini.swift in Sources */,
+				ADAC7DD522634266004F84DA /* SplashViewController-Pietrini.swift in Sources */,
+				ADAC7DB922634255004F84DA /* SplashController_Serca.swift in Sources */,
 				ADAC7D4C226265B4004F84DA /* HomeViewController.swift in Sources */,
 				ADAC7D61226265B4004F84DA /* HomeController-Ouest.swift in Sources */,
-				ADAC7D4E226265B4004F84DA /* CartViewController-Pietrini.swift in Sources */,
+				ADAC7DAC22634255004F84DA /* SplashController-Proxi.swift in Sources */,
 				ADAC7D85226265B4004F84DA /* CartModel-Proxi.swift in Sources */,
-				ADAC7D70226265B4004F84DA /* CartController-Milliet.swift in Sources */,
-				ADAC7D5B226265B4004F84DA /* CartViewController_Prios.swift in Sources */,
+				ADAC7DD322634266004F84DA /* SplashViewController-Forez.swift in Sources */,
+				ADAC7DD922634266004F84DA /* SplashViewController-Berthelot.swift in Sources */,
 				ADAC7D6E226265B4004F84DA /* HomeController_ABL.swift in Sources */,
-				ADAC7D79226265B4004F84DA /* CartController-LEDG.swift in Sources */,
 				ADAC7D8C226265B4004F84DA /* CartModel_Prios.swift in Sources */,
-				ADAC7D51226265B4004F84DA /* CartViewController-Bedague.swift in Sources */,
-				ADAC7D7D226265B4004F84DA /* CartController_Prios.swift in Sources */,
 				ADAC7D65226265B4004F84DA /* HomeController-Pietrini.swift in Sources */,
-				ADAC7D5D226265B4004F84DA /* CartViewController_ABL.swift in Sources */,
 				ADAC7D8F226265B4004F84DA /* CartModel_Cambos.swift in Sources */,
-				ADAC7D52226265B4004F84DA /* CartViewController-Ouest.swift in Sources */,
 				ADAC7D8B226265B4004F84DA /* CartModel-Berthelot.swift in Sources */,
 				ADAC7D89226265B4004F84DA /* CartModel-Rouquette.swift in Sources */,
-				ADAC7D75226265B4004F84DA /* CartController-Ouest.swift in Sources */,
+				ADAC7DDE22634266004F84DA /* SplashViewController_Odoo.swift in Sources */,
+				ADAC7DBB22634255004F84DA /* SplashController.swift in Sources */,
 				ADAC7D84226265B4004F84DA /* CartModel-LEDG.swift in Sources */,
-				ADAC7D72226265B4004F84DA /* CartController-Forez.swift in Sources */,
 				ADAC7D90226265B4004F84DA /* CartModel_Serca.swift in Sources */,
-				ADAC7D5C226265B4004F84DA /* CartViewController_Odoo.swift in Sources */,
+				ADAC7DB822634255004F84DA /* SplashController_Prios.swift in Sources */,
 				ADAC7D8D226265B4004F84DA /* CartModel_Odoo.swift in Sources */,
 				ADAC7D86226265B4004F84DA /* CartModel-Bedague.swift in Sources */,
 				ADAC7D81226265B4004F84DA /* CartModel-Ouest.swift in Sources */,
-				ADAC7D53226265B4004F84DA /* CartViewController-Rouquette.swift in Sources */,
-				ADAC7D55226265B4004F84DA /* CartViewController-Forez.swift in Sources */,
-				ADAC7D4D226265B4004F84DA /* CartViewController.swift in Sources */,
-				ADAC7D7F226265B4004F84DA /* CartController_Serca.swift in Sources */,
-				ADAC7D4F226265B4004F84DA /* CartViewController-Milliet.swift in Sources */,
+				ADAC7DDB22634266004F84DA /* SplashViewController-Rouquette.swift in Sources */,
+				ADAC7DB222634255004F84DA /* SplashController-Forez.swift in Sources */,
 				ADAC7D47226265B4004F84DA /* HomeViewController_Prios.swift in Sources */,
 				ADAC7D3A226265B4004F84DA /* HomeViewController-Proxi.swift in Sources */,
 				ADAC7D48226265B4004F84DA /* HomeViewController_ABL.swift in Sources */,
 				ADAC7D3B226265B4004F84DA /* HomeViewController-Pietrini.swift in Sources */,
 				ADAC7D6F226265B4004F84DA /* HomeController.swift in Sources */,
+				ADAC7DB022634255004F84DA /* SplashController-Bistrocash.swift in Sources */,
+				ADAC7DB622634255004F84DA /* SplashController_Cambos.swift in Sources */,
 				ADAC7D69226265B4004F84DA /* HomeController-PNB.swift in Sources */,
-				ADAC7D7C226265B4004F84DA /* CartController_Cambos.swift in Sources */,
-				ADAC7D59226265B4004F84DA /* CartViewController_Serca.swift in Sources */,
-				ADAC7D56226265B4004F84DA /* CartViewController-PNB.swift in Sources */,
-				ADAC7D74226265B4004F84DA /* CartController-Bistrocash.swift in Sources */,
+				ADAC7DD422634266004F84DA /* SplashViewController-Bistrocash.swift in Sources */,
+				ADAC7DB122634255004F84DA /* SplashController-Pietrini.swift in Sources */,
+				ADAC7DE422634266004F84DA /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

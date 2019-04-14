@@ -8,11 +8,12 @@ class HomeViewController : UIViewController {
     @IBOutlet weak var appNameLabel: UILabel!
     @IBOutlet weak var cartLabel: UILabel!
     
-    let controller = HomeController.instantiate()
+    var controller : HomeController!
     
     static func instantiate(controller : HomeController) -> HomeViewController {
         let storyboard = controller.getStoryboard()
         let viewController = storyboard.instantiateViewController(withIdentifier: "\(HomeViewController.self)") as! HomeViewController
+        viewController.controller = controller
         return viewController
     }
     
@@ -21,8 +22,4 @@ class HomeViewController : UIViewController {
         self.cartLabel.text = CartModel.instantiate().getArticles()
     }
 
-    @IBAction func onButton(_ sender: Any) {
-        
-        
-    }
 }
