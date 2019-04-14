@@ -5,6 +5,7 @@ import UIKit
 
 class HomeViewController : UIViewController {
 
+    @IBOutlet weak var backgroundImage: UIImageView!
     @IBOutlet weak var appNameLabel: UILabel!
     @IBOutlet weak var cartLabel: UILabel!
     

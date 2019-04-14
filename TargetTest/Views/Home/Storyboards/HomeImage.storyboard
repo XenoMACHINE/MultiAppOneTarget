@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" alpha="0.10000000000000001" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="line-background" translatesAutoresizingMaskIntoConstraints="NO" id="YP7-Lw-BI9">
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000000000001" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YP7-Lw-BI9">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="717"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yQZ-64-5gC">
@@ -49,6 +49,7 @@
                     </view>
                     <connections>
                         <outlet property="appNameLabel" destination="yQZ-64-5gC" id="z3f-Eh-m1E"/>
+                        <outlet property="backgroundImage" destination="YP7-Lw-BI9" id="8Dr-gM-8wh"/>
                         <outlet property="cartLabel" destination="FxG-UK-JRT" id="aeZ-u5-mhq"/>
                     </connections>
                 </viewController>
@@ -57,7 +58,4 @@
             <point key="canvasLocation" x="-428" y="-290.10494752623691"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="line-background" width="700" height="600"/>
-    </resources>
 </document>

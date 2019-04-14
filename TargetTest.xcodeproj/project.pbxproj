@@ -11,7 +11,6 @@
 		ADAC7D3B226265B4004F84DA /* HomeViewController-Pietrini.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7CCE226265B3004F84DA /* HomeViewController-Pietrini.swift */; };
 		ADAC7D3C226265B4004F84DA /* HomeViewController-Bistrocash.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7CCF226265B3004F84DA /* HomeViewController-Bistrocash.swift */; };
 		ADAC7D3D226265B4004F84DA /* HomeViewController-Forez.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7CD0226265B3004F84DA /* HomeViewController-Forez.swift */; };
-		ADAC7D3E226265B4004F84DA /* HomeController-Proxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7CD1226265B3004F84DA /* HomeController-Proxy.swift */; };
 		ADAC7D3F226265B4004F84DA /* HomeViewController-LEDG.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7CD2226265B3004F84DA /* HomeViewController-LEDG.swift */; };
 		ADAC7D40226265B4004F84DA /* HomeViewController-Bedague.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7CD3226265B3004F84DA /* HomeViewController-Bedague.swift */; };
 		ADAC7D41226265B4004F84DA /* HomeViewController-Ouest.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7CD4226265B3004F84DA /* HomeViewController-Ouest.swift */; };
@@ -121,7 +120,6 @@
 		ADAC7CCE226265B3004F84DA /* HomeViewController-Pietrini.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HomeViewController-Pietrini.swift"; sourceTree = "<group>"; };
 		ADAC7CCF226265B3004F84DA /* HomeViewController-Bistrocash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HomeViewController-Bistrocash.swift"; sourceTree = "<group>"; };
 		ADAC7CD0226265B3004F84DA /* HomeViewController-Forez.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HomeViewController-Forez.swift"; sourceTree = "<group>"; };
-		ADAC7CD1226265B3004F84DA /* HomeController-Proxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HomeController-Proxy.swift"; sourceTree = "<group>"; };
 		ADAC7CD2226265B3004F84DA /* HomeViewController-LEDG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HomeViewController-LEDG.swift"; sourceTree = "<group>"; };
 		ADAC7CD3226265B3004F84DA /* HomeViewController-Bedague.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HomeViewController-Bedague.swift"; sourceTree = "<group>"; };
 		ADAC7CD4226265B3004F84DA /* HomeViewController-Ouest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HomeViewController-Ouest.swift"; sourceTree = "<group>"; };
@@ -262,7 +260,6 @@
 				ADAC7CCE226265B3004F84DA /* HomeViewController-Pietrini.swift */,
 				ADAC7CCF226265B3004F84DA /* HomeViewController-Bistrocash.swift */,
 				ADAC7CD0226265B3004F84DA /* HomeViewController-Forez.swift */,
-				ADAC7CD1226265B3004F84DA /* HomeController-Proxy.swift */,
 				ADAC7CD2226265B3004F84DA /* HomeViewController-LEDG.swift */,
 				ADAC7CD3226265B3004F84DA /* HomeViewController-Bedague.swift */,
 				ADAC7CD4226265B3004F84DA /* HomeViewController-Ouest.swift */,
@@ -678,7 +675,6 @@
 				ADAC7D3F226265B4004F84DA /* HomeViewController-LEDG.swift in Sources */,
 				ADAC7D6D226265B4004F84DA /* HomeController_Cambos.swift in Sources */,
 				ADAC7D88226265B4004F84DA /* CartModel-Bistrocash.swift in Sources */,
-				ADAC7D3E226265B4004F84DA /* HomeController-Proxy.swift in Sources */,
 				ADAC7D6C226265B4004F84DA /* HomeController_Prios.swift in Sources */,
 				ADAC7DBA22634255004F84DA /* SplashController_ABL.swift in Sources */,
 				ADC50BEC225CAC64002FE148 /* ConfigurationManager.swift in Sources */,

@@ -4,4 +4,9 @@ import UIKit
 
 class HomeViewController_Bedague : HomeViewController_ABL {
 
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        self.backgroundImage.image = UIImage(named: "line-background")
+    }
 }
