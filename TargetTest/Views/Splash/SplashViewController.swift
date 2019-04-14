@@ -22,6 +22,11 @@ class SplashViewController : UIViewController {
         self.appNameLabel.text = controller.getAppName()
         self.erpLabel.text = controller.getErp()
         self.versionLabel.text = controller.getVersion()
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+            let homeVC = HomeViewController.instantiate(controller: HomeController.instantiate())
+            self.present(homeVC, animated: false)
+        }
     }
 
 }
