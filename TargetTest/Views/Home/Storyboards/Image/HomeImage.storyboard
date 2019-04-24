@@ -18,27 +18,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DEp-uS-jnZ">
-                                <rect key="frame" x="166" y="53" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eLK-T3-w31">
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000000000001" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="eLK-T3-w31">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="717"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DEp-uS-jnZ">
+                                <rect key="frame" x="166.5" y="50" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="eLK-T3-w31" firstAttribute="trailing" secondItem="MwH-M6-Yqe" secondAttribute="trailing" id="5sH-9D-82N"/>
                             <constraint firstItem="eLK-T3-w31" firstAttribute="top" secondItem="u7o-ad-9K3" secondAttribute="top" id="BqQ-j9-1j3"/>
+                            <constraint firstItem="DEp-uS-jnZ" firstAttribute="centerX" secondItem="u7o-ad-9K3" secondAttribute="centerX" id="HKS-71-D0e"/>
                             <constraint firstItem="eLK-T3-w31" firstAttribute="leading" secondItem="MwH-M6-Yqe" secondAttribute="leading" id="b67-Y2-0Aa"/>
                             <constraint firstItem="eLK-T3-w31" firstAttribute="bottom" secondItem="MwH-M6-Yqe" secondAttribute="bottom" constant="50" id="iff-nB-anj"/>
+                            <constraint firstItem="DEp-uS-jnZ" firstAttribute="top" secondItem="MwH-M6-Yqe" secondAttribute="top" constant="30" id="vYd-KL-C9r"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="MwH-M6-Yqe"/>
                     </view>
                     <connections>
+                        <outlet property="backgroundImage" destination="eLK-T3-w31" id="avZ-rn-QkV"/>
                         <outlet property="titleLAbel" destination="DEp-uS-jnZ" id="HPf-yq-rUs"/>
                     </connections>
                 </viewController>
@@ -47,4 +49,7 @@
             <point key="canvasLocation" x="-141.59999999999999" y="-269.41529235382313"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="background" width="1920" height="1080"/>
+    </resources>
 </document>

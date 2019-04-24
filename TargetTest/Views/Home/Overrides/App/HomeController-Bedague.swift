@@ -8,4 +8,9 @@ class HomeController_Bedague : HomeController_ABL {
     override func getStoryboard() -> UIStoryboard {
         return UIStoryboard(name: "HomeImage", bundle: nil)
     }
+    
+    override func initUI(viewController: HomeViewController) {
+        viewController.titleLAbel.text = "Home Bedague"
+        self.initUIImage(viewController: viewController)
+    }
 }

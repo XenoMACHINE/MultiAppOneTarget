@@ -18,6 +18,14 @@ class HomeController : NSObject {
         return HomeController()
     }
     
+    func initUI(viewController : HomeViewController){
+        viewController.titleLAbel.text = "Home"
+    }
+    
+    func initUIImage(viewController : HomeViewController){
+        viewController.backgroundImage.image = UIImage(named: "background")
+    }
+    
     func getStoryboard() -> UIStoryboard {
         return UIStoryboard(name: "Home", bundle: nil)
     }

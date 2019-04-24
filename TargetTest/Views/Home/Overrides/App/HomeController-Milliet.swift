@@ -3,4 +3,7 @@
 
 class HomeController_Milliet : HomeController_Cambos {
     
+    override func initUI(viewController: HomeViewController) {
+        viewController.titleLAbel.text = "Home Milliet"
+    }
 }

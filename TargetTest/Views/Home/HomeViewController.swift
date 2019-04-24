@@ -6,6 +6,7 @@ import UIKit
 class HomeViewController : UIViewController {
 
     @IBOutlet weak var titleLAbel: UILabel!
+    @IBOutlet weak var backgroundImage: UIImageView!
     
     var controller : HomeController!
     
@@ -17,7 +18,7 @@ class HomeViewController : UIViewController {
     }
     
     override func viewDidLoad() {
-        titleLAbel.text = "Home"
+        controller.initUI(viewController: self)
     }
 
 }
