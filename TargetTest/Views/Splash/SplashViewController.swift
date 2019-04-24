@@ -19,9 +19,7 @@ class SplashViewController : UIViewController {
     }
     
     override func viewDidLoad() {
-        self.appNameLabel.text = controller.getAppName()
-        self.erpLabel.text = controller.getErp()
-        self.versionLabel.text = controller.getVersion()
+        controller.initUI(viewController: self)
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
             let homeVC = HomeViewController.instantiate(controller: HomeController.instantiate())

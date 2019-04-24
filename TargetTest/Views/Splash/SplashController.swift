@@ -22,6 +22,12 @@ class SplashController : NSObject {
         return UIStoryboard(name: "Splash", bundle: nil)
     }
     
+    func initUI(viewController : SplashViewController){
+        viewController.appNameLabel.text = self.getAppName()
+        viewController.erpLabel.text = self.getErp()
+        viewController.versionLabel.text = self.getVersion()
+    }
+    
     func getAppName() -> String {
         return "Goot app"
     }

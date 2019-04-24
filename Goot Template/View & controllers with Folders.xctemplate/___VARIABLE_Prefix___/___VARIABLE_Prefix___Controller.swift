@@ -22,4 +22,8 @@ class ___FILEBASENAMEASIDENTIFIER___ : NSObject {
         return UIStoryboard(name: "___VARIABLE_Prefix___", bundle: nil)
     }
     
+    func initUI(viewController : ___VARIABLE_Prefix___ViewController){
+        
+    }
+    
 }

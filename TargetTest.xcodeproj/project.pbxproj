@@ -270,8 +270,8 @@
 		ADAC7E3E22635805004F84DA /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				ADAC7E5222635805004F84DA /* HomeController.swift */,
 				ADAC7E5422635805004F84DA /* HomeViewController.swift */,
+				ADAC7E5222635805004F84DA /* HomeController.swift */,
 				ADAC7E6822635ABC004F84DA /* Storyboards */,
 				ADAC7E3F22635805004F84DA /* Overrides */,
 			);
