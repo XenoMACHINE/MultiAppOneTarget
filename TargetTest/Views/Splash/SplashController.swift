@@ -3,31 +3,13 @@
 
 import UIKit
 
-class SplashController : NSObject {
+class SplashController : Controller {
     
-    required override init() { }
-
-    static func instantiate() -> SplashController{
-        
-        
-        /**
-         HomeControllerCambosBeverageMilliet
-         /Overrides
-            /ABL
-                /HomeControllerABL.swift
-                    /Beverage
-                        /HomeControllerBeverage.swift
-                            /Bedague
-                                /HomeControllerBedague.swift
-         **/
-        
-        
-        let appName = ConfigurationManager.getAppConf().rawValue
-        let controllerStr = "\(String(describing: self))_\(appName)"
-        if let controller = controllerStr.getClass() as? SplashController.Type {
+    static func instantiate() -> SplashController {
+        for conf in ConfigurationManager.getAppConfs() {
+            guard let controller = "\(String(describing: self))\(conf)".getClass() as? SplashController.Type else { continue }
             return controller.init()
         }
-        
         return SplashController()
     }
     

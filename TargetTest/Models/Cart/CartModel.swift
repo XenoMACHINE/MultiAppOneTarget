@@ -9,7 +9,7 @@ class CartModel : NSObject {
 
     static func instantiate() -> CartModel{
         
-        let appName = ConfigurationManager.getAppConf().rawValue
+        let appName = ConfigurationManager.getAppName().rawValue
         let controllerStr = "\(String(describing: self))_\(appName)"
         if let controller = controllerStr.getClass() as? CartModel.Type {
             return controller.init()

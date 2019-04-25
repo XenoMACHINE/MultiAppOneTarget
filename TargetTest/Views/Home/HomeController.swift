@@ -3,20 +3,15 @@
 
 import UIKit
 
-class HomeController : NSObject {
+class HomeController : Controller {
     
     var products = ["Coca cola", "Orangina", "Chouffe FUT 5L"]
     
-    required override init() { }
-
-    static func instantiate() -> HomeController{
-   
-        let appName = ConfigurationManager.getAppConf().rawValue
-        let controllerStr = "\(String(describing: self))_\(appName)"
-        if let controller = controllerStr.getClass() as? HomeController.Type {
+    static func instantiate() -> HomeController {
+        for conf in ConfigurationManager.getAppConfs() {
+            guard let controller = "\(String(describing: self))\(conf)".getClass() as? HomeController.Type else { continue }
             return controller.init()
         }
-        
         return HomeController()
     }
     

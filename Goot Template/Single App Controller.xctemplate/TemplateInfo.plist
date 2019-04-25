@@ -21,36 +21,6 @@
 	<key>Options</key>
 	<array>
 		<dict>
-			<key>Description</key>
-			<string>Client&apos;s name</string>
-			<key>Identifier</key>
-			<string>Customer</string>
-			<key>Name</key>
-			<string>Client&apos;s name</string>
-			<key>Required</key>
-			<string>YES</string>
-			<key>Type</key>
-			<string>text</string>
-			<key>NotPersisted</key>
-			<true/>
-		</dict>
-		<dict>
-			<key>Default</key>
-			<string>_</string>
-			<key>Description</key>
-			<string>Name of client&apos;s ERP</string>
-			<key>Identifier</key>
-			<string>ERP</string>
-			<key>Name</key>
-			<string>ERP Name (_ERP) :</string>
-			<key>Required</key>
-			<string>YES</string>
-			<key>Type</key>
-			<string>text</string>
-			<key>NotPersisted</key>
-			<true/>
-		</dict>
-		<dict>
 			<key>Identifier</key>
 			<string>productName</string>
 			<key>Required</key>
@@ -73,6 +43,36 @@
 			<string>Prefix of files (page name recommended) : </string>
 			<key>Required</key>
 			<string>YES</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Postfix</string>
+			<key>Identifier</key>
+			<string>Postfix</string>
+			<key>Name</key>
+			<string>Postfix</string>
+			<key>Required</key>
+			<string>YES</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string></string>
+			<key>Description</key>
+			<string>Inheritance</string>
+			<key>Identifier</key>
+			<string>Inheritance</string>
+			<key>Name</key>
+			<string>Inheritance</string>
+			<key>Required</key>
+			<string>NO</string>
 			<key>Type</key>
 			<string>text</string>
 			<key>NotPersisted</key>
