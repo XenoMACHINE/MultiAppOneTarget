@@ -5,10 +5,12 @@ import UIKit
 
 class HomeController : NSObject {
     
+    var products = ["Coca cola", "Orangina", "Chouffe FUT 5L"]
+    
     required override init() { }
 
     static func instantiate() -> HomeController{
-        
+   
         let appName = ConfigurationManager.getAppConf().rawValue
         let controllerStr = "\(String(describing: self))_\(appName)"
         if let controller = controllerStr.getClass() as? HomeController.Type {

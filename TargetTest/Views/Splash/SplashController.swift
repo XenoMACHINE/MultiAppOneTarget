@@ -9,6 +9,19 @@ class SplashController : NSObject {
 
     static func instantiate() -> SplashController{
         
+        
+        /**
+         HomeControllerCambosBeverageMilliet
+         /Overrides
+            /ABL
+                /HomeControllerABL.swift
+                    /Beverage
+                        /HomeControllerBeverage.swift
+                            /Bedague
+                                /HomeControllerBedague.swift
+         **/
+        
+        
         let appName = ConfigurationManager.getAppConf().rawValue
         let controllerStr = "\(String(describing: self))_\(appName)"
         if let controller = controllerStr.getClass() as? SplashController.Type {

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD178B742271B11F00CB6429 /* SharedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD178B732271B11F00CB6429 /* SharedObject.swift */; };
 		ADAC7E00226350F8004F84DA /* SplashController-Milliet.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7DEC226350F8004F84DA /* SplashController-Milliet.swift */; };
 		ADAC7E01226350F8004F84DA /* SplashController-Proxi.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7DED226350F8004F84DA /* SplashController-Proxi.swift */; };
 		ADAC7E02226350F8004F84DA /* SplashController-Berthelot.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7DEE226350F8004F84DA /* SplashController-Berthelot.swift */; };
@@ -84,6 +85,7 @@
 /* End PBXBuildRule section */
 
 /* Begin PBXFileReference section */
+		AD178B732271B11F00CB6429 /* SharedObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedObject.swift; sourceTree = "<group>"; };
 		ADAC7DEC226350F8004F84DA /* SplashController-Milliet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SplashController-Milliet.swift"; sourceTree = "<group>"; };
 		ADAC7DED226350F8004F84DA /* SplashController-Proxi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SplashController-Proxi.swift"; sourceTree = "<group>"; };
 		ADAC7DEE226350F8004F84DA /* SplashController-Berthelot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SplashController-Berthelot.swift"; sourceTree = "<group>"; };
@@ -378,6 +380,7 @@
 			isa = PBXGroup;
 			children = (
 				ADC50BEB225CAC64002FE148 /* ConfigurationManager.swift */,
+				AD178B732271B11F00CB6429 /* SharedObject.swift */,
 			);
 			path = "Configuration Manager";
 			sourceTree = "<group>";
@@ -509,6 +512,7 @@
 				ADAC7E3B22635514004F84DA /* CartModel.swift in Sources */,
 				ADAC7E6222635806004F84DA /* HomeController_Prios.swift in Sources */,
 				ADAC7E2B22635514004F84DA /* CartModel-Ouest.swift in Sources */,
+				AD178B742271B11F00CB6429 /* SharedObject.swift in Sources */,
 				ADAC7E5D22635806004F84DA /* HomeController-Forez.swift in Sources */,
 				ADAC7E5822635806004F84DA /* HomeController-Rouquette.swift in Sources */,
 				ADAC7E2D22635514004F84DA /* CartModel-Milliet.swift in Sources */,

@@ -11,13 +11,15 @@ import Foundation
 class ConfigurationManager {
     
     static func getAppConf() -> ApplicationName {
-        guard let CFBundleName = Bundle.main.infoDictionary!["CFBundleName"] as? String, let appName = ApplicationName(rawValue: CFBundleName) else { return .milliet }
+        guard let CFBundleName = Bundle.main.infoDictionary!["CFBundleName"] as? String, let appName = ApplicationName(rawValue: CFBundleName)
+            else { return .goot }
         
         return appName
     }
 }
 
 enum ApplicationName : String {
+    case goot       = "Goot"
     case bedague    = "Bedague"
 //    case berthelot  = "Berthelot"
     case bistrocash = "Bistrocash"
