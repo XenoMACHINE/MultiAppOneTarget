@@ -4,10 +4,6 @@
 import  UIKit
 
 class HomeControllerBedague : HomeControllerABL {
-
-    override func getStoryboard() -> UIStoryboard {
-        return UIStoryboard(name: "HomeImage", bundle: nil)
-    }
     
     override func initUI(viewController: HomeViewController) {
         viewController.titleLAbel.text = "Home Bedague"
