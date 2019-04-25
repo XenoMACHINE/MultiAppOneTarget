@@ -42,7 +42,6 @@
 		ADAC7E6522635806004F84DA /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7E5222635805004F84DA /* HomeController.swift */; };
 		ADAC7E6622635806004F84DA /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADAC7E5322635805004F84DA /* Home.storyboard */; };
 		ADAC7E6722635806004F84DA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7E5422635805004F84DA /* HomeViewController.swift */; };
-		ADAC7E6C22635AE2004F84DA /* HomeImage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADAC7E6B22635AE2004F84DA /* HomeImage.storyboard */; };
 		ADC50BC7225C8A5C002FE148 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC50BC6225C8A5C002FE148 /* AppDelegate.swift */; };
 		ADC50BCE225C8A5D002FE148 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADC50BCD225C8A5D002FE148 /* Assets.xcassets */; };
 		ADC50BD1225C8A5D002FE148 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADC50BCF225C8A5D002FE148 /* LaunchScreen.storyboard */; };
@@ -102,7 +101,6 @@
 		ADAC7E5222635805004F84DA /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		ADAC7E5322635805004F84DA /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		ADAC7E5422635805004F84DA /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		ADAC7E6B22635AE2004F84DA /* HomeImage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeImage.storyboard; sourceTree = "<group>"; };
 		ADC50BC3225C8A5C002FE148 /* TargetTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TargetTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADC50BC6225C8A5C002FE148 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADC50BCD225C8A5D002FE148 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -207,7 +205,7 @@
 			children = (
 				ADAC7E5422635805004F84DA /* HomeViewController.swift */,
 				ADAC7E5222635805004F84DA /* HomeController.swift */,
-				ADAC7E6822635ABC004F84DA /* Storyboards */,
+				ADAC7E5322635805004F84DA /* Home.storyboard */,
 				ADAC7E3F22635805004F84DA /* Overrides */,
 			);
 			path = Home;
@@ -219,31 +217,6 @@
 				ADE5D1D4227208F00019062A /* Beverage */,
 			);
 			path = Overrides;
-			sourceTree = "<group>";
-		};
-		ADAC7E6822635ABC004F84DA /* Storyboards */ = {
-			isa = PBXGroup;
-			children = (
-				ADAC7E6A22635AD8004F84DA /* Image */,
-				ADAC7E6922635AC9004F84DA /* Classic */,
-			);
-			path = Storyboards;
-			sourceTree = "<group>";
-		};
-		ADAC7E6922635AC9004F84DA /* Classic */ = {
-			isa = PBXGroup;
-			children = (
-				ADAC7E5322635805004F84DA /* Home.storyboard */,
-			);
-			path = Classic;
-			sourceTree = "<group>";
-		};
-		ADAC7E6A22635AD8004F84DA /* Image */ = {
-			isa = PBXGroup;
-			children = (
-				ADAC7E6B22635AE2004F84DA /* HomeImage.storyboard */,
-			);
-			path = Image;
 			sourceTree = "<group>";
 		};
 		ADC50BBA225C8A5C002FE148 = {
@@ -479,7 +452,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADAC7E6C22635AE2004F84DA /* HomeImage.storyboard in Resources */,
 				ADC50BD1225C8A5D002FE148 /* LaunchScreen.storyboard in Resources */,
 				ADC50BCE225C8A5D002FE148 /* Assets.xcassets in Resources */,
 				ADAC7E11226350F8004F84DA /* Splash.storyboard in Resources */,

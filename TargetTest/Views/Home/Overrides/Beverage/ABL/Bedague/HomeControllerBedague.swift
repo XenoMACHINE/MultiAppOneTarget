@@ -11,6 +11,5 @@ class HomeControllerBedague : HomeControllerABL {
     
     override func initUI(viewController: HomeViewController) {
         viewController.titleLAbel.text = "Home Bedague"
-        self.initUIImage(viewController: viewController)
     }
 }
