@@ -49,6 +49,11 @@
 		ADE5D1C82271EA5B0019062A /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE5D1C72271EA5B0019062A /* Controller.swift */; };
 		ADE5D1D32271F1D30019062A /* SplashControllerBeverage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE5D1D22271F1D30019062A /* SplashControllerBeverage.swift */; };
 		ADE5D1D822720C6E0019062A /* HomeControllerBeverage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE5D1D722720C6E0019062A /* HomeControllerBeverage.swift */; };
+		ADE5D1E3227214820019062A /* HomePromotions.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADE5D1E2227214820019062A /* HomePromotions.xib */; };
+		ADE5D1E5227214B40019062A /* HomePromotions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE5D1E4227214B40019062A /* HomePromotions.swift */; };
+		ADE5D1E8227217260019062A /* XibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE5D1E7227217260019062A /* XibView.swift */; };
+		ADE5D1FD227257610019062A /* HomeButtons.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADE5D1FB227257610019062A /* HomeButtons.xib */; };
+		ADE5D1FE227257610019062A /* HomeButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE5D1FC227257610019062A /* HomeButtons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -112,6 +117,11 @@
 		ADE5D1C72271EA5B0019062A /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
 		ADE5D1D22271F1D30019062A /* SplashControllerBeverage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashControllerBeverage.swift; sourceTree = "<group>"; };
 		ADE5D1D722720C6E0019062A /* HomeControllerBeverage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeControllerBeverage.swift; sourceTree = "<group>"; };
+		ADE5D1E2227214820019062A /* HomePromotions.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomePromotions.xib; sourceTree = "<group>"; };
+		ADE5D1E4227214B40019062A /* HomePromotions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePromotions.swift; sourceTree = "<group>"; };
+		ADE5D1E7227217260019062A /* XibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibView.swift; sourceTree = "<group>"; };
+		ADE5D1FB227257610019062A /* HomeButtons.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeButtons.xib; sourceTree = "<group>"; };
+		ADE5D1FC227257610019062A /* HomeButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeButtons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +216,7 @@
 				ADAC7E5422635805004F84DA /* HomeViewController.swift */,
 				ADAC7E5222635805004F84DA /* HomeController.swift */,
 				ADAC7E5322635805004F84DA /* Home.storyboard */,
+				ADE5D1DE22720ECF0019062A /* Xibs */,
 				ADAC7E3F22635805004F84DA /* Overrides */,
 			);
 			path = Home;
@@ -241,6 +252,7 @@
 			children = (
 				ADC50BC6225C8A5C002FE148 /* AppDelegate.swift */,
 				ADC50BEA225CAC35002FE148 /* Configuration Manager */,
+				ADE5D1E6227216E20019062A /* Global SuperClasses */,
 				ADC63391225E26470035F725 /* Views */,
 				ADAC7E13226354CB004F84DA /* Models */,
 				ADC50BCD225C8A5D002FE148 /* Assets.xcassets */,
@@ -255,7 +267,6 @@
 			isa = PBXGroup;
 			children = (
 				ADC50BEB225CAC64002FE148 /* ConfigurationManager.swift */,
-				ADE5D1C72271EA5B0019062A /* Controller.swift */,
 			);
 			path = "Configuration Manager";
 			sourceTree = "<group>";
@@ -393,6 +404,42 @@
 			path = Milliet;
 			sourceTree = "<group>";
 		};
+		ADE5D1DE22720ECF0019062A /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				ADE5D1FF227257670019062A /* HomeButtons */,
+				ADE5D1E1227214730019062A /* Promotions */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		ADE5D1E1227214730019062A /* Promotions */ = {
+			isa = PBXGroup;
+			children = (
+				ADE5D1E2227214820019062A /* HomePromotions.xib */,
+				ADE5D1E4227214B40019062A /* HomePromotions.swift */,
+			);
+			path = Promotions;
+			sourceTree = "<group>";
+		};
+		ADE5D1E6227216E20019062A /* Global SuperClasses */ = {
+			isa = PBXGroup;
+			children = (
+				ADE5D1C72271EA5B0019062A /* Controller.swift */,
+				ADE5D1E7227217260019062A /* XibView.swift */,
+			);
+			path = "Global SuperClasses";
+			sourceTree = "<group>";
+		};
+		ADE5D1FF227257670019062A /* HomeButtons */ = {
+			isa = PBXGroup;
+			children = (
+				ADE5D1FB227257610019062A /* HomeButtons.xib */,
+				ADE5D1FC227257610019062A /* HomeButtons.swift */,
+			);
+			path = HomeButtons;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -454,7 +501,9 @@
 			files = (
 				ADC50BD1225C8A5D002FE148 /* LaunchScreen.storyboard in Resources */,
 				ADC50BCE225C8A5D002FE148 /* Assets.xcassets in Resources */,
+				ADE5D1E3227214820019062A /* HomePromotions.xib in Resources */,
 				ADAC7E11226350F8004F84DA /* Splash.storyboard in Resources */,
+				ADE5D1FD227257610019062A /* HomeButtons.xib in Resources */,
 				ADAC7E6622635806004F84DA /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -483,6 +532,7 @@
 				ADAC7E2B22635514004F84DA /* CartModel-Ouest.swift in Sources */,
 				ADAC7E2D22635514004F84DA /* CartModel-Milliet.swift in Sources */,
 				ADAC7E2E22635514004F84DA /* CartModel-LEDG.swift in Sources */,
+				ADE5D1E5227214B40019062A /* HomePromotions.swift in Sources */,
 				ADAC7E3722635514004F84DA /* CartModel_Odoo.swift in Sources */,
 				ADAC7E5622635806004F84DA /* HomeControllerMilliet.swift in Sources */,
 				ADAC7E04226350F8004F84DA /* SplashControllerBedague.swift in Sources */,
@@ -500,9 +550,11 @@
 				ADAC7E3922635514004F84DA /* CartModel_Cambos.swift in Sources */,
 				ADE5D1D32271F1D30019062A /* SplashControllerBeverage.swift in Sources */,
 				ADE5D1C82271EA5B0019062A /* Controller.swift in Sources */,
+				ADE5D1FE227257610019062A /* HomeButtons.swift in Sources */,
 				ADAC7E6522635806004F84DA /* HomeController.swift in Sources */,
 				ADAC7E0B226350F8004F84DA /* SplashControllerCambos.swift in Sources */,
 				ADE5D1D822720C6E0019062A /* HomeControllerBeverage.swift in Sources */,
+				ADE5D1E8227217260019062A /* XibView.swift in Sources */,
 				ADAC7E0C226350F8004F84DA /* SplashControllerOdoo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

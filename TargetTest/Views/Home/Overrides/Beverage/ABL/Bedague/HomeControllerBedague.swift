@@ -6,6 +6,8 @@ import  UIKit
 class HomeControllerBedague : HomeControllerABL {
     
     override func initUI(viewController: HomeViewController) {
-        viewController.titleLAbel.text = "Home Bedague"
+        //viewController.titleLAbel.text = "Home Bedague"
+        let homePromotions = HomePromotions(frame: viewController.view.frame)
+        viewController.view.addSubview(homePromotions)
     }
 }

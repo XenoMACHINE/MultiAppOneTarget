@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeButtons" customModule="TargetTest" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="270"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="qdf-hc-HVY">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="270"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OjX-U1-Ybr">
+                            <rect key="frame" x="0.0" y="0.0" width="187.5" height="270"/>
+                            <color key="backgroundColor" red="0.61960784310000006" green="0.94117647059999998" blue="0.61176470589999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <state key="normal" title="Button 1"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wds-2T-cjL">
+                            <rect key="frame" x="187.5" y="0.0" width="187.5" height="270"/>
+                            <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                            <state key="normal" title="Button 2"/>
+                        </button>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="qdf-hc-HVY" secondAttribute="trailing" id="4s8-04-KhN"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="qdf-hc-HVY" secondAttribute="bottom" id="Obb-2Z-75r"/>
+                <constraint firstItem="qdf-hc-HVY" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="P0Q-TL-Uzz"/>
+                <constraint firstItem="qdf-hc-HVY" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="P4b-HW-Rps"/>
+                <constraint firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="QRx-Hw-8VI"/>
+                <constraint firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="qvq-hE-ajW"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="-74" y="40"/>
+        </view>
+    </objects>
+</document>

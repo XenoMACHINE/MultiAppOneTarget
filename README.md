@@ -15,18 +15,15 @@ Targets-> Build settings :
 - Active Compilation Conditions : (Automatiquement = nom de la conf)
 
 
-A chaque nouveau client/ERP: 
+~ A chaque nouveau client/ERP : 
 
-Créer une configuration, un scheme qui execute cette conf puis changer les ST_Version / Build / BundleId
-Build le projet -> execute script de création de fichiers manquant dans /App et /ERP
+    Créer une configuration dans appByIndustry
+    Créer un scheme qui execute cette conf puis changer les ST_Version / Build / BundleId
+    Mettre à jour les dictionnaire "appByERP" et "appByIndustry" de la class ConfigurationManager
 
-Les fichiers maintenant crées, nous devons les ajouter au projet xCode :
-Supprimer dossier /Views du projet (Remove references)
-Drag and drop depuis finder le dossier Views dans XCode -> Copy if needed -> Create Groups
+~ Fini !
 
-Ajouter les fichiers du nouveau client/ERP dans les templates Views et Cells
 
-Fini !
 
 
 Template

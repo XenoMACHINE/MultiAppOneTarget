@@ -4,17 +4,13 @@
 import UIKit
 
 class HomeController : Controller {
-        
+    
     static func instantiate() -> HomeController {
         for conf in ConfigurationManager.getAppConfs() {
             guard let controller = "\(String(describing: self))\(conf)".getClass() as? HomeController.Type else { continue }
             return controller.init()
         }
         return HomeController()
-    }
-    
-    func getStoryboard() -> UIStoryboard {
-        return UIStoryboard(name: "Home", bundle: nil)
     }
     
     func initUI(viewController : HomeViewController){

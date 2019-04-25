@@ -5,13 +5,13 @@ import UIKit
 
 class HomeViewController : UIViewController {
 
-    //Home.storyboard
     @IBOutlet weak var titleLAbel: UILabel!
     
     var controller : HomeController!
     
+    //TODO Test avec Xib + virer getStroyboard du template
     static func instantiate(controller : HomeController) -> HomeViewController {
-        let storyboard = controller.getStoryboard()
+        let storyboard = UIStoryboard(name: "Home", bundle: nil)
         let viewController = storyboard.instantiateViewController(withIdentifier: "\(HomeViewController.self)") as! HomeViewController
         viewController.controller = controller
         return viewController
