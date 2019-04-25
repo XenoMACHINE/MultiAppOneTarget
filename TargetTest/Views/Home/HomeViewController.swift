@@ -5,7 +5,10 @@ import UIKit
 
 class HomeViewController : UIViewController {
 
+    //Home.storyboard
     @IBOutlet weak var titleLAbel: UILabel!
+    
+    //HomeImage.storyboard
     @IBOutlet weak var backgroundImage: UIImageView!
     
     var controller : HomeController!

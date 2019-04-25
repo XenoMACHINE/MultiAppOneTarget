@@ -13,5 +13,9 @@ class ___FILEBASENAMEASIDENTIFIER___ : UIViewController {
         viewController.controller = controller
         return viewController
     }
+    
+    override func viewDidLoad() {
+        controller.initUI(viewController: self)
+    }
 
 }
