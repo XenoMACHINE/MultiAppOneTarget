@@ -14,7 +14,8 @@ class HomeController : Controller {
     }
     
     func initUI(viewController : HomeViewController){
-        viewController.titleLAbel.text = "Home"
+        let view = HomePromotions(frame: viewController.view.frame)
+        viewController.view.addSubview(view)
     }
     
 }

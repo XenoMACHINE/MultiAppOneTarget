@@ -40,8 +40,6 @@
 		ADAC7E6222635806004F84DA /* HomeControllerCambos.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7E4F22635805004F84DA /* HomeControllerCambos.swift */; };
 		ADAC7E6422635806004F84DA /* HomeControllerABL.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7E5122635805004F84DA /* HomeControllerABL.swift */; };
 		ADAC7E6522635806004F84DA /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7E5222635805004F84DA /* HomeController.swift */; };
-		ADAC7E6622635806004F84DA /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADAC7E5322635805004F84DA /* Home.storyboard */; };
-		ADAC7E6722635806004F84DA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7E5422635805004F84DA /* HomeViewController.swift */; };
 		ADC50BC7225C8A5C002FE148 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC50BC6225C8A5C002FE148 /* AppDelegate.swift */; };
 		ADC50BCE225C8A5D002FE148 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADC50BCD225C8A5D002FE148 /* Assets.xcassets */; };
 		ADC50BD1225C8A5D002FE148 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADC50BCF225C8A5D002FE148 /* LaunchScreen.storyboard */; };
@@ -54,6 +52,8 @@
 		ADE5D1E8227217260019062A /* XibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE5D1E7227217260019062A /* XibView.swift */; };
 		ADE5D1FD227257610019062A /* HomeButtons.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADE5D1FB227257610019062A /* HomeButtons.xib */; };
 		ADE5D1FE227257610019062A /* HomeButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE5D1FC227257610019062A /* HomeButtons.swift */; };
+		ADE5D2082272F22D0019062A /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADE5D2062272F22D0019062A /* Home.storyboard */; };
+		ADE5D2092272F22D0019062A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE5D2072272F22D0019062A /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -104,8 +104,6 @@
 		ADAC7E4F22635805004F84DA /* HomeControllerCambos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeControllerCambos.swift; sourceTree = "<group>"; };
 		ADAC7E5122635805004F84DA /* HomeControllerABL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeControllerABL.swift; sourceTree = "<group>"; };
 		ADAC7E5222635805004F84DA /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
-		ADAC7E5322635805004F84DA /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
-		ADAC7E5422635805004F84DA /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		ADC50BC3225C8A5C002FE148 /* TargetTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TargetTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADC50BC6225C8A5C002FE148 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADC50BCD225C8A5D002FE148 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -122,6 +120,8 @@
 		ADE5D1E7227217260019062A /* XibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibView.swift; sourceTree = "<group>"; };
 		ADE5D1FB227257610019062A /* HomeButtons.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeButtons.xib; sourceTree = "<group>"; };
 		ADE5D1FC227257610019062A /* HomeButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeButtons.swift; sourceTree = "<group>"; };
+		ADE5D2062272F22D0019062A /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		ADE5D2072272F22D0019062A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,9 +213,9 @@
 		ADAC7E3E22635805004F84DA /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				ADAC7E5422635805004F84DA /* HomeViewController.swift */,
+				ADE5D2062272F22D0019062A /* Home.storyboard */,
+				ADE5D2072272F22D0019062A /* HomeViewController.swift */,
 				ADAC7E5222635805004F84DA /* HomeController.swift */,
-				ADAC7E5322635805004F84DA /* Home.storyboard */,
 				ADE5D1DE22720ECF0019062A /* Xibs */,
 				ADAC7E3F22635805004F84DA /* Overrides */,
 			);
@@ -502,9 +502,9 @@
 				ADC50BD1225C8A5D002FE148 /* LaunchScreen.storyboard in Resources */,
 				ADC50BCE225C8A5D002FE148 /* Assets.xcassets in Resources */,
 				ADE5D1E3227214820019062A /* HomePromotions.xib in Resources */,
+				ADE5D2082272F22D0019062A /* Home.storyboard in Resources */,
 				ADAC7E11226350F8004F84DA /* Splash.storyboard in Resources */,
 				ADE5D1FD227257610019062A /* HomeButtons.xib in Resources */,
-				ADAC7E6622635806004F84DA /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -541,7 +541,6 @@
 				ADAC7E6422635806004F84DA /* HomeControllerABL.swift in Sources */,
 				ADAC7E0E226350F8004F84DA /* SplashControllerSerca.swift in Sources */,
 				ADAC7E2F22635514004F84DA /* CartModel-Proxi.swift in Sources */,
-				ADAC7E6722635806004F84DA /* HomeViewController.swift in Sources */,
 				ADAC7E3622635514004F84DA /* CartModel_Prios.swift in Sources */,
 				ADAC7E05226350F8004F84DA /* SplashControllerBistrocash.swift in Sources */,
 				ADAC7E3A22635514004F84DA /* CartModel_Serca.swift in Sources */,
@@ -552,6 +551,7 @@
 				ADE5D1C82271EA5B0019062A /* Controller.swift in Sources */,
 				ADE5D1FE227257610019062A /* HomeButtons.swift in Sources */,
 				ADAC7E6522635806004F84DA /* HomeController.swift in Sources */,
+				ADE5D2092272F22D0019062A /* HomeViewController.swift in Sources */,
 				ADAC7E0B226350F8004F84DA /* SplashControllerCambos.swift in Sources */,
 				ADE5D1D822720C6E0019062A /* HomeControllerBeverage.swift in Sources */,
 				ADE5D1E8227217260019062A /* XibView.swift in Sources */,

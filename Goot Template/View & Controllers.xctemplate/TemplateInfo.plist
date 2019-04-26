@@ -22,27 +22,13 @@
 	<array>
 		<dict>
 			<key>Identifier</key>
-			<string>productName</string>
+			<string>PageName</string>
 			<key>Required</key>
 			<true/>
 			<key>Name</key>
 			<string>Page name:</string>
 			<key>Description</key>
 			<string>The name of the page to create</string>
-			<key>Type</key>
-			<string>text</string>
-			<key>NotPersisted</key>
-			<true/>
-		</dict>
-		<dict>
-			<key>Description</key>
-			<string>Prefix of files</string>
-			<key>Identifier</key>
-			<string>Prefix</string>
-			<key>Name</key>
-			<string>Prefix of files (page name recommended) : </string>
-			<key>Required</key>
-			<string>YES</string>
 			<key>Type</key>
 			<string>text</string>
 			<key>NotPersisted</key>
