@@ -419,8 +419,8 @@
 		ADE5D1DE22720ECF0019062A /* Xibs */ = {
 			isa = PBXGroup;
 			children = (
-				ADE5D2212272F6420019062A /* Bedague */,
 				ADE5D2202272F6390019062A /* Common */,
+				ADE5D2212272F6420019062A /* Bedague */,
 			);
 			path = Xibs;
 			sourceTree = "<group>";

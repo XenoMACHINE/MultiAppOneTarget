@@ -8,10 +8,19 @@
 
 import UIKit
 
+protocol HomeButtonsDelegate {
+    func onButton1()
+}
+
 class HomeButtons : XibView {
+    
+    var delegate : HomeButtonsDelegate?
    
     override func getNibName() -> String {
         return "\(HomeButtons.self)"
     }
     
+    @IBAction func onButton1(_ sender: Any) {
+        delegate?.onButton1()
+    }
 }

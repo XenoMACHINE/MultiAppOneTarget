@@ -25,6 +25,9 @@
                             <state key="normal" title="Button 1">
                                 <color key="titleColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                             </state>
+                            <connections>
+                                <action selector="onButton1:" destination="-1" eventType="touchUpInside" id="2rt-mb-VHW"/>
+                            </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wds-2T-cjL">
                             <rect key="frame" x="187.5" y="0.0" width="187.5" height="640"/>

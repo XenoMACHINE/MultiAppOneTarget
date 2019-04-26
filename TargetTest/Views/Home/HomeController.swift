@@ -5,6 +5,8 @@ import UIKit
 
 class HomeController : Controller {
     
+    var contentView : HomeCommon?
+    
     static func instantiate() -> HomeController {
         for conf in ConfigurationManager.getAppConfs() {
             guard let controller = "\(String(describing: self))\(conf)".getClass() as? HomeController.Type else { continue }
@@ -14,8 +16,12 @@ class HomeController : Controller {
     }
     
     func initUI(viewController : HomeViewController){
-        let view = HomeCommon(frame: viewController.view.frame)
-        viewController.view.addSubview(view)
+        contentView = HomeCommon(frame: viewController.view.frame)
+        viewController.view.addSubview(contentView!)
+    }
+    
+    func setup(){
+        
     }
     
 }
