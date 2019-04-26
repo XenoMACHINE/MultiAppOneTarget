@@ -18,40 +18,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OZc-1u-cR1">
-                                <rect key="frame" x="155.5" y="318.5" width="64" height="30"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XGl-2b-Bfl">
-                                <rect key="frame" x="20" y="629" width="37" height="18"/>
-                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="15"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XL7-UM-APs">
-                                <rect key="frame" x="324.5" y="632.5" width="30.5" height="14.5"/>
-                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="12"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q0L-QY-IBv">
+                                <rect key="frame" x="149.5" y="315.5" width="76.5" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="XGl-2b-Bfl" firstAttribute="leading" secondItem="QeL-Rk-e6A" secondAttribute="leading" constant="20" id="Qei-BR-9oQ"/>
-                            <constraint firstItem="QeL-Rk-e6A" firstAttribute="trailing" secondItem="XL7-UM-APs" secondAttribute="trailing" constant="20" id="cHw-BW-a93"/>
-                            <constraint firstItem="QeL-Rk-e6A" firstAttribute="bottom" secondItem="XL7-UM-APs" secondAttribute="bottom" constant="20" id="mFr-PY-T6o"/>
-                            <constraint firstItem="QeL-Rk-e6A" firstAttribute="bottom" secondItem="XGl-2b-Bfl" secondAttribute="bottom" constant="20" id="nc8-QA-KYk"/>
-                            <constraint firstItem="OZc-1u-cR1" firstAttribute="centerY" secondItem="Bcr-wI-gwU" secondAttribute="centerY" id="s07-et-KHB"/>
-                            <constraint firstItem="OZc-1u-cR1" firstAttribute="centerX" secondItem="Bcr-wI-gwU" secondAttribute="centerX" id="tgp-iE-bC2"/>
+                            <constraint firstItem="q0L-QY-IBv" firstAttribute="centerX" secondItem="Bcr-wI-gwU" secondAttribute="centerX" id="Kwq-d7-i36"/>
+                            <constraint firstItem="q0L-QY-IBv" firstAttribute="centerY" secondItem="Bcr-wI-gwU" secondAttribute="centerY" id="bwu-NI-zV5"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="QeL-Rk-e6A"/>
                     </view>
                     <connections>
-                        <outlet property="appNameLabel" destination="OZc-1u-cR1" id="56E-dd-Qfm"/>
-                        <outlet property="erpLabel" destination="XGl-2b-Bfl" id="Kx2-SW-YzL"/>
-                        <outlet property="versionLabel" destination="XL7-UM-APs" id="Tjl-Qe-mdY"/>
+                        <outlet property="appNameLabel" destination="q0L-QY-IBv" id="cjA-bQ-des"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h19-4D-nsg" userLabel="First Responder" sceneMemberID="firstResponder"/>

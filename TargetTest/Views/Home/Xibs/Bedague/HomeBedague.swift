@@ -10,7 +10,6 @@ import UIKit
 
 class HomeBedague : XibView {
    
-    @IBOutlet weak var homeButtons: HomeButtons!
     @IBOutlet weak var homePromotions: HomePromotions!
     
     override func getNibName() -> String {
@@ -18,13 +17,7 @@ class HomeBedague : XibView {
     }
     
     override func didMoveToWindow() {
-        homeButtons.delegate = self
+        
     }
     
-}
-
-extension HomeBedague : HomeButtonsDelegate {
-    func onButton1() {
-        homePromotions.promoList.text = (homePromotions.promoList.text ?? "") + "\nPromo 4"
-    }
 }

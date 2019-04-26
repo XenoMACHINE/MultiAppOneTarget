@@ -12,7 +12,6 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeBedague" customModule="TargetTest" customModuleProvider="target">
             <connections>
-                <outlet property="homeButtons" destination="mRR-R8-0CU" id="mEy-0z-mVp"/>
                 <outlet property="homePromotions" destination="fyO-xU-2Dn" id="oBv-X0-ySU"/>
             </connections>
         </placeholder>
@@ -22,7 +21,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fyO-xU-2Dn" customClass="HomePromotions" customModule="TargetTest" customModuleProvider="target">
-                    <rect key="frame" x="0.0" y="66" width="375" height="551"/>
+                    <rect key="frame" x="0.0" y="66" width="375" height="601"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </view>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home Bedague" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1fr-mJ-fyq">
@@ -35,27 +34,17 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mRR-R8-0CU" customClass="HomeButtons" customModule="TargetTest" customModuleProvider="target">
-                    <rect key="frame" x="0.0" y="617" width="375" height="50"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="50" id="bSc-u2-jl6"/>
-                    </constraints>
-                </view>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="mRR-R8-0CU" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="0jt-im-kYi"/>
-                <constraint firstItem="mRR-R8-0CU" firstAttribute="top" secondItem="fyO-xU-2Dn" secondAttribute="bottom" id="2AR-x0-sNg"/>
                 <constraint firstItem="1fr-mJ-fyq" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="8" id="Adj-5X-ahE"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="fyO-xU-2Dn" secondAttribute="bottom" id="IZw-IM-Ub6"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="1fr-mJ-fyq" secondAttribute="trailing" id="MgO-9P-H6a"/>
                 <constraint firstItem="fyO-xU-2Dn" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="Pr8-Tz-VTY"/>
                 <constraint firstItem="fyO-xU-2Dn" firstAttribute="top" secondItem="1fr-mJ-fyq" secondAttribute="bottom" constant="8" id="Q3D-t8-kTn"/>
                 <constraint firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="QRx-Hw-8VI"/>
-                <constraint firstItem="mRR-R8-0CU" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="XIA-pl-6mF"/>
                 <constraint firstItem="1fr-mJ-fyq" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="kvf-da-j0h"/>
                 <constraint firstItem="fyO-xU-2Dn" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="lnM-MY-goM"/>
-                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="mRR-R8-0CU" secondAttribute="bottom" id="pou-Ga-43f"/>
                 <constraint firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="qvq-hE-ajW"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>

@@ -13,28 +13,14 @@ class SplashController : Controller {
         return SplashController()
     }
     
-    func getStoryboard() -> UIStoryboard {
-        return UIStoryboard(name: "Splash", bundle: nil)
-    }
-    
     func initUI(viewController : SplashViewController){
-        viewController.appNameLabel.text = self.getAppName()
-        viewController.erpLabel.text = self.getErp()
-        viewController.versionLabel.text = self.getVersion()
+        viewController.appNameLabel.text = Constants.shared.appName()
     }
     
-    func getAppName() -> String {
-        return "Goot app"
-    }
-    
-    func getErp() -> String {
-        return "Inconnu"
-    }
-    
-    func getVersion() -> String{
-        let appVersion = Bundle.main.infoDictionary!["CFBundleShortVersionString"] as? String ?? ""
-        let buildVersion = Bundle.main.infoDictionary!["CFBundleVersion"] as? String ?? ""
-        return "v\(appVersion) (\(buildVersion))"
+    func loadData(callback : @escaping () -> ()){
+        DispatchQueue.main.asyncAfter(deadline: .now() + 4) {
+            callback()
+        }
     }
     
 }

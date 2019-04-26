@@ -20,6 +20,7 @@ Targets-> Build settings :
     Créer une configuration dans appByIndustry
     Créer un scheme qui execute cette conf puis changer les ST_Version / Build / BundleId
     Mettre à jour les dictionnaire "appByERP" et "appByIndustry" de la class ConfigurationManager
+    Ajouter le(s) dossier(s) au template "Overrides folders"
 
 ~ Fini !
 

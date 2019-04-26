@@ -14,4 +14,8 @@ class HomeCommon : XibView {
         return "\(HomeCommon.self)"
     }
     
+    override func didMoveToWindow() {
+        
+    }
+    
 }

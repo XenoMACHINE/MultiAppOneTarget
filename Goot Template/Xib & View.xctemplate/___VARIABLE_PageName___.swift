@@ -14,4 +14,8 @@ class ___VARIABLE_PageName___ : XibView {
         return "\(___VARIABLE_PageName___.self)"
     }
     
+    override func didMoveToWindow() {
+        
+    }
+    
 }
