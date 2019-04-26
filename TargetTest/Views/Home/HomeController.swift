@@ -14,7 +14,7 @@ class HomeController : Controller {
     }
     
     func initUI(viewController : HomeViewController){
-        let view = HomePromotions(frame: viewController.view.frame)
+        let view = HomeCommon(frame: viewController.view.frame)
         viewController.view.addSubview(view)
     }
     

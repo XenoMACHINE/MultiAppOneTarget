@@ -28,21 +28,11 @@ promo D</string>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9st-LB-bW5" customClass="HomeButtons" customModule="TargetTest" customModuleProvider="target">
-                    <rect key="frame" x="0.0" y="617" width="375" height="50"/>
-                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="50" id="jBq-ai-cr1"/>
-                    </constraints>
-                </view>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="9st-LB-bW5" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="HgL-qO-zme"/>
                 <constraint firstItem="E6c-zF-3ru" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="QRx-Hw-8VI"/>
-                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="9st-LB-bW5" secondAttribute="trailing" id="q2s-s9-G4i"/>
                 <constraint firstItem="E6c-zF-3ru" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="qvq-hE-ajW"/>
-                <constraint firstItem="9st-LB-bW5" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="v5y-5k-rHE"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
         </view>

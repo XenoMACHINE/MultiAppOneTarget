@@ -17,5 +17,4 @@ class CartModel : NSObject {
         
         return CartModel()
     }
-    
 }

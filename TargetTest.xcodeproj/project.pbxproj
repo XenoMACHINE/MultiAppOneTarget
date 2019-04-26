@@ -54,6 +54,11 @@
 		ADE5D1FE227257610019062A /* HomeButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE5D1FC227257610019062A /* HomeButtons.swift */; };
 		ADE5D2082272F22D0019062A /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADE5D2062272F22D0019062A /* Home.storyboard */; };
 		ADE5D2092272F22D0019062A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE5D2072272F22D0019062A /* HomeViewController.swift */; };
+		ADE5D2282272F6660019062A /* HomeCommon.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADE5D2262272F6660019062A /* HomeCommon.xib */; };
+		ADE5D2292272F6660019062A /* HomeCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE5D2272272F6660019062A /* HomeCommon.swift */; };
+		ADE5D22C2272F69F0019062A /* HomeBedague.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADE5D22A2272F69F0019062A /* HomeBedague.xib */; };
+		ADE5D22D2272F69F0019062A /* HomeBedague.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE5D22B2272F69F0019062A /* HomeBedague.swift */; };
+		ADE5D2302272FAA90019062A /* PromoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE5D22F2272FAA90019062A /* PromoModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -122,6 +127,11 @@
 		ADE5D1FC227257610019062A /* HomeButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeButtons.swift; sourceTree = "<group>"; };
 		ADE5D2062272F22D0019062A /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		ADE5D2072272F22D0019062A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		ADE5D2262272F6660019062A /* HomeCommon.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCommon.xib; sourceTree = "<group>"; };
+		ADE5D2272272F6660019062A /* HomeCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCommon.swift; sourceTree = "<group>"; };
+		ADE5D22A2272F69F0019062A /* HomeBedague.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeBedague.xib; sourceTree = "<group>"; };
+		ADE5D22B2272F69F0019062A /* HomeBedague.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBedague.swift; sourceTree = "<group>"; };
+		ADE5D22F2272FAA90019062A /* PromoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +167,7 @@
 		ADAC7E13226354CB004F84DA /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				ADE5D22E2272FA9C0019062A /* Promo */,
 				ADAC7E1622635514004F84DA /* Cart */,
 			);
 			path = Models;
@@ -217,6 +228,7 @@
 				ADE5D2072272F22D0019062A /* HomeViewController.swift */,
 				ADAC7E5222635805004F84DA /* HomeController.swift */,
 				ADE5D1DE22720ECF0019062A /* Xibs */,
+				ADE5D21F2272F5C90019062A /* Modules */,
 				ADAC7E3F22635805004F84DA /* Overrides */,
 			);
 			path = Home;
@@ -407,19 +419,19 @@
 		ADE5D1DE22720ECF0019062A /* Xibs */ = {
 			isa = PBXGroup;
 			children = (
-				ADE5D1FF227257670019062A /* HomeButtons */,
-				ADE5D1E1227214730019062A /* Promotions */,
+				ADE5D2212272F6420019062A /* Bedague */,
+				ADE5D2202272F6390019062A /* Common */,
 			);
 			path = Xibs;
 			sourceTree = "<group>";
 		};
-		ADE5D1E1227214730019062A /* Promotions */ = {
+		ADE5D1E1227214730019062A /* HomePromotions */ = {
 			isa = PBXGroup;
 			children = (
 				ADE5D1E2227214820019062A /* HomePromotions.xib */,
 				ADE5D1E4227214B40019062A /* HomePromotions.swift */,
 			);
-			path = Promotions;
+			path = HomePromotions;
 			sourceTree = "<group>";
 		};
 		ADE5D1E6227216E20019062A /* Global SuperClasses */ = {
@@ -438,6 +450,49 @@
 				ADE5D1FC227257610019062A /* HomeButtons.swift */,
 			);
 			path = HomeButtons;
+			sourceTree = "<group>";
+		};
+		ADE5D21F2272F5C90019062A /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				ADE5D1E1227214730019062A /* HomePromotions */,
+				ADE5D1FF227257670019062A /* HomeButtons */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		ADE5D2202272F6390019062A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				ADE5D2262272F6660019062A /* HomeCommon.xib */,
+				ADE5D2272272F6660019062A /* HomeCommon.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		ADE5D2212272F6420019062A /* Bedague */ = {
+			isa = PBXGroup;
+			children = (
+				ADE5D22A2272F69F0019062A /* HomeBedague.xib */,
+				ADE5D22B2272F69F0019062A /* HomeBedague.swift */,
+			);
+			path = Bedague;
+			sourceTree = "<group>";
+		};
+		ADE5D22E2272FA9C0019062A /* Promo */ = {
+			isa = PBXGroup;
+			children = (
+				ADE5D2312272FACE0019062A /* Overrides */,
+				ADE5D22F2272FAA90019062A /* PromoModel.swift */,
+			);
+			path = Promo;
+			sourceTree = "<group>";
+		};
+		ADE5D2312272FACE0019062A /* Overrides */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Overrides;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -503,7 +558,9 @@
 				ADC50BCE225C8A5D002FE148 /* Assets.xcassets in Resources */,
 				ADE5D1E3227214820019062A /* HomePromotions.xib in Resources */,
 				ADE5D2082272F22D0019062A /* Home.storyboard in Resources */,
+				ADE5D2282272F6660019062A /* HomeCommon.xib in Resources */,
 				ADAC7E11226350F8004F84DA /* Splash.storyboard in Resources */,
+				ADE5D22C2272F69F0019062A /* HomeBedague.xib in Resources */,
 				ADE5D1FD227257610019062A /* HomeButtons.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -537,15 +594,18 @@
 				ADAC7E5622635806004F84DA /* HomeControllerMilliet.swift in Sources */,
 				ADAC7E04226350F8004F84DA /* SplashControllerBedague.swift in Sources */,
 				ADAC7E00226350F8004F84DA /* SplashControllerMilliet.swift in Sources */,
+				ADE5D22D2272F69F0019062A /* HomeBedague.swift in Sources */,
 				ADAC7E3822635514004F84DA /* CartModel_ABL.swift in Sources */,
 				ADAC7E6422635806004F84DA /* HomeControllerABL.swift in Sources */,
 				ADAC7E0E226350F8004F84DA /* SplashControllerSerca.swift in Sources */,
+				ADE5D2292272F6660019062A /* HomeCommon.swift in Sources */,
 				ADAC7E2F22635514004F84DA /* CartModel-Proxi.swift in Sources */,
 				ADAC7E3622635514004F84DA /* CartModel_Prios.swift in Sources */,
 				ADAC7E05226350F8004F84DA /* SplashControllerBistrocash.swift in Sources */,
 				ADAC7E3A22635514004F84DA /* CartModel_Serca.swift in Sources */,
 				ADAC7E10226350F8004F84DA /* SplashViewController.swift in Sources */,
 				ADC50BC7225C8A5C002FE148 /* AppDelegate.swift in Sources */,
+				ADE5D2302272FAA90019062A /* PromoModel.swift in Sources */,
 				ADAC7E3922635514004F84DA /* CartModel_Cambos.swift in Sources */,
 				ADE5D1D32271F1D30019062A /* SplashControllerBeverage.swift in Sources */,
 				ADE5D1C82271EA5B0019062A /* Controller.swift in Sources */,
