@@ -9,8 +9,6 @@
 import UIKit
 
 class HomeBedague : XibView {
-   
-    @IBOutlet weak var homePromotions: HomePromotions!
     
     override func getNibName() -> String {
         return "\(HomeBedague.self)"
@@ -19,5 +17,4 @@ class HomeBedague : XibView {
     override func didMoveToWindow() {
         
     }
-    
 }

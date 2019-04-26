@@ -9,12 +9,16 @@
 import Foundation
 
 let appByIndustry : [Industry:[ApplicationName]] = [
-    .beverage : [.goot, .bedague, .bistrocash, .milliet]
+    .beverage : [.goot, .bedague, .rouquette, .berthelot, .ouest, .proxi, .milliet, .bistrocash, .pietrini, .ledg, .pnb, .forez]
 ]
 
 let appByERP : [ERP:[ApplicationName]] = [
-    .abl : [.bedague],
-    .cambos : [.milliet, .bistrocash]
+    .abl : [.bedague, .rouquette, .berthelot, .ouest, .proxi],
+    .cambos : [.milliet, .bistrocash],
+    .serca : [.pietrini],
+    .odoo : [.ledg],
+    .prios : [.pnb, .forez],
+    .none : [.goot]
 ]
 
 class ConfigurationManager {
@@ -50,15 +54,16 @@ class ConfigurationManager {
 enum ApplicationName : String {
     case goot       = "Goot"
     case bedague    = "Bedague"
-//    case berthelot  = "Berthelot"
+    case berthelot  = "Berthelot"
     case bistrocash = "Bistrocash"
-//    case forez      = "Forez"
-//    case ledg       = "LEDG"
+    case forez      = "Forez"
+    case ledg       = "LEDG"
     case milliet    = "Milliet"
-//    case ouest      = "Ouest-Boissons"
-//    case pietrini   = "Pietrini"
-//    case pnb        = "Paris Nord Boisson"
-//    case rouquette  = "Rouquette"
+    case ouest      = "Ouest"
+    case pietrini   = "Pietrini"
+    case pnb        = "ParisNordBoissons"
+    case rouquette  = "Rouquette"
+    case proxi      = "Proxi"
 }
 
 enum ERP : String {
@@ -67,7 +72,7 @@ enum ERP : String {
     case serca = "Serca"
     case cambos = "Cambos"
     case prios = "Prios"
-    case Odoo = "Odoo"
+    case odoo = "Odoo"
 }
 
 enum Industry : String {

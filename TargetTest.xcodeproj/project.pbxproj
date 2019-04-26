@@ -146,9 +146,9 @@
 				ADE5D2062272F22D0019062A /* Home.storyboard */,
 				ADE5D2072272F22D0019062A /* HomeViewController.swift */,
 				ADAC7E5222635805004F84DA /* HomeController.swift */,
+				ADAC7E3F22635805004F84DA /* Overrides */,
 				ADE5D1DE22720ECF0019062A /* Xibs */,
 				ADE5D21F2272F5C90019062A /* Modules */,
-				ADAC7E3F22635805004F84DA /* Overrides */,
 			);
 			path = Home;
 			sourceTree = "<group>";
