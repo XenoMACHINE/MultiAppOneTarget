@@ -5,4 +5,7 @@ import  UIKit
 
 class ConstantsMilliet : ConstantsCambos {
     
+    override func appName() -> String {
+        return "Milliet"
+    }
 }

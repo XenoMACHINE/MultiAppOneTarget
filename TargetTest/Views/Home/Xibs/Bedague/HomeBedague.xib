@@ -15,10 +15,28 @@
         <view contentMode="scaleToFill" id="iN0-l3-epB">
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bedague" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Wh-dN-jWg">
+                    <rect key="frame" x="153.5" y="323" width="68" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Be-pK-ylL" customClass="HomePromotions" customModule="TargetTest" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="344" width="375" height="323"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+            </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
+                <constraint firstItem="9Be-pK-ylL" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="0TD-4O-2oc"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="9Be-pK-ylL" secondAttribute="trailing" id="30c-Lr-os4"/>
+                <constraint firstItem="9Be-pK-ylL" firstAttribute="top" secondItem="3Wh-dN-jWg" secondAttribute="bottom" id="4bi-aa-KNn"/>
+                <constraint firstItem="3Wh-dN-jWg" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="OCe-Du-prt"/>
                 <constraint firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="QRx-Hw-8VI"/>
                 <constraint firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="qvq-hE-ajW"/>
+                <constraint firstItem="3Wh-dN-jWg" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="sZy-I6-cBb"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="9Be-pK-ylL" secondAttribute="bottom" id="wz5-jg-qQy"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <point key="canvasLocation" x="138.40000000000001" y="152.47376311844079"/>

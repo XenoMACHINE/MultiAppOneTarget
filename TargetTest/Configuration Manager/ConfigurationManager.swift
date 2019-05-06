@@ -13,12 +13,12 @@ let appByIndustry : [Industry:[ApplicationName]] = [
 ]
 
 let appByERP : [ERP:[ApplicationName]] = [
-    .abl : [.bedague, .rouquette, .berthelot, .ouest, .proxi],
+    .abl    : [.bedague, .rouquette, .berthelot, .ouest, .proxi],
     .cambos : [.milliet, .bistrocash],
-    .serca : [.pietrini],
-    .odoo : [.ledg],
-    .prios : [.pnb, .forez],
-    .none : [.goot]
+    .serca  : [.pietrini],
+    .odoo   : [.ledg],
+    .prios  : [.pnb, .forez],
+    .none   : [.goot]
 ]
 
 class ConfigurationManager {
