@@ -50,6 +50,7 @@
 		ADF6DC762273437E002D2C31 /* ConstantsCambos.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF6DC632273437D002D2C31 /* ConstantsCambos.swift */; };
 		ADF6DC772273437E002D2C31 /* ConstantsMilliet.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF6DC652273437D002D2C31 /* ConstantsMilliet.swift */; };
 		ADF6DC782273437E002D2C31 /* ConstantsBistrocash.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF6DC672273437D002D2C31 /* ConstantsBistrocash.swift */; };
+		FDF146DBFBF8C5CB8282DB6A /* Pods_TargetTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE1B784C93D4388A0C93B6E1 /* Pods_TargetTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -67,6 +68,8 @@
 /* End PBXBuildRule section */
 
 /* Begin PBXFileReference section */
+		3F996BC7943CA8061C3547AA /* Pods-TargetTest.milliet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TargetTest.milliet.xcconfig"; path = "Pods/Target Support Files/Pods-TargetTest/Pods-TargetTest.milliet.xcconfig"; sourceTree = "<group>"; };
+		55CA6E6900FD16DB99FCB2D7 /* Pods-TargetTest.bistrocash.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TargetTest.bistrocash.xcconfig"; path = "Pods/Target Support Files/Pods-TargetTest/Pods-TargetTest.bistrocash.xcconfig"; sourceTree = "<group>"; };
 		AD399AC5228179D40049D0EB /* ReduxTestModule.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReduxTestModule.xib; sourceTree = "<group>"; };
 		AD399AC6228179D40049D0EB /* ReduxTestModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxTestModule.swift; sourceTree = "<group>"; };
 		ADAC7DFD226350F8004F84DA /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
@@ -113,6 +116,8 @@
 		ADF6DC632273437D002D2C31 /* ConstantsCambos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstantsCambos.swift; sourceTree = "<group>"; };
 		ADF6DC652273437D002D2C31 /* ConstantsMilliet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstantsMilliet.swift; sourceTree = "<group>"; };
 		ADF6DC672273437D002D2C31 /* ConstantsBistrocash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstantsBistrocash.swift; sourceTree = "<group>"; };
+		CA58BF7B197B491DF3464398 /* Pods-TargetTest.bedague.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TargetTest.bedague.xcconfig"; path = "Pods/Target Support Files/Pods-TargetTest/Pods-TargetTest.bedague.xcconfig"; sourceTree = "<group>"; };
+		FE1B784C93D4388A0C93B6E1 /* Pods_TargetTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TargetTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,12 +125,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDF146DBFBF8C5CB8282DB6A /* Pods_TargetTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		89A1F5988D12903E55627DD3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE1B784C93D4388A0C93B6E1 /* Pods_TargetTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AD399ABF228175CA0049D0EB /* Core */ = {
 			isa = PBXGroup;
 			children = (
@@ -187,6 +201,8 @@
 				ADC632C3225E18210035F725 /* README.md */,
 				ADC50BC5225C8A5C002FE148 /* TargetTest */,
 				ADC50BC4225C8A5C002FE148 /* Products */,
+				C13B6CB8327BCF6EBF05D294 /* Pods */,
+				89A1F5988D12903E55627DD3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -498,6 +514,16 @@
 			path = Bistrocash;
 			sourceTree = "<group>";
 		};
+		C13B6CB8327BCF6EBF05D294 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA58BF7B197B491DF3464398 /* Pods-TargetTest.bedague.xcconfig */,
+				3F996BC7943CA8061C3547AA /* Pods-TargetTest.milliet.xcconfig */,
+				55CA6E6900FD16DB99FCB2D7 /* Pods-TargetTest.bistrocash.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -505,9 +531,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADC50BD5225C8A5D002FE148 /* Build configuration list for PBXNativeTarget "TargetTest" */;
 			buildPhases = (
+				5342194926C11840DD2BBC1D /* [CP] Check Pods Manifest.lock */,
 				ADC50BBF225C8A5C002FE148 /* Sources */,
 				ADC50BC0225C8A5C002FE148 /* Frameworks */,
 				ADC50BC1225C8A5C002FE148 /* Resources */,
+				93C93655CDFBE14C3093014A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 				ADC50BDD225C8B88002FE148 /* PBXBuildRule */,
@@ -569,6 +597,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5342194926C11840DD2BBC1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TargetTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93C93655CDFBE14C3093014A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TargetTest/Pods-TargetTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReSwift/ReSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TargetTest/Pods-TargetTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ADC50BBF225C8A5C002FE148 /* Sources */ = {
@@ -690,6 +765,7 @@
 		};
 		ADC50BD6225C8A5D002FE148 /* Bedague */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA58BF7B197B491DF3464398 /* Pods-TargetTest.bedague.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -704,8 +780,8 @@
 				ST_AppVersion = 1.0.0;
 				ST_BuildVersion = 1;
 				ST_BundleId = com.test.bedague;
-				ST_BundleName = $CONFIGURATION;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = $CONFIGURATION;
+				ST_BundleName = "$CONFIGURATION";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$CONFIGURATION";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -774,6 +850,7 @@
 		};
 		ADC50BDF225C8CC1002FE148 /* Milliet */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F996BC7943CA8061C3547AA /* Pods-TargetTest.milliet.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -788,8 +865,8 @@
 				ST_AppVersion = 1.5.0;
 				ST_BuildVersion = 2;
 				ST_BundleId = com.test.milliet;
-				ST_BundleName = $CONFIGURATION;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = $CONFIGURATION;
+				ST_BundleName = "$CONFIGURATION";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$CONFIGURATION";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -858,6 +935,7 @@
 		};
 		ADC50BE9225CA481002FE148 /* Bistrocash */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55CA6E6900FD16DB99FCB2D7 /* Pods-TargetTest.bistrocash.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -872,8 +950,8 @@
 				ST_AppVersion = 1.0.0;
 				ST_BuildVersion = 2;
 				ST_BundleId = com.test.bistrocash;
-				ST_BundleName = $CONFIGURATION;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = $CONFIGURATION;
+				ST_BundleName = "$CONFIGURATION";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$CONFIGURATION";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
