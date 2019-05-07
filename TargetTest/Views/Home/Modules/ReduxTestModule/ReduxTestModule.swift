@@ -18,23 +18,25 @@ class ReduxTestModule : XibView {
     
     override func didMoveToWindow() {
         mainStore.subscribe(self) {
-            $0.select{ $0.counterState }
+            $0.select{ $0.databaseState }
         }
     }
     
     @IBAction func onLess(_ sender: Any) {
-        mainStore.dispatch(CounterActionDecrease())
+        //mainStore.dispatch(CounterActionDecrease())
+        mainStore.dispatch(DatabaseActionDeleteLastProduct())
     }
     
     @IBAction func onMore(_ sender: Any) {
-        mainStore.dispatch(CounterActionIncrease())
+        //mainStore.dispatch(CounterActionIncrease())
+        mainStore.dispatch(DatabaseActionAddProduct(product: Product(id: "2", name: "Coca")))
     }
 }
 
 extension ReduxTestModule : StoreSubscriber {
-    typealias StoreSubscriberStateType = CounterState
+    typealias StoreSubscriberStateType = DatabaseState
     
-    func newState(state: CounterState) {
-        self.counterLabel.text = "\(state.counter)"
+    func newState(state: DatabaseState) {
+        self.counterLabel.text = "\(state.products.count)"
     }
 }

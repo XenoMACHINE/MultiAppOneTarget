@@ -9,5 +9,5 @@
 import ReSwift
 
 struct AppState: StateType {
-    var counterState: CounterState = CounterState()
+    var databaseState: DatabaseState = DatabaseState()
 }

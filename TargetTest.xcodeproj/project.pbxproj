@@ -10,11 +10,8 @@
 		AD399AC7228179D40049D0EB /* ReduxTestModule.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD399AC5228179D40049D0EB /* ReduxTestModule.xib */; };
 		AD399AC8228179D40049D0EB /* ReduxTestModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD399AC6228179D40049D0EB /* ReduxTestModule.swift */; };
 		AD399ACD2281832F0049D0EB /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD399ACC2281832F0049D0EB /* AppState.swift */; };
-		AD399ACF228183590049D0EB /* CounterReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD399ACE228183590049D0EB /* CounterReducer.swift */; };
-		AD399AD1228183AB0049D0EB /* CounterActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD399AD0228183AB0049D0EB /* CounterActions.swift */; };
 		AD399AD32281908F0049D0EB /* Redux.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD399AD22281908F0049D0EB /* Redux.swift */; };
 		AD399AD7228190C00049D0EB /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD399AD6228190C00049D0EB /* AppReducer.swift */; };
-		AD399AD92281911B0049D0EB /* CounterState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD399AD82281911B0049D0EB /* CounterState.swift */; };
 		ADAC7E10226350F8004F84DA /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7DFD226350F8004F84DA /* SplashViewController.swift */; };
 		ADAC7E11226350F8004F84DA /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADAC7DFE226350F8004F84DA /* Splash.storyboard */; };
 		ADAC7E12226350F8004F84DA /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7DFF226350F8004F84DA /* SplashController.swift */; };
@@ -56,6 +53,12 @@
 		ADF6DC762273437E002D2C31 /* ConstantsCambos.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF6DC632273437D002D2C31 /* ConstantsCambos.swift */; };
 		ADF6DC772273437E002D2C31 /* ConstantsMilliet.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF6DC652273437D002D2C31 /* ConstantsMilliet.swift */; };
 		ADF6DC782273437E002D2C31 /* ConstantsBistrocash.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF6DC672273437D002D2C31 /* ConstantsBistrocash.swift */; };
+		ADFEE65F2281BE76006D993F /* Database.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ADFEE65D2281BE76006D993F /* Database.xcdatamodeld */; };
+		ADFEE6622281BFC2006D993F /* ProductDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFEE6612281BFC2006D993F /* ProductDB.swift */; };
+		ADFEE6642281BFCD006D993F /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFEE6632281BFCD006D993F /* Product.swift */; };
+		ADFEE6662281C412006D993F /* DatabaseState.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFEE6652281C412006D993F /* DatabaseState.swift */; };
+		ADFEE6682281C4B6006D993F /* DatabaseReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFEE6672281C4B6006D993F /* DatabaseReducer.swift */; };
+		ADFEE66A2281C5C6006D993F /* DatabaseActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFEE6692281C5C6006D993F /* DatabaseActions.swift */; };
 		FDF146DBFBF8C5CB8282DB6A /* Pods_TargetTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE1B784C93D4388A0C93B6E1 /* Pods_TargetTest.framework */; };
 /* End PBXBuildFile section */
 
@@ -79,11 +82,8 @@
 		AD399AC5228179D40049D0EB /* ReduxTestModule.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReduxTestModule.xib; sourceTree = "<group>"; };
 		AD399AC6228179D40049D0EB /* ReduxTestModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxTestModule.swift; sourceTree = "<group>"; };
 		AD399ACC2281832F0049D0EB /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
-		AD399ACE228183590049D0EB /* CounterReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterReducer.swift; sourceTree = "<group>"; };
-		AD399AD0228183AB0049D0EB /* CounterActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterActions.swift; sourceTree = "<group>"; };
 		AD399AD22281908F0049D0EB /* Redux.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Redux.swift; sourceTree = "<group>"; };
 		AD399AD6228190C00049D0EB /* AppReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
-		AD399AD82281911B0049D0EB /* CounterState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterState.swift; sourceTree = "<group>"; };
 		ADAC7DFD226350F8004F84DA /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		ADAC7DFE226350F8004F84DA /* Splash.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Splash.storyboard; sourceTree = "<group>"; };
 		ADAC7DFF226350F8004F84DA /* SplashController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashController.swift; sourceTree = "<group>"; };
@@ -128,6 +128,12 @@
 		ADF6DC632273437D002D2C31 /* ConstantsCambos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstantsCambos.swift; sourceTree = "<group>"; };
 		ADF6DC652273437D002D2C31 /* ConstantsMilliet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstantsMilliet.swift; sourceTree = "<group>"; };
 		ADF6DC672273437D002D2C31 /* ConstantsBistrocash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstantsBistrocash.swift; sourceTree = "<group>"; };
+		ADFEE65E2281BE76006D993F /* Database.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Database.xcdatamodel; sourceTree = "<group>"; };
+		ADFEE6612281BFC2006D993F /* ProductDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDB.swift; sourceTree = "<group>"; };
+		ADFEE6632281BFCD006D993F /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		ADFEE6652281C412006D993F /* DatabaseState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseState.swift; sourceTree = "<group>"; };
+		ADFEE6672281C4B6006D993F /* DatabaseReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseReducer.swift; sourceTree = "<group>"; };
+		ADFEE6692281C5C6006D993F /* DatabaseActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseActions.swift; sourceTree = "<group>"; };
 		CA58BF7B197B491DF3464398 /* Pods-TargetTest.bedague.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TargetTest.bedague.xcconfig"; path = "Pods/Target Support Files/Pods-TargetTest/Pods-TargetTest.bedague.xcconfig"; sourceTree = "<group>"; };
 		FE1B784C93D4388A0C93B6E1 /* Pods_TargetTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TargetTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -175,7 +181,7 @@
 		AD399AC9228183090049D0EB /* Actions */ = {
 			isa = PBXGroup;
 			children = (
-				AD399AD0228183AB0049D0EB /* CounterActions.swift */,
+				ADFEE6692281C5C6006D993F /* DatabaseActions.swift */,
 			);
 			path = Actions;
 			sourceTree = "<group>";
@@ -183,8 +189,8 @@
 		AD399ACA228183180049D0EB /* Reducers */ = {
 			isa = PBXGroup;
 			children = (
-				AD399ACE228183590049D0EB /* CounterReducer.swift */,
 				AD399AD6228190C00049D0EB /* AppReducer.swift */,
+				ADFEE6672281C4B6006D993F /* DatabaseReducer.swift */,
 			);
 			path = Reducers;
 			sourceTree = "<group>";
@@ -193,7 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				AD399ACC2281832F0049D0EB /* AppState.swift */,
-				AD399AD82281911B0049D0EB /* CounterState.swift */,
+				ADFEE6652281C412006D993F /* DatabaseState.swift */,
 			);
 			path = State;
 			sourceTree = "<group>";
@@ -211,6 +217,8 @@
 		ADAC7E13226354CB004F84DA /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				ADFEE65D2281BE76006D993F /* Database.xcdatamodeld */,
+				ADFEE6602281BFAA006D993F /* Product */,
 				ADE5D24522733AC40019062A /* Constants */,
 			);
 			path = Models;
@@ -556,6 +564,15 @@
 			path = Bistrocash;
 			sourceTree = "<group>";
 		};
+		ADFEE6602281BFAA006D993F /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				ADFEE6612281BFC2006D993F /* ProductDB.swift */,
+				ADFEE6632281BFCD006D993F /* Product.swift */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
 		C13B6CB8327BCF6EBF05D294 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -695,16 +712,18 @@
 				ADC50BEC225CAC64002FE148 /* ConfigurationManager.swift in Sources */,
 				ADF6DC782273437E002D2C31 /* ConstantsBistrocash.swift in Sources */,
 				ADF6DC6F2273437E002D2C31 /* ConstantsProxi.swift in Sources */,
-				AD399AD92281911B0049D0EB /* CounterState.swift in Sources */,
+				ADFEE66A2281C5C6006D993F /* DatabaseActions.swift in Sources */,
+				ADFEE6682281C4B6006D993F /* DatabaseReducer.swift in Sources */,
 				AD399ACD2281832F0049D0EB /* AppState.swift in Sources */,
+				ADFEE6642281BFCD006D993F /* Product.swift in Sources */,
 				ADE5D24722733ACE0019062A /* Constants.swift in Sources */,
 				AD399AD32281908F0049D0EB /* Redux.swift in Sources */,
 				ADAC7E5522635806004F84DA /* HomeControllerBedague.swift in Sources */,
 				ADF6DC6C2273437E002D2C31 /* ConstantsABL.swift in Sources */,
 				ADF6DC772273437E002D2C31 /* ConstantsMilliet.swift in Sources */,
 				ADF6DC732273437E002D2C31 /* ConstantsParisNordBoissons.swift in Sources */,
+				ADFEE6662281C412006D993F /* DatabaseState.swift in Sources */,
 				ADAC7E12226350F8004F84DA /* SplashController.swift in Sources */,
-				AD399AD1228183AB0049D0EB /* CounterActions.swift in Sources */,
 				ADF6DC712273437E002D2C31 /* ConstantsLEDG.swift in Sources */,
 				ADAC7E6222635806004F84DA /* HomeControllerCambos.swift in Sources */,
 				AD399AD7228190C00049D0EB /* AppReducer.swift in Sources */,
@@ -718,8 +737,9 @@
 				ADF6DC682273437E002D2C31 /* ConstantsPietrini.swift in Sources */,
 				ADE5D2292272F6660019062A /* HomeCommon.swift in Sources */,
 				ADAC7E10226350F8004F84DA /* SplashViewController.swift in Sources */,
-				AD399ACF228183590049D0EB /* CounterReducer.swift in Sources */,
 				ADF6DC6E2273437E002D2C31 /* ConstantsRouquette.swift in Sources */,
+				ADFEE65F2281BE76006D993F /* Database.xcdatamodeld in Sources */,
+				ADFEE6622281BFC2006D993F /* ProductDB.swift in Sources */,
 				ADF6DC742273437E002D2C31 /* ConstantsForez.swift in Sources */,
 				ADC50BC7225C8A5C002FE148 /* AppDelegate.swift in Sources */,
 				ADE5D1C82271EA5B0019062A /* Controller.swift in Sources */,
@@ -1029,6 +1049,19 @@
 			defaultConfigurationName = Bedague;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ADFEE65D2281BE76006D993F /* Database.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ADFEE65E2281BE76006D993F /* Database.xcdatamodel */,
+			);
+			currentVersion = ADFEE65E2281BE76006D993F /* Database.xcdatamodel */;
+			path = Database.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = ADC50BBB225C8A5C002FE148 /* Project object */;
 }

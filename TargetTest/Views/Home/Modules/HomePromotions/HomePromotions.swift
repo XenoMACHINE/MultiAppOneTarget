@@ -20,23 +20,23 @@ class HomePromotions : XibView {
     override func awakeFromNib() {
         super.awakeFromNib()
         mainStore.subscribe(self) {
-            $0.select{ $0.counterState }
+            $0.select{ $0.databaseState }
         }
     }
     
-    func setPromoList(state: CounterState){
+    func setPromoList(state: DatabaseState){
         var string = "Liste des promotions : \n\n"
-        for i in 1..<state.counter+1{
-            string += "Promo \(i)\n"
+        for product in state.products{
+            string += "\(product.name ?? "")\n"
         }
         promoList.text = string
     }
 }
 
 extension HomePromotions : StoreSubscriber {
-    typealias StoreSubscriberStateType = CounterState
+    typealias StoreSubscriberStateType = DatabaseState
     
-    func newState(state: CounterState) {
+    func newState(state: DatabaseState) {
         setPromoList(state: state)
     }
 }

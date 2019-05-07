@@ -10,6 +10,6 @@ import ReSwift
 
 func appReducer(action: Action, state: AppState?) -> AppState {
     return AppState(
-        counterState: counterReducer(action: action, state: state?.counterState)
+        databaseState: DatabaseReducer(action: action, state: state?.databaseState)
     )
 }

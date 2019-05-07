@@ -8,12 +8,22 @@
 
 import UIKit
 import ReSwift
+import CoreData
+
+let context: NSManagedObjectContext = {
+    let container = NSPersistentContainer(name: "Database")
+    container.loadPersistentStores(completionHandler: { (storeDescription, error) in
+        if let error = error as NSError? {
+            fatalError("Unresolved error \(error), \(error.userInfo)")
+        }
+    })
+    return container.viewContext
+}()
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
@@ -22,6 +32,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let splashView = SplashViewController.instantiate(controller: SplashController.instantiate())
         self.window?.rootViewController = splashView
         self.window?.makeKeyAndVisible()
+        
+        mainStore.dispatch(DatabaseActionFetchDatabase())
         
         return true
     }

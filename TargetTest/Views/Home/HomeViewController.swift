@@ -2,6 +2,7 @@
 //Copyright © 2019 Alexandre Ménielle. All rights reserved.
 
 import UIKit
+import ReSwift
 
 class HomeViewController : UIViewController {
 
@@ -17,5 +18,4 @@ class HomeViewController : UIViewController {
     override func viewDidLoad() {
         controller.initUI(viewController: self)
     }
-
 }
