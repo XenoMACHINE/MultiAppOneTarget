@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD399AC7228179D40049D0EB /* ReduxTestModule.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD399AC5228179D40049D0EB /* ReduxTestModule.xib */; };
+		AD399AC8228179D40049D0EB /* ReduxTestModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD399AC6228179D40049D0EB /* ReduxTestModule.swift */; };
 		ADAC7E10226350F8004F84DA /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7DFD226350F8004F84DA /* SplashViewController.swift */; };
 		ADAC7E11226350F8004F84DA /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADAC7DFE226350F8004F84DA /* Splash.storyboard */; };
 		ADAC7E12226350F8004F84DA /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7DFF226350F8004F84DA /* SplashController.swift */; };
@@ -65,6 +67,8 @@
 /* End PBXBuildRule section */
 
 /* Begin PBXFileReference section */
+		AD399AC5228179D40049D0EB /* ReduxTestModule.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReduxTestModule.xib; sourceTree = "<group>"; };
+		AD399AC6228179D40049D0EB /* ReduxTestModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxTestModule.swift; sourceTree = "<group>"; };
 		ADAC7DFD226350F8004F84DA /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		ADAC7DFE226350F8004F84DA /* Splash.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Splash.storyboard; sourceTree = "<group>"; };
 		ADAC7DFF226350F8004F84DA /* SplashController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashController.swift; sourceTree = "<group>"; };
@@ -122,6 +126,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD399ABF228175CA0049D0EB /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		AD399AC4228179B50049D0EB /* ReduxTestModule */ = {
+			isa = PBXGroup;
+			children = (
+				AD399AC5228179D40049D0EB /* ReduxTestModule.xib */,
+				AD399AC6228179D40049D0EB /* ReduxTestModule.swift */,
+			);
+			path = ReduxTestModule;
+			sourceTree = "<group>";
+		};
 		ADAC7DE9226350F8004F84DA /* Splash */ = {
 			isa = PBXGroup;
 			children = (
@@ -186,6 +206,7 @@
 				ADE5D1E6227216E20019062A /* Global SuperClasses */,
 				ADC63391225E26470035F725 /* Views */,
 				ADAC7E13226354CB004F84DA /* Models */,
+				AD399ABF228175CA0049D0EB /* Core */,
 				ADC50BCD225C8A5D002FE148 /* Assets.xcassets */,
 				ADC50BCF225C8A5D002FE148 /* LaunchScreen.storyboard */,
 				ADC50BD2225C8A5D002FE148 /* Info.plist */,
@@ -284,6 +305,7 @@
 		ADE5D21F2272F5C90019062A /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				AD399AC4228179B50049D0EB /* ReduxTestModule */,
 				ADE5D1E1227214730019062A /* HomePromotions */,
 			);
 			path = Modules;
@@ -537,6 +559,7 @@
 			files = (
 				ADC50BD1225C8A5D002FE148 /* LaunchScreen.storyboard in Resources */,
 				ADC50BCE225C8A5D002FE148 /* Assets.xcassets in Resources */,
+				AD399AC7228179D40049D0EB /* ReduxTestModule.xib in Resources */,
 				ADE5D1E3227214820019062A /* HomePromotions.xib in Resources */,
 				ADE5D2082272F22D0019062A /* Home.storyboard in Resources */,
 				ADE5D2282272F6660019062A /* HomeCommon.xib in Resources */,
@@ -568,6 +591,7 @@
 				ADAC7E5622635806004F84DA /* HomeControllerMilliet.swift in Sources */,
 				ADE5D22D2272F69F0019062A /* HomeBedague.swift in Sources */,
 				ADF6DC752273437E002D2C31 /* ConstantsPrios.swift in Sources */,
+				AD399AC8228179D40049D0EB /* ReduxTestModule.swift in Sources */,
 				ADAC7E6422635806004F84DA /* HomeControllerABL.swift in Sources */,
 				ADF6DC682273437E002D2C31 /* ConstantsPietrini.swift in Sources */,
 				ADE5D2292272F6660019062A /* HomeCommon.swift in Sources */,
