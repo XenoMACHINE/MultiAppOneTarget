@@ -8,8 +8,8 @@
 
 import ReSwift
 
-func counterReducer(action: Action, state: AppState?) -> AppState {
-    var state = state ?? AppState()
+func counterReducer(action: Action, state: CounterState?) -> CounterState {
+    var state = state ?? CounterState()
     
     switch action {
     case _ as CounterActionIncrease:

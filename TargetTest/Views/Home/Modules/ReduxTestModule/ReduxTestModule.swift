@@ -8,13 +8,7 @@
 
 import ReSwift
 
-class ReduxTestModule : XibView, StoreSubscriber {
-   
-    typealias StoreSubscriberStateType = AppState
-    
-    func newState(state: AppState) {
-        counterLabel.text = "\(state.counter)"
-    }
+class ReduxTestModule : XibView {
     
     @IBOutlet weak var counterLabel: UILabel!
         
@@ -23,7 +17,9 @@ class ReduxTestModule : XibView, StoreSubscriber {
     }
     
     override func didMoveToWindow() {
-        mainStore.subscribe(self)
+        mainStore.subscribe(self) {
+            $0.select{ $0.counterState }
+        }
     }
     
     @IBAction func onLess(_ sender: Any) {
@@ -32,5 +28,13 @@ class ReduxTestModule : XibView, StoreSubscriber {
     
     @IBAction func onMore(_ sender: Any) {
         mainStore.dispatch(CounterActionIncrease())
+    }
+}
+
+extension ReduxTestModule : StoreSubscriber {
+    typealias StoreSubscriberStateType = CounterState
+    
+    func newState(state: CounterState) {
+        self.counterLabel.text = "\(state.counter)"
     }
 }

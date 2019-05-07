@@ -12,6 +12,9 @@
 		AD399ACD2281832F0049D0EB /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD399ACC2281832F0049D0EB /* AppState.swift */; };
 		AD399ACF228183590049D0EB /* CounterReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD399ACE228183590049D0EB /* CounterReducer.swift */; };
 		AD399AD1228183AB0049D0EB /* CounterActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD399AD0228183AB0049D0EB /* CounterActions.swift */; };
+		AD399AD32281908F0049D0EB /* Redux.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD399AD22281908F0049D0EB /* Redux.swift */; };
+		AD399AD7228190C00049D0EB /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD399AD6228190C00049D0EB /* AppReducer.swift */; };
+		AD399AD92281911B0049D0EB /* CounterState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD399AD82281911B0049D0EB /* CounterState.swift */; };
 		ADAC7E10226350F8004F84DA /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7DFD226350F8004F84DA /* SplashViewController.swift */; };
 		ADAC7E11226350F8004F84DA /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADAC7DFE226350F8004F84DA /* Splash.storyboard */; };
 		ADAC7E12226350F8004F84DA /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7DFF226350F8004F84DA /* SplashController.swift */; };
@@ -78,6 +81,9 @@
 		AD399ACC2281832F0049D0EB /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		AD399ACE228183590049D0EB /* CounterReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterReducer.swift; sourceTree = "<group>"; };
 		AD399AD0228183AB0049D0EB /* CounterActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterActions.swift; sourceTree = "<group>"; };
+		AD399AD22281908F0049D0EB /* Redux.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Redux.swift; sourceTree = "<group>"; };
+		AD399AD6228190C00049D0EB /* AppReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
+		AD399AD82281911B0049D0EB /* CounterState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterState.swift; sourceTree = "<group>"; };
 		ADAC7DFD226350F8004F84DA /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		ADAC7DFE226350F8004F84DA /* Splash.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Splash.storyboard; sourceTree = "<group>"; };
 		ADAC7DFF226350F8004F84DA /* SplashController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashController.swift; sourceTree = "<group>"; };
@@ -146,14 +152,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		AD399ABF228175CA0049D0EB /* Core */ = {
+		AD399ABF228175CA0049D0EB /* Redux */ = {
 			isa = PBXGroup;
 			children = (
+				AD399AD22281908F0049D0EB /* Redux.swift */,
 				AD399ACB2281831E0049D0EB /* State */,
 				AD399ACA228183180049D0EB /* Reducers */,
 				AD399AC9228183090049D0EB /* Actions */,
 			);
-			path = Core;
+			path = Redux;
 			sourceTree = "<group>";
 		};
 		AD399AC4228179B50049D0EB /* ReduxTestModule */ = {
@@ -177,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				AD399ACE228183590049D0EB /* CounterReducer.swift */,
+				AD399AD6228190C00049D0EB /* AppReducer.swift */,
 			);
 			path = Reducers;
 			sourceTree = "<group>";
@@ -185,6 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				AD399ACC2281832F0049D0EB /* AppState.swift */,
+				AD399AD82281911B0049D0EB /* CounterState.swift */,
 			);
 			path = State;
 			sourceTree = "<group>";
@@ -255,7 +264,7 @@
 				ADE5D1E6227216E20019062A /* Global SuperClasses */,
 				ADC63391225E26470035F725 /* Views */,
 				ADAC7E13226354CB004F84DA /* Models */,
-				AD399ABF228175CA0049D0EB /* Core */,
+				AD399ABF228175CA0049D0EB /* Redux */,
 				ADC50BCD225C8A5D002FE148 /* Assets.xcassets */,
 				ADC50BCF225C8A5D002FE148 /* LaunchScreen.storyboard */,
 				ADC50BD2225C8A5D002FE148 /* Info.plist */,
@@ -686,8 +695,10 @@
 				ADC50BEC225CAC64002FE148 /* ConfigurationManager.swift in Sources */,
 				ADF6DC782273437E002D2C31 /* ConstantsBistrocash.swift in Sources */,
 				ADF6DC6F2273437E002D2C31 /* ConstantsProxi.swift in Sources */,
+				AD399AD92281911B0049D0EB /* CounterState.swift in Sources */,
 				AD399ACD2281832F0049D0EB /* AppState.swift in Sources */,
 				ADE5D24722733ACE0019062A /* Constants.swift in Sources */,
+				AD399AD32281908F0049D0EB /* Redux.swift in Sources */,
 				ADAC7E5522635806004F84DA /* HomeControllerBedague.swift in Sources */,
 				ADF6DC6C2273437E002D2C31 /* ConstantsABL.swift in Sources */,
 				ADF6DC772273437E002D2C31 /* ConstantsMilliet.swift in Sources */,
@@ -696,6 +707,7 @@
 				AD399AD1228183AB0049D0EB /* CounterActions.swift in Sources */,
 				ADF6DC712273437E002D2C31 /* ConstantsLEDG.swift in Sources */,
 				ADAC7E6222635806004F84DA /* HomeControllerCambos.swift in Sources */,
+				AD399AD7228190C00049D0EB /* AppReducer.swift in Sources */,
 				ADE5D1E5227214B40019062A /* HomePromotions.swift in Sources */,
 				ADF6DC692273437E002D2C31 /* ConstantsSerca.swift in Sources */,
 				ADAC7E5622635806004F84DA /* HomeControllerMilliet.swift in Sources */,

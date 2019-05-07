@@ -1,5 +1,5 @@
 //
-//  AppState.swift
+//  Redux.swift
 //  TargetTest
 //
 //  Created by Alexandre Ménielle on 07/05/2019.
@@ -8,6 +8,4 @@
 
 import ReSwift
 
-struct AppState: StateType {
-    var counter = 0
-}
+let mainStore = Store<AppState>(reducer: appReducer, state: nil)

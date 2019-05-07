@@ -1,5 +1,5 @@
 //
-//  CounterActions.swift
+//  AppState.swift
 //  TargetTest
 //
 //  Created by Alexandre Ménielle on 07/05/2019.
@@ -8,5 +8,6 @@
 
 import ReSwift
 
-struct CounterActionIncrease: Action {}
-struct CounterActionDecrease: Action {}
+struct AppState: StateType {
+    var counterState: CounterState = CounterState()
+}
