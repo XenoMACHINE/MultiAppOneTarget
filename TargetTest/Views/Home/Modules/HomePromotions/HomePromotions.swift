@@ -7,8 +7,14 @@
 //
 
 import UIKit
+import ReSwift
 
-class HomePromotions : XibView {
+class HomePromotions : XibView, StoreSubscriber {
+    typealias StoreSubscriberStateType = AppState
+    
+    func newState(state: AppState) {
+        setPromoList(state: state)
+    }
    
     @IBOutlet weak var promoList: UILabel!
     
@@ -18,11 +24,15 @@ class HomePromotions : XibView {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        setPromoList()
+        mainStore.subscribe(self)
     }
     
-    func setPromoList(){
-        promoList.text = "Liste des promotions : \n\nPromo 1\nPromo 2\nPromo 3"
+    func setPromoList(state: AppState){
+        var string = "Liste des promotions : \n\n"
+        for i in 1..<state.counter+1{
+            string += "Promo \(i)\n"
+        }
+        promoList.text = string
     }
     
 }

@@ -15,7 +15,7 @@ func counterReducer(action: Action, state: AppState?) -> AppState {
     case _ as CounterActionIncrease:
         state.counter += 1
     case _ as CounterActionDecrease:
-        state.counter -= 1
+        if state.counter > 0 { state.counter -= 1 }
     default:
         break
     }
