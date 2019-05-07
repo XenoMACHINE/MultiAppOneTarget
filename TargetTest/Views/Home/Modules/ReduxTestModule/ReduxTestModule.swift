@@ -6,7 +6,7 @@
 //  Copyright © 2019 Alexandre Ménielle. All rights reserved.
 //
 
-import UIKit
+import ReSwift
 
 class ReduxTestModule : XibView {
    
@@ -17,21 +17,22 @@ class ReduxTestModule : XibView {
     }
     
     override func didMoveToWindow() {
-        //store.subscribe(self)
+        mainStore.subscribe(self)
     }
     
     @IBAction func onLess(_ sender: Any) {
-        //store.dispatch(action: DecreaseAction(decreaseBy: 1))
+        mainStore.dispatch(CounterActionDecrease())
     }
     
     @IBAction func onMore(_ sender: Any) {
-        //store.dispatch(action: IncreaseAction(increaseBy: 1))
+        mainStore.dispatch(CounterActionIncrease())
     }
 }
 
-//extension ReduxTestModule : StoreSubscriber {
-//    func newState(state: State) {
-//        guard let appState = state as? AppState else { return }
-//        counterLabel.text = "\(appState.counter)"
-//    }
-//}
+extension ReduxTestModule : StoreSubscriber {
+    typealias StoreSubscriberStateType = AppState
+    
+    func newState(state: AppState) {
+        counterLabel.text = "\(state.counter)"
+    }
+}

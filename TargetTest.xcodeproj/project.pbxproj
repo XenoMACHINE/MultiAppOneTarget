@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		AD399AC7228179D40049D0EB /* ReduxTestModule.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD399AC5228179D40049D0EB /* ReduxTestModule.xib */; };
 		AD399AC8228179D40049D0EB /* ReduxTestModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD399AC6228179D40049D0EB /* ReduxTestModule.swift */; };
+		AD399ACD2281832F0049D0EB /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD399ACC2281832F0049D0EB /* AppState.swift */; };
+		AD399ACF228183590049D0EB /* CounterReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD399ACE228183590049D0EB /* CounterReducer.swift */; };
+		AD399AD1228183AB0049D0EB /* CounterActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD399AD0228183AB0049D0EB /* CounterActions.swift */; };
 		ADAC7E10226350F8004F84DA /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7DFD226350F8004F84DA /* SplashViewController.swift */; };
 		ADAC7E11226350F8004F84DA /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADAC7DFE226350F8004F84DA /* Splash.storyboard */; };
 		ADAC7E12226350F8004F84DA /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7DFF226350F8004F84DA /* SplashController.swift */; };
@@ -72,6 +75,9 @@
 		55CA6E6900FD16DB99FCB2D7 /* Pods-TargetTest.bistrocash.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TargetTest.bistrocash.xcconfig"; path = "Pods/Target Support Files/Pods-TargetTest/Pods-TargetTest.bistrocash.xcconfig"; sourceTree = "<group>"; };
 		AD399AC5228179D40049D0EB /* ReduxTestModule.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReduxTestModule.xib; sourceTree = "<group>"; };
 		AD399AC6228179D40049D0EB /* ReduxTestModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxTestModule.swift; sourceTree = "<group>"; };
+		AD399ACC2281832F0049D0EB /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		AD399ACE228183590049D0EB /* CounterReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterReducer.swift; sourceTree = "<group>"; };
+		AD399AD0228183AB0049D0EB /* CounterActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterActions.swift; sourceTree = "<group>"; };
 		ADAC7DFD226350F8004F84DA /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		ADAC7DFE226350F8004F84DA /* Splash.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Splash.storyboard; sourceTree = "<group>"; };
 		ADAC7DFF226350F8004F84DA /* SplashController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashController.swift; sourceTree = "<group>"; };
@@ -143,6 +149,9 @@
 		AD399ABF228175CA0049D0EB /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				AD399ACB2281831E0049D0EB /* State */,
+				AD399ACA228183180049D0EB /* Reducers */,
+				AD399AC9228183090049D0EB /* Actions */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -154,6 +163,30 @@
 				AD399AC6228179D40049D0EB /* ReduxTestModule.swift */,
 			);
 			path = ReduxTestModule;
+			sourceTree = "<group>";
+		};
+		AD399AC9228183090049D0EB /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				AD399AD0228183AB0049D0EB /* CounterActions.swift */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		AD399ACA228183180049D0EB /* Reducers */ = {
+			isa = PBXGroup;
+			children = (
+				AD399ACE228183590049D0EB /* CounterReducer.swift */,
+			);
+			path = Reducers;
+			sourceTree = "<group>";
+		};
+		AD399ACB2281831E0049D0EB /* State */ = {
+			isa = PBXGroup;
+			children = (
+				AD399ACC2281832F0049D0EB /* AppState.swift */,
+			);
+			path = State;
 			sourceTree = "<group>";
 		};
 		ADAC7DE9226350F8004F84DA /* Splash */ = {
@@ -653,12 +686,14 @@
 				ADC50BEC225CAC64002FE148 /* ConfigurationManager.swift in Sources */,
 				ADF6DC782273437E002D2C31 /* ConstantsBistrocash.swift in Sources */,
 				ADF6DC6F2273437E002D2C31 /* ConstantsProxi.swift in Sources */,
+				AD399ACD2281832F0049D0EB /* AppState.swift in Sources */,
 				ADE5D24722733ACE0019062A /* Constants.swift in Sources */,
 				ADAC7E5522635806004F84DA /* HomeControllerBedague.swift in Sources */,
 				ADF6DC6C2273437E002D2C31 /* ConstantsABL.swift in Sources */,
 				ADF6DC772273437E002D2C31 /* ConstantsMilliet.swift in Sources */,
 				ADF6DC732273437E002D2C31 /* ConstantsParisNordBoissons.swift in Sources */,
 				ADAC7E12226350F8004F84DA /* SplashController.swift in Sources */,
+				AD399AD1228183AB0049D0EB /* CounterActions.swift in Sources */,
 				ADF6DC712273437E002D2C31 /* ConstantsLEDG.swift in Sources */,
 				ADAC7E6222635806004F84DA /* HomeControllerCambos.swift in Sources */,
 				ADE5D1E5227214B40019062A /* HomePromotions.swift in Sources */,
@@ -671,6 +706,7 @@
 				ADF6DC682273437E002D2C31 /* ConstantsPietrini.swift in Sources */,
 				ADE5D2292272F6660019062A /* HomeCommon.swift in Sources */,
 				ADAC7E10226350F8004F84DA /* SplashViewController.swift in Sources */,
+				AD399ACF228183590049D0EB /* CounterReducer.swift in Sources */,
 				ADF6DC6E2273437E002D2C31 /* ConstantsRouquette.swift in Sources */,
 				ADF6DC742273437E002D2C31 /* ConstantsForez.swift in Sources */,
 				ADC50BC7225C8A5C002FE148 /* AppDelegate.swift in Sources */,
@@ -780,8 +816,8 @@
 				ST_AppVersion = 1.0.0;
 				ST_BuildVersion = 1;
 				ST_BundleId = com.test.bedague;
-				ST_BundleName = "$CONFIGURATION";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$CONFIGURATION";
+				ST_BundleName = $CONFIGURATION;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = $CONFIGURATION;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -865,8 +901,8 @@
 				ST_AppVersion = 1.5.0;
 				ST_BuildVersion = 2;
 				ST_BundleId = com.test.milliet;
-				ST_BundleName = "$CONFIGURATION";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$CONFIGURATION";
+				ST_BundleName = $CONFIGURATION;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = $CONFIGURATION;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -950,8 +986,8 @@
 				ST_AppVersion = 1.0.0;
 				ST_BuildVersion = 2;
 				ST_BundleId = com.test.bistrocash;
-				ST_BundleName = "$CONFIGURATION";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$CONFIGURATION";
+				ST_BundleName = $CONFIGURATION;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = $CONFIGURATION;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
